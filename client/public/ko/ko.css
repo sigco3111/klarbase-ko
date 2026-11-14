@@ -1,0 +1,17 @@
+/* 한국어판: 한글 글꼴(시스템 폰트 우선, 웹폰트 내려받지 않음) + 서버 기능 숨김 */
+html.ko body,
+html.ko button, html.ko input, html.ko select, html.ko textarea,
+html.ko h1, html.ko h2, html.ko h3, html.ko .display,
+html.ko .wordmark, html.ko .tagline, html.ko .card .name, html.ko .hud-title .name,
+html.ko .g-sec summary, html.ko .card .sky .num, html.ko .tier,
+html.ko .hud-stats .stat b, html.ko .big-stars, html.ko .kbd, html.ko .chip {
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", "NanumGothic",
+    "Source Han Sans KR", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+html.ko body { word-break: keep-all; }
+html.ko .wordmark { letter-spacing: 0; }
+html.ko .tagline, html.ko .card .name, html.ko h1, html.ko h2, html.ko h3 { letter-spacing: 0; }
+/* 로그인 칩: 이 빌드에는 세션 서버가 없어 숨긴다(README 참고) */
+#authchip { display: none !important; }
+#koToggle { position: fixed; right: 14px; bottom: 14px; z-index: 70; }
+@media (max-width: 640px){ #koToggle { bottom: 74px; } }
