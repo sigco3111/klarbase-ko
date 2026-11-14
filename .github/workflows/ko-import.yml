@@ -8,22 +8,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          path: mine
-          fetch-depth: 1
-      - name: Clone upstream with history and push as main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Copy upstream tree and push
         run: |
           set -e
-          git config --global user.name "sigco3111"
-          git config --global user.email "sigco3111k@gmail.com"
-          cd /tmp
-          git clone --quiet https://github.com/TanmoyP/klarbase.git up
-          cd up
-          git remote add mine "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          rsync -a --exclude .git --exclude README.md "${GITHUB_WORKSPACE}/mine/" ./
+          git config user.name sigco3111
+          git config user.email sigco3111k@gmail.com
+          curl -sL https://github.com/TanmoyP/klarbase/archive/refs/heads/main.tar.gz -o /tmp/up.tgz
+          mkdir -p /tmp/up
+          tar xzf /tmp/up.tgz -C /tmp/up --strip-components=1
+          rsync -a --exclude .git --exclude .github --exclude README.md /tmp/up/ ./
+          rm -f docs/size-test.txt
           git add -A
-          git commit -m "한국어판: 원작 전체 이력 위에 한글화 기반 파일 추가"
-          git push --force mine HEAD:main
-          echo done
+          git commit -m "원작 TanmoyP/klarbase 소스(MIT) 가져옴 — 한글화 기반"
+          git push origin HEAD:main
+          echo OK
