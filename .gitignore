@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+server/prisma/migrations/dev*
+
+# local Claude Code / editor settings
+.claude/*
+!.claude/settings.json
+!.claude/agents/
+!.claude/skills/
