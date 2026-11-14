@@ -1,0 +1,49 @@
+name: ko-pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: ko-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: install
+        run: npm install --no-audit --no-fund
+      - name: build
+        run: |
+          node -v
+          npm run build
+          ls client/dist
+          cp client/dist/index.html client/dist/404.html
+      - name: 하위 경로 확인 (루트 절대경로 0건)
+        run: |
+          cd client/dist
+          echo "--- all src/href ---"
+          grep -oE '(src|href)="[^"]*"' index.html | sort -u
+          echo "--- root-absolute (must be empty) ---"
+          BAD=$(grep -oE '(src|href)="/[^/][^"]*"' index.html | grep -v '/klarbase-ko/' || true)
+          echo "${BAD}"
+          test -z "${BAD}"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: client/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
