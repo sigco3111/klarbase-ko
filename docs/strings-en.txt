@@ -1,0 +1,2015 @@
+attr:content	index.html	#cfe6f2
+attr:content	index.html	A cozy browser puzzle game. Every isle is solver-verified; build your own and ship it to the game by pull request. Free, open source, no account needed.
+attr:content	index.html	A cozy puzzle game of floating isles. Play 24 hand-made isles, build your own, and share them.
+attr:content	index.html	A sandy oasis isle floating in an orange sky
+attr:content	index.html	Klarbase
+attr:content	index.html	Klarbase — tiny isles, clever paths
+attr:content	index.html	https://klarbase.dev/
+attr:content	index.html	https://raw.githubusercontent.com/TanmoyP/klarbase/main/docs/screenshots/title.png
+attr:content	index.html	summary_large_image
+attr:content	index.html	website
+attr:content	index.html	width=device-width, initial-scale=1, viewport-fit=cover
+attr:title	index.html	Back (Esc)
+attr:title	index.html	Hint (H)
+attr:title	index.html	Home
+attr:title	index.html	How to play
+attr:title	index.html	One isle a day, the same for everyone
+attr:title	index.html	Restart (R)
+attr:title	index.html	Sound
+attr:title	index.html	Time my attempts
+attr:title	index.html	Turn the view (Q / E)
+attr:title	index.html	Undo (Z)
+attr:title	index.html	Watch the smart solution
+attr:title	index.html	Whole map (M)
+attr:title	index.html	Your sky — every chapter is a constellation
+js	client/src/auth.js	better-auth/client
+js	client/src/builder.js	">— keep my isle —</option><option value=
+js	client/src/builder.js	#2a2238
+js	client/src/builder.js	#bAt
+js	client/src/builder.js	#bAuthor
+js	client/src/builder.js	#bBiome
+js	client/src/builder.js	#bCheck
+js	client/src/builder.js	#bCode
+js	client/src/builder.js	#bDiff
+js	client/src/builder.js	#bExport
+js	client/src/builder.js	#bFile
+js	client/src/builder.js	#bGates
+js	client/src/builder.js	#bGithub
+js	client/src/builder.js	#bGithubNote
+js	client/src/builder.js	#bGuide
+js	client/src/builder.js	#bImport
+js	client/src/builder.js	#bName
+js	client/src/builder.js	#bShare
+js	client/src/builder.js	#bStatus
+js	client/src/builder.js	#bStoreys
+js	client/src/builder.js	#bTemplate
+js	client/src/builder.js	#bTest
+js	client/src/builder.js	#bThemes
+js	client/src/builder.js	#bTiers
+js	client/src/builder.js	#bTools
+js	client/src/builder.js	#gridCanvas
+js	client/src/builder.js	${(draft.name || 'isle').toLowerCase().replace(/[^a-z0-9]+/g, '-')}.json
+js	client/src/builder.js	${Math.floor(cs * 0.55)}px "Segoe UI Emoji","Apple Color Emoji",sans-serif
+js	client/src/builder.js	${esc(url)}
+js	client/src/builder.js	${file.id}.json
+js	client/src/builder.js	${location.origin}/i/${r.hash}
+js	client/src/builder.js	${name}
+js	client/src/builder.js	${name} in ${T.label}
+js	client/src/builder.js	${repoUrl}/new/main/isles/community/${author}?filename=${file.id}.json&value=${encodeURIComponent(text)}
+js	client/src/builder.js	${thumbs.get(id).url}
+js	client/src/builder.js	') + (id ===
+js	client/src/builder.js	', name:
+js	client/src/builder.js	) c[0] =
+js	client/src/builder.js	) fill = T.ice; else if(c ===
+js	client/src/builder.js	) fill = T.water; else if(c ===
+js	client/src/builder.js	).join('')}</ul></div>
+js	client/src/builder.js	).textContent = notes.join(
+js	client/src/builder.js	){ g2.fillStyle = PORTAL_COLORS[c]; g2.beginPath(); g2.arc(px + cs / 2, pz + cs / 2, cs * 0.3, 0, Math.PI * 2); g2.fill(); g2.fillStyle =
+js	client/src/builder.js	){ g2.fillStyle = T.woodDark; roundRect(g2, px + cs * 0.14, pz + cs * 0.14, cs * 0.72, cs * 0.72, 5); g2.fill(); g2.fillStyle =
+js	client/src/builder.js	){ rampDir = (rampDir + 1) % 4; tool =
+js	client/src/builder.js	, e:
+js	client/src/builder.js	, q:
+js	client/src/builder.js	, r:
+js	client/src/builder.js	, s:
+js	client/src/builder.js	, w:
+js	client/src/builder.js	- . . G . . -
+js	client/src/builder.js	- . . S . . -
+js	client/src/builder.js	-'){ g2.strokeStyle =
+js	client/src/builder.js	-'){ grid[z][x] = [
+js	client/src/builder.js	. . , . T . .
+js	client/src/builder.js	. T . . . , .
+js	client/src/builder.js	./buildguide.js
+js	client/src/builder.js	./game/audio.js
+js	client/src/builder.js	./game/themes.js
+js	client/src/builder.js	./game/thumbs.js
+js	client/src/builder.js	.screen
+js	client/src/builder.js	/puzzles
+js	client/src/builder.js	0" max=
+js	client/src/builder.js	800 ${Math.max(9, cs * 0.28)}px Nunito
+js	client/src/builder.js	: '').join('')}</div><p>${esc(T.blurb)}</p>
+js	client/src/builder.js	: audit.routes} shortest route${audit.routes === 1 ?
+js	client/src/builder.js	: id ===
+js	client/src/builder.js	:'&quot;
+js	client/src/builder.js	; g2.font = `800 ${cs * 0.34}px Nunito`; g2.fillText({ p:
+js	client/src/builder.js	; g2.font = `800 ${cs * 0.3}px Nunito`; g2.fillText(
+js	client/src/builder.js	<a href="${repoUrl}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">how to contribute</a>
+js	client/src/builder.js	<b>Not ready yet — the repo checks would reject it:</b><br>•
+js	client/src/builder.js	<br>•
+js	client/src/builder.js	<button class="chip" data-storey="add">＋ Isle</button>
+js	client/src/builder.js	<button class="chip" data-storey="del">✕ Remove isle ${cur + 1}</button>
+js	client/src/builder.js	<button class="chip${k === cur ? ' on' : ''}" data-storey="${k}">Isle ${k + 1}</button>
+js	client/src/builder.js	<div class="biome-row">${BIOME.map(([id, name]) => thumbs.has(id) ?
+js	client/src/builder.js	<div class="warn">⚠ ${esc(warn)}</div>
+js	client/src/builder.js	<div>Difficulty: too many positions to map live — press “Deep check”.</div>
+js	client/src/builder.js	<div>Make it harder (optional):<ul>${hints.map(h =>
+js	client/src/builder.js	<i class="sw" style="background:linear-gradient(${T.sky[0]}, ${T.sky[1]} 42%, ${T.sky[2]} 58%, ${T.top} 58%, ${T.top} 76%, ${T.strata[0]} 76%)"></i>${T.label}
+js	client/src/builder.js	<option value="${i.id}">Remix: ${i.name}</option>
+js	client/src/builder.js	<span class="ico">${ico}</span><small>${label}</small>
+js	client/src/builder.js	></label><label>z <input type=
+js	client/src/builder.js	@klar/core
+js	client/src/builder.js	Add your GitHub username — it becomes your credit on the isle.
+js	client/src/builder.js	Already shared — link copied
+js	client/src/builder.js	Arch ${{ p:'A', q:'B', r:'C' }[level.cells[u].ch]} is a gateway: isle ${level.sid[u] + 1} ↔ isle ${level.sid[v] + 1}
+js	client/src/builder.js	Could not import:
+js	client/src/builder.js	Every tile, its rules and how to use it
+js	client/src/builder.js	Imported isle
+js	client/src/builder.js	Isle code
+js	client/src/builder.js	Isle imported
+js	client/src/builder.js	My isle
+js	client/src/builder.js	POST
+js	client/src/builder.js	Propose on GitHub
+js	client/src/builder.js	S') for(const s of storeys) for(const row of s.grid) for(const c of row) if(c[0] ===
+js	client/src/builder.js	Shared! Link copied to clipboard
+js	client/src/builder.js	Sign in (top right) to share online
+js	client/src/builder.js	Sky Scales across isles ${level.sid[level.pans.a[0]] + 1} and ${level.sid[level.pans.b[0]] + 1}
+js	client/src/builder.js	Sky Scales: pans A and B share one vine
+js	client/src/builder.js	[data-at]
+js	client/src/builder.js	[data-size]
+js	client/src/builder.js	[data-storey]
+js	client/src/builder.js	[klarbase] "${label}" has no How to build entry (buildguide.js)
+js	client/src/builder.js	], RAMP_ARROW = {
+js	client/src/builder.js	], VENT_ARROW = { n:
+js	client/src/builder.js	]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '
+js	client/src/builder.js	_blank
+js	client/src/builder.js	a' || c ===
+js	client/src/builder.js	a'); a.href = URL.createObjectURL(new Blob([text], { type:
+js	client/src/builder.js	application/json,.json
+js	client/src/builder.js	aria-label
+js	client/src/builder.js	bAuthor
+js	client/src/builder.js	bBiome
+js	client/src/builder.js	bCheck
+js	client/src/builder.js	bCode
+js	client/src/builder.js	bDiff
+js	client/src/builder.js	bExport
+js	client/src/builder.js	bFile
+js	client/src/builder.js	bGates
+js	client/src/builder.js	bGithub
+js	client/src/builder.js	bGithubNote
+js	client/src/builder.js	bGuide
+js	client/src/builder.js	bImport
+js	client/src/builder.js	bName
+js	client/src/builder.js	bShare
+js	client/src/builder.js	bStatus
+js	client/src/builder.js	bStoreys
+js	client/src/builder.js	bTemplate
+js	client/src/builder.js	bTest
+js	client/src/builder.js	bThemes
+js	client/src/builder.js	bTiers
+js	client/src/builder.js	bTools
+js	client/src/builder.js	biome
+js	client/src/builder.js	blank
+js	client/src/builder.js	block
+js	client/src/builder.js	btn primary
+js	client/src/builder.js	btn small
+js	client/src/builder.js	btn small ghost
+js	client/src/builder.js	btn small primary
+js	client/src/builder.js	builderPanel
+js	client/src/builder.js	button
+js	client/src/builder.js	center
+js	client/src/builder.js	checking…
+js	client/src/builder.js	chip
+js	client/src/builder.js	chip theme
+js	client/src/builder.js	chips
+js	client/src/builder.js	contextmenu
+js	client/src/builder.js	data-at=
+js	client/src/builder.js	diff
+js	client/src/builder.js	display:none
+js	client/src/builder.js	display:none;margin-top:6px
+js	client/src/builder.js	erase
+js	client/src/builder.js	erase-note
+js	client/src/builder.js	estimated from the solver
+js	client/src/builder.js	false
+js	client/src/builder.js	field
+js	client/src/builder.js	file
+js	client/src/builder.js	font-weight:600
+js	client/src/builder.js	grid
+js	client/src/builder.js	gridCanvas
+js	client/src/builder.js	input
+js	client/src/builder.js	isles/community/${author}/${file.id}.json
+js	client/src/builder.js	jungle
+js	client/src/builder.js	keydown
+js	client/src/builder.js	klarbase.v2.draft
+js	client/src/builder.js	klarbase.v2.ghuser
+js	client/src/builder.js	make it harder
+js	client/src/builder.js	margin-left:auto;color:var(--ink-3);font-size:12px
+js	client/src/builder.js	margin-top:6px
+js	client/src/builder.js	max=
+js	client/src/builder.js	middle
+js	client/src/builder.js	min=
+js	client/src/builder.js	nearest
+js	client/src/builder.js	none
+js	client/src/builder.js	noopener
+js	client/src/builder.js	note
+js	client/src/builder.js	number
+js	client/src/builder.js	official isle “${i.name}”
+js	client/src/builder.js	p' || c ===
+js	client/src/builder.js	paint
+js	client/src/builder.js	palette
+js	client/src/builder.js	pointerdown
+js	client/src/builder.js	pointerleave
+js	client/src/builder.js	pointermove
+js	client/src/builder.js	pointerup
+js	client/src/builder.js	r' || e.key ===
+js	client/src/builder.js	ramp
+js	client/src/builder.js	remix
+js	client/src/builder.js	resize
+js	client/src/builder.js	rgba(255,255,255,${0.08 * hh})
+js	client/src/builder.js	rgba(42,34,56,.75)
+js	client/src/builder.js	row-btns
+js	client/src/builder.js	size
+js	client/src/builder.js	status
+js	client/src/builder.js	status bad
+js	client/src/builder.js	status ok
+js	client/src/builder.js	style=
+js	client/src/builder.js	text-decoration:none
+js	client/src/builder.js	thumb
+js	client/src/builder.js	tier
+js	client/src/builder.js	tier t-${d.tier.id}
+js	client/src/builder.js	tool
+js	client/src/builder.js	url(${th.url})
+js	client/src/builder.js	vent
+js	client/src/builder.js	w'){ const n = grid[0].length + d; if(n < 3 || n > MAX_W) return; grid.forEach(r => d > 0 ? r.push([
+js	client/src/builder.js	your GitHub username
+js	client/src/builder.js	your gut call
+js	client/src/builder.js	|| c ===
+js	client/src/builder.js	} · ${audit.routes > 999 ?
+js	client/src/builder.js	} · walking straight at the star ${audit.greedy ?
+js	client/src/builder.js	~' || c ===
+js	client/src/builder.js	· ${r.solution.length > 28 ? r.solution.slice(0, 28) + '…' : r.solution}
+js	client/src/builder.js	· sign in to see the route
+js	client/src/builder.js	… big isle — press “Deep check” to verify
+js	client/src/builder.js	✓ Passes every check (par ${file.par}, uses ${v.report.mechanics.join(', ')}).<br>
+js	client/src/builder.js	✓ Solvable in ${r.par} moves
+js	client/src/builder.js	✗ Not solvable yet — no path reaches a goal
+js	client/src/buildguide.js	#': { code:
+js	client/src/buildguide.js	') + els(ids))).join(
+js	client/src/buildguide.js	*': { code:
+js	client/src/buildguide.js	+': { code:
+js	client/src/buildguide.js	, tags:[
+js	client/src/buildguide.js	, tags:[], summary:
+js	client/src/buildguide.js	,': { code:
+js	client/src/buildguide.js	-': { code:
+js	client/src/buildguide.js	.': { code:
+js	client/src/buildguide.js	<code>^</code> north · <code>v</code> south · <code>&lt;</code> west · <code>&gt;</code> east, plus the height digit of its low end. Click the Ramp tool again (or press R) to turn it.
+js	client/src/buildguide.js	<code>n</code> north · <code>e</code> east · <code>s</code> south · <code>w</code> west. Click the Vent tool again to turn it. Two gust lines may not cross. Pushing a crate or buoy into the wind needs a stone. Maps only.
+js	client/src/buildguide.js	<details class="g-sec"${open ? ' open' : ''}><summary>${title}</summary>${body}</details>
+js	client/src/buildguide.js	<p class="g-meta">Any of these turns your isle into a <b>map</b> automatically (see Maps below).</p>
+js	client/src/buildguide.js	<span class="g-tag ${t}">${TAG[t]}</span>
+js	client/src/buildguide.js	=': { code:
+js	client/src/buildguide.js	A glide crosses gaps no crate can fill. Make the landing spot exact so the player has to count levels.
+js	client/src/buildguide.js	A plate is pressed while Pip (on foot or holding a stone) or a crate stands on it. Gates open only while every plate on the isle is pressed.
+js	client/src/buildguide.js	A raised bridge is floor. When a lever flips, it sinks and can’t be walked. A crate standing on a sinking bridge drops in and stays as a block.
+js	client/src/buildguide.js	A single ramp to a high goal is a natural “last step”. Hide it behind a gate or a crate puzzle.
+js	client/src/buildguide.js	A solid block. Nothing walks or slides through it. It stops ice slides, gust lines and glides.
+js	client/src/buildguide.js	A sunk bridge is like water: Pip can’t walk it until a lever raises it, and a crate pushed onto it sinks in and fills it for good.
+js	client/src/buildguide.js	A vent plus a balloon is a conveyor belt. A crate dropped into the line switches it off for everything behind.
+js	client/src/buildguide.js	Adds one to the height digit of whatever you paint over. Empty sky can’t be raised.
+js	client/src/buildguide.js	All levers flip all bridges. There are no channels.
+js	client/src/buildguide.js	An isle with a gate needs at least one plate.
+js	client/src/buildguide.js	Arches are great for “the goal is right there, but not from here”. Hide the twin somewhere surprising.
+js	client/src/buildguide.js	At least one. Takes a height digit, so a raised goal needs a way up.
+js	client/src/buildguide.js	At most 3. Maps only.
+js	client/src/buildguide.js	B': { code:
+js	client/src/buildguide.js	Base height 1–4. Can’t be combined with water, ice, a plate, a crate, start, goal or key on the same tile.
+js	client/src/buildguide.js	Blows along a straight line over floor no higher than the vent, until a rock, tree, gate, door, ramp, the sky or the edge. After each move every light thing in the wind (balloon-Pip, and buoys Pip isn’t standing on) moves one tile downwind. A crate in the line shelters everything behind it.
+js	client/src/buildguide.js	Build the shape first in ground, then raise tiles to make ledges. Height is where most puzzles come from.
+js	client/src/buildguide.js	C': { code:
+js	client/src/buildguide.js	Classic idea: one crate, one gap. Give the player exactly as many crates as gaps, so a wasted push means a restart.
+js	client/src/buildguide.js	Closed, it blocks like a rock. Open, it is floor. It reads the plates at the start of each move.
+js	client/src/buildguide.js	Corners are traps: a crate pushed into a corner is stuck. Use that so a careless push costs the run.
+js	client/src/buildguide.js	Counts toward the 8 crates-and-buoys limit. Maps only.
+js	client/src/buildguide.js	Cut corners and holes out of the rectangle so the isle has a shape. The sky is a wall that reads as an edge.
+js	client/src/buildguide.js	D': { code:
+js	client/src/buildguide.js	Design tips
+js	client/src/buildguide.js	Drag across a whole row to sink a channel, then bridge it with a ramp or a pushed crate.
+js	client/src/buildguide.js	Every move is one beat, and on each beat the boulder rolls one tile along its lane, bouncing at the ends. If it covers Pip’s tile (or swaps with Pip), Pip bonks and the move is undone. The game rings where hazards will be next. Space with nothing to use waits a beat.
+js	client/src/buildguide.js	Exactly like ground: walkable, pushable onto, same rules. It only looks different.
+js	client/src/buildguide.js	Exactly one start per isle or map. Painting a new one moves it. Pip may not start where a hazard can reach.
+js	client/src/buildguide.js	Exactly two <code>p</code> arches, or none. On a map, a pair on two different storeys is a gateway between isles.
+js	client/src/buildguide.js	Exactly two, or none.
+js	client/src/buildguide.js	Exactly two, or none. Maps only.
+js	client/src/buildguide.js	G': { code:
+js	client/src/buildguide.js	Gust vent. Blows light things one tile per move.
+js	client/src/buildguide.js	H': { code:
+js	client/src/buildguide.js	Height digit 0–5 after the character (<code>.2</code> = ground two levels up). No digit = height 0.
+js	client/src/buildguide.js	Heights run 0–5. A pan’s base must be 1–4.
+js	client/src/buildguide.js	Holding a stone, Pip weighs 2: presses plates, sinks a pan, and can push a crate or buoy into the wind. A stone can only go back on a pile.
+js	client/src/buildguide.js	How the grid works
+js	client/src/buildguide.js	I': { code:
+js	client/src/buildguide.js	Isle settings
+js	client/src/buildguide.js	Its height digit is the base, 1–4. If pan A exists, pan B must too. A pan can span several tiles, and the two pans can be on different storeys.
+js	client/src/buildguide.js	K': { code:
+js	client/src/buildguide.js	Keys and doors needn’t match in number; extra keys are fine.
+js	client/src/buildguide.js	L': { code:
+js	client/src/buildguide.js	Lower a tile one level (min 0).
+js	client/src/buildguide.js	Make the lever and the bridge far apart, so the player has to think about which side they’ll be on after the flip.
+js	client/src/buildguide.js	Make the player plan where a slide stops. A crate or rock placed as a “stopper” turns open ice into a precise puzzle.
+js	client/src/buildguide.js	Maps only
+js	client/src/buildguide.js	Maps only. Pip holds one thing at a time, so no stone and balloon together.
+js	client/src/buildguide.js	Maps only: Sky Scales
+js	client/src/buildguide.js	Maps only: Weight II
+js	client/src/buildguide.js	Maps only: cozy hazards
+js	client/src/buildguide.js	Maps: several isles in one
+js	client/src/buildguide.js	On a three-isle map, give each link its own colour so the player builds a mental map.
+js	client/src/buildguide.js	One balloon per post. Pip holds one thing at a time. Maps only.
+js	client/src/buildguide.js	One-level steps make one-way drops (Pip hops down but can’t climb back), the simplest way to make order matter.
+js	client/src/buildguide.js	P': { code:
+js	client/src/buildguide.js	Pair one up bridge with one sunk bridge: every flip opens one way and closes another.
+js	client/src/buildguide.js	Park a crate on one pan to lift the other to a ledge you couldn’t reach, then work out how to get the crate back.
+js	client/src/buildguide.js	Pieces & switches
+js	client/src/buildguide.js	Pip can’t enter water. A crate pushed into water sinks and becomes floor at that spot. A buoy pushed in floats as a stepping stone.
+js	client/src/buildguide.js	Pip’s starting tile. It’s ordinary ground afterwards.
+js	client/src/buildguide.js	Pushed like a crate, but it floats up a one-level ledge and never drops down one. Pushed into water it floats as a stepping stone that never fills the water and only the wind can move. It presses no plates and lifts a pan.
+js	client/src/buildguide.js	Put a thorn at a crossroads: the safe direction changes every move.
+js	client/src/buildguide.js	Put rocks where a slide or a push should stop, so ice has a landing spot and crates can’t be shoved off the edge.
+js	client/src/buildguide.js	Put seeds just off the short route, so collecting them is its own little puzzle.
+js	client/src/buildguide.js	Put the gate where Pip must walk off the plate to pass. The player then needs a crate to hold it.
+js	client/src/buildguide.js	Put the key behind the trickier half of the isle, so the door is a promise the player has to earn.
+js	client/src/buildguide.js	Put the pans far apart so the player has to remember what’s weighing the other side down.
+js	client/src/buildguide.js	Quick start
+js	client/src/buildguide.js	Raise a tile one level (max 5).
+js	client/src/buildguide.js	Removes the tile. Pip can’t step into the sky, and a crate pushed toward it stops.
+js	client/src/buildguide.js	S': { code:
+js	client/src/buildguide.js	Same as the ↔ boulder, rolling north–south.
+js	client/src/buildguide.js	Same lane and 12-beat rules as ↔. Maps only.
+js	client/src/buildguide.js	Same rule as a rock: solid, stops slides, gusts and glides.
+js	client/src/buildguide.js	Seeds never change the rules or par. The game also shows a seed par: the shortest clear that picks every seed.
+js	client/src/buildguide.js	Several goals are allowed, but one goal usually makes a cleaner puzzle. Raise it to make the climb part of the solution.
+js	client/src/buildguide.js	Sharing your isle
+js	client/src/buildguide.js	Sits on ground: the height digit is the floor under it.
+js	client/src/buildguide.js	Sits on ground: the height digit is the floor under it. At most 8 crates and buoys in all.
+js	client/src/buildguide.js	Space
+js	client/src/buildguide.js	Stairs. Climb one level toward the arrow.
+js	client/src/buildguide.js	Start & goal
+js	client/src/buildguide.js	Start a shortcut sunk, so it only opens after the lever. A crate sunk into it early keeps it open whatever the lever does.
+js	client/src/buildguide.js	Start the player where they can see the goal and what stands between them. The first glance is the first clue.
+js	client/src/buildguide.js	Stepping into an arch moves Pip to the other arch with the same letter. Crates never ride arches.
+js	client/src/buildguide.js	Stepping onto a goal clears the isle.
+js	client/src/buildguide.js	Stepping onto ice keeps you moving in that direction until something stops you: a rock, a tree, a crate, a ledge up, or the end of the ice.
+js	client/src/buildguide.js	Stops at 0.
+js	client/src/buildguide.js	Subtracts one from the height digit of whatever you paint over.
+js	client/src/buildguide.js	T': { code:
+js	client/src/buildguide.js	Takes a height digit (the floor it stands on).
+js	client/src/buildguide.js	Takes a height digit (the walkable height when up).
+js	client/src/buildguide.js	Takes a height digit like ground.
+js	client/src/buildguide.js	Takes a height digit.
+js	client/src/buildguide.js	Takes a height digit. Buoys and balloon-Pip don’t press plates.
+js	client/src/buildguide.js	Takes a height digit. Crates slide too.
+js	client/src/buildguide.js	Terrain
+js	client/src/buildguide.js	The basic floor tile. Pip can walk onto floor at the same height and hop down one level, but never climb a ledge without a ramp.
+js	client/src/buildguide.js	The bush is solid. Its arm reaches two tiles straight out, pointing north, then east, south, west, one quarter per beat (repeats every 4). The diagonals are never touched.
+js	client/src/buildguide.js	The grid
+js	client/src/buildguide.js	The height digit is the water’s surface; a sunk crate becomes floor at that height.
+js	client/src/buildguide.js	The lane is the straight run of same-height floor through its tile. A lane of n tiles repeats every 2·(n−1) beats. Lanes may not cross, crates may not enter them, and all hazards must repeat together within 12 beats. Maps only.
+js	client/src/buildguide.js	The only way up. A ramp sits at the lower height: walk onto it in the arrow’s direction and step off onto floor one level higher. Walking it backwards takes you down. It can’t be used sideways, and crates never use ramps.
+js	client/src/buildguide.js	The other side of the vine. See pan A.
+js	client/src/buildguide.js	The rules
+js	client/src/buildguide.js	The upside-down crate: use it where a crate would fall the wrong way.
+js	client/src/buildguide.js	Timing puzzles: make the player wait a beat (Space) or take a longer route to cross behind the boulder.
+js	client/src/buildguide.js	Trees and rocks behave the same, so pick whichever fits the theme. Trees read well as soft walls along a path.
+js	client/src/buildguide.js	Two boulders on crossing paths are not allowed, but parallel lanes with different lengths make nice rhythms.
+js	client/src/buildguide.js	Two doors, one key: the player must choose. Make one choice a dead end.
+js	client/src/buildguide.js	Two pairs let you build little loops. Make sure the player can tell the colours apart.
+js	client/src/buildguide.js	Two plates, one crate: the player must hold one with their feet and park the crate on the other, then work out how to leave.
+js	client/src/buildguide.js	Use (Space) on the post to take its balloon. Holding it, Pip weighs 0: can’t push or press plates, is blown by gusts, and stepping off an edge becomes a glide, one level down per tile, landing on the first floor at exactly that height. Space anywhere else lets the balloon go, forever.
+js	client/src/buildguide.js	Use (Space) while standing on a lever flips every bridge on the isle: up bridges sink, sunk bridges rise.
+js	client/src/buildguide.js	Use flowers to make an isle feel lived-in, or to quietly draw the eye along the real path.
+js	client/src/buildguide.js	Verdict, par & testing
+js	client/src/buildguide.js	Walk into a crate to push it one tile, onto the same height or off a one-level ledge. It can’t be pushed up a ledge, onto a ramp or through an arch. In water it sinks and becomes floor. On ice it slides. It presses plates.
+js	client/src/buildguide.js	Walking into a door while holding a key uses the key and opens the door for good.
+js	client/src/buildguide.js	Walking onto a key picks it up. Each key opens one door.
+js	client/src/buildguide.js	Weight 2 on one pan beats a crate on the other. Scales plus stones make good “which is heavier” puzzles.
+js	client/src/buildguide.js	With a thorn on the isle, boulder lanes must be 2, 3, 4, 5 or 7 tiles (12-beat cycle). Crates can’t be in its reach, and Pip can’t start there. Maps only.
+js	client/src/buildguide.js	Works like Arch A and B, paired only with the other <code>r</code>.
+js	client/src/buildguide.js	Works like Arch A, paired only with the other <code>q</code>.
+js	client/src/buildguide.js	Written as <code>-</code>. Right-click any cell to erase without switching tools.
+js	client/src/buildguide.js	Y': { code:
+js	client/src/buildguide.js	], summary:
+js	client/src/buildguide.js	^ v < >
+js	client/src/buildguide.js	_': { code:
+js	client/src/buildguide.js	a': { code:
+js	client/src/buildguide.js	b': { code:
+js	client/src/buildguide.js	blocks
+js	client/src/buildguide.js	g-${encodeURIComponent(id)}
+js	client/src/buildguide.js	g-el
+js	client/src/buildguide.js	g-head
+js	client/src/buildguide.js	g-meta
+js	client/src/buildguide.js	g-tip
+js	client/src/buildguide.js	guide
+js	client/src/buildguide.js	k': { code:
+js	client/src/buildguide.js	maps
+js	client/src/buildguide.js	maps only
+js	client/src/buildguide.js	n e s w
+js	client/src/buildguide.js	o': { code:
+js	client/src/buildguide.js	p': { code:
+js	client/src/buildguide.js	push
+js	client/src/buildguide.js	pushable
+js	client/src/buildguide.js	q': { code:
+js	client/src/buildguide.js	r': { code:
+js	client/src/buildguide.js	space
+js	client/src/buildguide.js	u': { code:
+js	client/src/buildguide.js	walk
+js	client/src/buildguide.js	walkable
+js	client/src/buildguide.js	~': { code:
+js	client/src/game/audio.js	bandpass
+js	client/src/game/audio.js	dust
+js	client/src/game/audio.js	fireflies
+js	client/src/game/audio.js	lowpass
+js	client/src/game/audio.js	petals
+js	client/src/game/audio.js	sawtooth
+js	client/src/game/audio.js	sine
+js	client/src/game/audio.js	snow
+js	client/src/game/audio.js	square
+js	client/src/game/audio.js	stone
+js	client/src/game/audio.js	suspended
+js	client/src/game/audio.js	triangle
+js	client/src/game/biome.js	./ground.js
+js	client/src/game/biome.js	./softkit.js
+js	client/src/game/biome.js	./trees.js
+js	client/src/game/fauna.js	#1d1724
+js	client/src/game/fauna.js	#1d2336
+js	client/src/game/fauna.js	#1f6f86
+js	client/src/game/fauna.js	#232a44
+js	client/src/game/fauna.js	#2a2433
+js	client/src/game/fauna.js	#2a8fa0
+js	client/src/game/fauna.js	#2b2433
+js	client/src/game/fauna.js	#2d3552
+js	client/src/game/fauna.js	#2f3858
+js	client/src/game/fauna.js	#3c2a1b
+js	client/src/game/fauna.js	#3c3f4a
+js	client/src/game/fauna.js	#3f9a52
+js	client/src/game/fauna.js	#4c505c
+js	client/src/game/fauna.js	#4c9a3f
+js	client/src/game/fauna.js	#5a3e27
+js	client/src/game/fauna.js	#5c6178
+js	client/src/game/fauna.js	#5f6470
+js	client/src/game/fauna.js	#5fb04f
+js	client/src/game/fauna.js	#6a4a2f
+js	client/src/game/fauna.js	#6b6f7c
+js	client/src/game/fauna.js	#6d7186
+js	client/src/game/fauna.js	#6e4d31
+js	client/src/game/fauna.js	#6f7590
+js	client/src/game/fauna.js	#6f8a86
+js	client/src/game/fauna.js	#6f9c88
+js	client/src/game/fauna.js	#7a7f96
+js	client/src/game/fauna.js	#7fc9a8
+js	client/src/game/fauna.js	#7fe0ff
+js	client/src/game/fauna.js	#8a735c
+js	client/src/game/fauna.js	#8d929c
+js	client/src/game/fauna.js	#8f93a6
+js	client/src/game/fauna.js	#9a9fb3
+js	client/src/game/fauna.js	#9aa0b4
+js	client/src/game/fauna.js	#a7abbd
+js	client/src/game/fauna.js	#a88f74
+js	client/src/game/fauna.js	#b98a46
+js	client/src/game/fauna.js	#b9b2b5
+js	client/src/game/fauna.js	#bff4ff
+js	client/src/game/fauna.js	#c79650
+js	client/src/game/fauna.js	#cbb894
+js	client/src/game/fauna.js	#cf9f55
+js	client/src/game/fauna.js	#d6a85c
+js	client/src/game/fauna.js	#d6fbff
+js	client/src/game/fauna.js	#d8cdb4
+js	client/src/game/fauna.js	#d9c7b0
+js	client/src/game/fauna.js	#e6d6c3
+js	client/src/game/fauna.js	#e85a3f
+js	client/src/game/fauna.js	#e88a8a
+js	client/src/game/fauna.js	#e8b04a
+js	client/src/game/fauna.js	#e9f2c0
+js	client/src/game/fauna.js	#f0e4cc
+js	client/src/game/fauna.js	#f1dcc0
+js	client/src/game/fauna.js	#f2ece0
+js	client/src/game/fauna.js	#f4f1ea
+js	client/src/game/fauna.js	#f4f4ef
+js	client/src/game/fauna.js	#f5efe0
+js	client/src/game/fauna.js	#f6f1e6
+js	client/src/game/fauna.js	#f7f7f2
+js	client/src/game/fauna.js	#ff6a4d
+js	client/src/game/fauna.js	#ff9a3c
+js	client/src/game/fauna.js	#ffc24a
+js	client/src/game/fauna.js	#ffd25e
+js	client/src/game/fauna.js	#ffd27a
+js	client/src/game/fauna.js	#ffffff
+js	client/src/game/fauna.js	') => { const m = new THREE.Mesh(geo, mat); m.name =
+js	client/src/game/fauna.js	+ name; m.castShadow = false; m.receiveShadow = true; m.rotation.order =
+js	client/src/game/fauna.js	./props.js
+js	client/src/game/fauna.js	body
+js	client/src/game/fauna.js	bridge
+js	client/src/game/fauna.js	butterfly
+js	client/src/game/fauna.js	color
+js	client/src/game/fauna.js	crab
+js	client/src/game/fauna.js	dart
+js	client/src/game/fauna.js	dragonfly
+js	client/src/game/fauna.js	eagle
+js	client/src/game/fauna.js	fauna
+js	client/src/game/fauna.js	fauna:${kind}:${which}
+js	client/src/game/fauna.js	fauna:crab
+js	client/src/game/fauna.js	fauna:fish:
+js	client/src/game/fauna.js	fauna:frog
+js	client/src/game/fauna.js	fauna:lizard
+js	client/src/game/fauna.js	fauna:owl
+js	client/src/game/fauna.js	fauna:owl-eyes
+js	client/src/game/fauna.js	fauna:pad
+js	client/src/game/fauna.js	fauna:pigeon-perched
+js	client/src/game/fauna.js	fauna:pigeons
+js	client/src/game/fauna.js	fish
+js	client/src/game/fauna.js	flutter
+js	client/src/game/fauna.js	frog
+js	client/src/game/fauna.js	ground
+js	client/src/game/fauna.js	gull
+js	client/src/game/fauna.js	inner
+js	client/src/game/fauna.js	lamp
+js	client/src/game/fauna.js	lily
+js	client/src/game/fauna.js	lizard
+js	client/src/game/fauna.js	moth
+js	client/src/game/fauna.js	outer
+js	client/src/game/fauna.js	owl-eyes
+js	client/src/game/fauna.js	patrol
+js	client/src/game/fauna.js	pigeon
+js	client/src/game/fauna.js	pigeons
+js	client/src/game/fauna.js	rock
+js	client/src/game/fauna.js	snowbird
+js	client/src/game/fauna.js	swallow
+js	client/src/game/fauna.js	t' :
+js	client/src/game/fauna.js	three
+js	client/src/game/fauna.js	tree
+js	client/src/game/fauna.js	tropical
+js	client/src/game/fauna.js	void
+js	client/src/game/fauna.js	water
+js	client/src/game/fauna.js	wing
+js	client/src/game/ground.js	#2f2a3a
+js	client/src/game/ground.js	#2f6a4f
+js	client/src/game/ground.js	#3a3340
+js	client/src/game/ground.js	#4a6fe0
+js	client/src/game/ground.js	#5d566a
+js	client/src/game/ground.js	#5f8a6a
+js	client/src/game/ground.js	#6a9450
+js	client/src/game/ground.js	#6c7788
+js	client/src/game/ground.js	#6e4f39
+js	client/src/game/ground.js	#6fae58
+js	client/src/game/ground.js	#7a9a4a
+js	client/src/game/ground.js	#7ea65a
+js	client/src/game/ground.js	#86b39e
+js	client/src/game/ground.js	#8b6a4e
+js	client/src/game/ground.js	#8fa39a
+js	client/src/game/ground.js	#a5583f
+js	client/src/game/ground.js	#b5b9c4
+js	client/src/game/ground.js	#b99bff
+js	client/src/game/ground.js	#b9d3c4
+js	client/src/game/ground.js	#c4b6ff
+js	client/src/game/ground.js	#c9543a
+js	client/src/game/ground.js	#c9774f
+js	client/src/game/ground.js	#c99a4a
+js	client/src/game/ground.js	#cfd6ee
+js	client/src/game/ground.js	#cfe3d6
+js	client/src/game/ground.js	#d8c8ad
+js	client/src/game/ground.js	#dcb35e
+js	client/src/game/ground.js	#e2483d
+js	client/src/game/ground.js	#e2617c
+js	client/src/game/ground.js	#e6d2ff
+js	client/src/game/ground.js	#e8873a
+js	client/src/game/ground.js	#e8c878
+js	client/src/game/ground.js	#eebf8a
+js	client/src/game/ground.js	#eef5fc
+js	client/src/game/ground.js	#f0c24a
+js	client/src/game/ground.js	#f2e3c6
+js	client/src/game/ground.js	#f2efff
+js	client/src/game/ground.js	#f3ead6
+js	client/src/game/ground.js	#f4f6ee
+js	client/src/game/ground.js	#fbfdff
+js	client/src/game/ground.js	#ff4f6f
+js	client/src/game/ground.js	#ff6f8a
+js	client/src/game/ground.js	#ff7f8e
+js	client/src/game/ground.js	#ff7fae
+js	client/src/game/ground.js	#ff9150
+js	client/src/game/ground.js	#ffa64d
+js	client/src/game/ground.js	#ffb04a
+js	client/src/game/ground.js	#ffc4c4
+js	client/src/game/ground.js	#ffd76b
+js	client/src/game/ground.js	#ffd9a8
+js	client/src/game/ground.js	#ffe36b
+js	client/src/game/ground.js	#fff1e2
+js	client/src/game/ground.js	#fff6e8
+js	client/src/game/ground.js	#fff6ec
+js	client/src/game/ground.js	${id}:${x},${z}:${c.h}
+js	client/src/game/ground.js	${id}:flora:${v}
+js	client/src/game/ground.js	${id}:rock:${v}
+js	client/src/game/ground.js	${id}:scatter:${t.type}
+js	client/src/game/ground.js	base
+js	client/src/game/ground.js	cactus
+js	client/src/game/ground.js	capList
+js	client/src/game/ground.js	clover
+js	client/src/game/ground.js	flora
+js	client/src/game/ground.js	frost
+js	client/src/game/ground.js	grass
+js	client/src/game/ground.js	leaf
+js	client/src/game/ground.js	leafAlt
+js	client/src/game/ground.js	leafy
+js	client/src/game/ground.js	normal
+js	client/src/game/ground.js	pebble
+js	client/src/game/ground.js	position
+js	client/src/game/ground.js	rockTop
+js	client/src/game/ground.js	shell
+js	client/src/game/ground.js	shroom
+js	client/src/game/ground.js	speck
+js	client/src/game/ground.js	star
+js	client/src/game/ground.js	strata
+js	client/src/game/ground.js	three/examples/jsm/geometries/RoundedBoxGeometry.js
+js	client/src/game/ground.js	topAlt
+js	client/src/game/ground.js	urban
+js	client/src/game/ground.js	weed
+js	client/src/game/pip.js	#6fcf5a
+js	client/src/game/pip.js	#ff7a6b
+js	client/src/game/pip.js	#ff9db0
+js	client/src/game/pip.js	#fff4e2
+js	client/src/game/pip.js	balloon
+js	client/src/game/pip.js	canvas
+js	client/src/game/pip.js	down
+js	client/src/game/pip.js	flat
+js	client/src/game/pip.js	rgba(20,14,30,0)
+js	client/src/game/pip.js	rgba(20,14,30,0.45)
+js	client/src/game/props.js	#1b1410
+js	client/src/game/props.js	#7a4f00
+js	client/src/game/props.js	#7fd0ff
+js	client/src/game/props.js	#9dff5c
+js	client/src/game/props.js	#b6ff7a
+js	client/src/game/props.js	#d8b98c
+js	client/src/game/props.js	#f4e7c8
+js	client/src/game/props.js	#f4f0e6
+js	client/src/game/props.js	#ff6f7d
+js	client/src/game/props.js	#ff6f9a
+js	client/src/game/props.js	#ff7d6b
+js	client/src/game/props.js	#ff8fb1
+js	client/src/game/props.js	#ff9a7a
+js	client/src/game/props.js	#ffd35c
+js	client/src/game/props.js	./themes.js
+js	client/src/game/props.js	cloud:
+js	client/src/game/props.js	fall
+js	client/src/game/props.js	lift
+js	client/src/game/props.js	pan:
+js	client/src/game/props.js	pipe
+js	client/src/game/props.js	planter
+js	client/src/game/props.js	rgba(${c.r*255|0},${c.g*255|0},${c.b*255|0},${a})
+js	client/src/game/props.js	rgba(0,0,0,0)
+js	client/src/game/props.js	rgba(255,255,255,${0.15 + r()*0.35})
+js	client/src/game/props.js	rgba(255,255,255,0.18)
+js	client/src/game/props.js	rgba(255,255,255,0.22)
+js	client/src/game/props.js	root
+js	client/src/game/props.js	spin
+js	client/src/game/props.js	three/examples/jsm/utils/BufferGeometryUtils.js
+js	client/src/game/props.js	vine
+js	client/src/game/pulley.js	centripetal
+js	client/src/game/pulley.js	delta
+js	client/src/game/pulley.js	jolt for the baskets
+js	client/src/game/pulley.js	s run: over each sheave
+js	client/src/game/pulley.js	sheave:
+js	client/src/game/session.js	./audio.js
+js	client/src/game/softkit.js	${Math.round(V.x * 1e3)},${Math.round(V.y * 1e3)},${Math.round(V.z * 1e3)}
+js	client/src/game/softkit.js	${Math.round(pos.getX(i) * 1e3)},${Math.round(pos.getY(i) * 1e3)},${Math.round(pos.getZ(i) * 1e3)}
+js	client/src/game/softkit.js	bake
+js	client/src/game/softkit.js	jitter
+js	client/src/game/softkit.js	keep
+js	client/src/game/softkit.js	rings
+js	client/src/game/themes.js	#070b24
+js	client/src/game/themes.js	#0e4744
+js	client/src/game/themes.js	#0f8fb8
+js	client/src/game/themes.js	#1a1838
+js	client/src/game/themes.js	#1a9c96
+js	client/src/game/themes.js	#1c1a47
+js	client/src/game/themes.js	#22306a
+js	client/src/game/themes.js	#24331f
+js	client/src/game/themes.js	#24479a
+js	client/src/game/themes.js	#26306a
+js	client/src/game/themes.js	#2a2540
+js	client/src/game/themes.js	#2a4f7a
+js	client/src/game/themes.js	#2c2236
+js	client/src/game/themes.js	#2e9b55
+js	client/src/game/themes.js	#2f6450
+js	client/src/game/themes.js	#2f8a3f
+js	client/src/game/themes.js	#2f93e0
+js	client/src/game/themes.js	#2fb3a1
+js	client/src/game/themes.js	#2fd9ec
+js	client/src/game/themes.js	#3a2b6e
+js	client/src/game/themes.js	#3a6a58
+js	client/src/game/themes.js	#3a6eab
+js	client/src/game/themes.js	#3a7fae
+js	client/src/game/themes.js	#3b3657
+js	client/src/game/themes.js	#3d4a32
+js	client/src/game/themes.js	#3d7862
+js	client/src/game/themes.js	#3e3343
+js	client/src/game/themes.js	#3f3128
+js	client/src/game/themes.js	#3f7d5d
+js	client/src/game/themes.js	#3f8f54
+js	client/src/game/themes.js	#3fdccf
+js	client/src/game/themes.js	#46806a
+js	client/src/game/themes.js	#4a446c
+js	client/src/game/themes.js	#4a4486
+js	client/src/game/themes.js	#4a7fe0
+js	client/src/game/themes.js	#4c5464
+js	client/src/game/themes.js	#4c86b8
+js	client/src/game/themes.js	#4f3626
+js	client/src/game/themes.js	#4fa548
+js	client/src/game/themes.js	#4ff0ff
+js	client/src/game/themes.js	#518c74
+js	client/src/game/themes.js	#563f2d
+js	client/src/game/themes.js	#56c46a
+js	client/src/game/themes.js	#5a3424
+js	client/src/game/themes.js	#5a3b25
+js	client/src/game/themes.js	#5a4433
+js	client/src/game/themes.js	#5a5280
+js	client/src/game/themes.js	#5a8a74
+js	client/src/game/themes.js	#5aa866
+js	client/src/game/themes.js	#5b3f2a
+js	client/src/game/themes.js	#5c6677
+js	client/src/game/themes.js	#5db564
+js	client/src/game/themes.js	#5e3b21
+js	client/src/game/themes.js	#5fbf9c
+js	client/src/game/themes.js	#65462f
+js	client/src/game/themes.js	#6a3627
+js	client/src/game/themes.js	#6a7096
+js	client/src/game/themes.js	#6d6474
+js	client/src/game/themes.js	#6e4a2c
+js	client/src/game/themes.js	#6fbde2
+js	client/src/game/themes.js	#6fd165
+js	client/src/game/themes.js	#727d8e
+js	client/src/game/themes.js	#7a4631
+js	client/src/game/themes.js	#7a4f2c
+js	client/src/game/themes.js	#7c8190
+js	client/src/game/themes.js	#7c8a77
+js	client/src/game/themes.js	#7cc363
+js	client/src/game/themes.js	#7d5a3c
+js	client/src/game/themes.js	#7fd69a
+js	client/src/game/themes.js	#7fe0c0
+js	client/src/game/themes.js	#7ff7d8
+js	client/src/game/themes.js	#86634a
+js	client/src/game/themes.js	#8792a1
+js	client/src/game/themes.js	#8a5a34
+js	client/src/game/themes.js	#8a6243
+js	client/src/game/themes.js	#8a7f8f
+js	client/src/game/themes.js	#8b96a6
+js	client/src/game/themes.js	#8ce07a
+js	client/src/game/themes.js	#8f8378
+js	client/src/game/themes.js	#9aa8ff
+js	client/src/game/themes.js	#9b6b43
+js	client/src/game/themes.js	#9ca2b0
+js	client/src/game/themes.js	#9f8cff
+js	client/src/game/themes.js	#9fd6b6
+js	client/src/game/themes.js	#9fe8ff
+js	client/src/game/themes.js	#a5754a
+js	client/src/game/themes.js	#a6f8ff
+js	client/src/game/themes.js	#a6ff5c
+js	client/src/game/themes.js	#a79a8c
+js	client/src/game/themes.js	#a8774a
+js	client/src/game/themes.js	#a8dcff
+js	client/src/game/themes.js	#a9e8ff
+js	client/src/game/themes.js	#aab0bd
+js	client/src/game/themes.js	#aee8ff
+js	client/src/game/themes.js	#b07b4c
+js	client/src/game/themes.js	#b36f45
+js	client/src/game/themes.js	#b98cff
+js	client/src/game/themes.js	#b9c0cc
+js	client/src/game/themes.js	#bf955c
+js	client/src/game/themes.js	#c2b2ff
+js	client/src/game/themes.js	#c3d0ff
+js	client/src/game/themes.js	#c47b90
+js	client/src/game/themes.js	#c4ccd8
+js	client/src/game/themes.js	#c4dcff
+js	client/src/game/themes.js	#c4ecff
+js	client/src/game/themes.js	#c4eeff
+js	client/src/game/themes.js	#c98458
+js	client/src/game/themes.js	#c9b37a
+js	client/src/game/themes.js	#cdeeff
+js	client/src/game/themes.js	#cf8f5c
+js	client/src/game/themes.js	#cfe5f6
+js	client/src/game/themes.js	#d4f3e1
+js	client/src/game/themes.js	#d6a95e
+js	client/src/game/themes.js	#d6f4ff
+js	client/src/game/themes.js	#d8c690
+js	client/src/game/themes.js	#d9b47a
+js	client/src/game/themes.js	#d9e3ec
+js	client/src/game/themes.js	#dca06c
+js	client/src/game/themes.js	#dcefff
+js	client/src/game/themes.js	#dff7ff
+js	client/src/game/themes.js	#e1edf6
+js	client/src/game/themes.js	#e2bf6e
+js	client/src/game/themes.js	#e6f7d6
+js	client/src/game/themes.js	#e6f9ff
+js	client/src/game/themes.js	#e8eff6
+js	client/src/game/themes.js	#ebc57d
+js	client/src/game/themes.js	#eef6ff
+js	client/src/game/themes.js	#efd4a0
+js	client/src/game/themes.js	#f2d27a
+js	client/src/game/themes.js	#f2d394
+js	client/src/game/themes.js	#f3dca6
+js	client/src/game/themes.js	#f3f7fb
+js	client/src/game/themes.js	#f6c690
+js	client/src/game/themes.js	#f6f9fc
+js	client/src/game/themes.js	#ff5f8f
+js	client/src/game/themes.js	#ff72d8
+js	client/src/game/themes.js	#ff72d9
+js	client/src/game/themes.js	#ff7aa3
+js	client/src/game/themes.js	#ff7aa8
+js	client/src/game/themes.js	#ff8f6b
+js	client/src/game/themes.js	#ff9b5c
+js	client/src/game/themes.js	#ff9fc4
+js	client/src/game/themes.js	#ffae47
+js	client/src/game/themes.js	#ffb57c
+js	client/src/game/themes.js	#ffc06b
+js	client/src/game/themes.js	#ffc39a
+js	client/src/game/themes.js	#ffcf5a
+js	client/src/game/themes.js	#ffd0d8
+js	client/src/game/themes.js	#ffd25c
+js	client/src/game/themes.js	#ffd45e
+js	client/src/game/themes.js	#ffd6a0
+js	client/src/game/themes.js	#ffe1ac
+js	client/src/game/themes.js	#ffe28a
+js	client/src/game/themes.js	#ffe2bf
+js	client/src/game/themes.js	#ffe6d6
+js	client/src/game/themes.js	#ffe9a8
+js	client/src/game/themes.js	#fff0c8
+js	client/src/game/themes.js	#fff6df
+js	client/src/game/themes.js	Bright reefs, tidal bridges and drifting petals.
+js	client/src/game/themes.js	Canopy
+js	client/src/game/themes.js	Crisp snow, glassy ice and pine-scented wind.
+js	client/src/game/themes.js	Dusky rooftops, canal locks and warm window light.
+js	client/src/game/themes.js	Jungle
+js	client/src/game/themes.js	Lagoon
+js	client/src/game/themes.js	Mirage
+js	client/src/game/themes.js	Moonlit isles, rolling boulders and thorny sweepers — cozy, never cruel.
+js	client/src/game/themes.js	Mossy roots, fireflies and slow green light.
+js	client/src/game/themes.js	Mountain
+js	client/src/game/themes.js	Night
+js	client/src/game/themes.js	Nightfall
+js	client/src/game/themes.js	Oasis
+js	client/src/game/themes.js	Rooftops
+js	client/src/game/themes.js	Summit
+js	client/src/game/themes.js	Tropical
+js	client/src/game/themes.js	Urban
+js	client/src/game/themes.js	Warm sand, turquoise springs and shimmering arches.
+js	client/src/game/themes.js	bird
+js	client/src/game/themes.js	broadleaf
+js	client/src/game/themes.js	lanterns
+js	client/src/game/themes.js	palm
+js	client/src/game/themes.js	pine
+js	client/src/game/thumbs.js	#9fb6ff
+js	client/src/game/thumbs.js	./biome.js
+js	client/src/game/thumbs.js	I' ?
+js	client/src/game/thumbs.js	[klarbase] thumb failed
+js	client/src/game/thumbs.js	image/png
+js	client/src/game/trees.js	#3a7a63
+js	client/src/game/trees.js	#4a3424
+js	client/src/game/trees.js	#4a8d74
+js	client/src/game/trees.js	#4f9a3c
+js	client/src/game/trees.js	#5a9c86
+js	client/src/game/trees.js	#5fcf63
+js	client/src/game/trees.js	#6e5444
+js	client/src/game/trees.js	#6fb84c
+js	client/src/game/trees.js	#79d462
+js	client/src/game/trees.js	#7a5333
+js	client/src/game/trees.js	#7a5432
+js	client/src/game/trees.js	#7ea457
+js	client/src/game/trees.js	#8cb64c
+js	client/src/game/trees.js	#8fcf5a
+js	client/src/game/trees.js	#9a4f31
+js	client/src/game/trees.js	#a03f6a
+js	client/src/game/trees.js	#a0bd62
+js	client/src/game/trees.js	#a3c24a
+js	client/src/game/trees.js	#a87a4c
+js	client/src/game/trees.js	#c06d45
+js	client/src/game/trees.js	#c49a5e
+js	client/src/game/trees.js	#c96a2c
+js	client/src/game/trees.js	#e3863a
+js	client/src/game/trees.js	#f4f8fc
+js	client/src/game/trees.js	${T.id}:${v}:${seed}
+js	client/src/game/trees.js	crown
+js	client/src/game/trees.js	glow
+js	client/src/game/trees.js	s own seeded rng; kit = the storey
+js	client/src/game/trees.js	stem
+js	client/src/game/trees.js	tree:
+js	client/src/game/world.js	#eaff8a
+js	client/src/game/world.js	#ff6a5a
+js	client/src/game/world.js	#ffc0d4
+js	client/src/game/world.js	#ffcf7a
+js	client/src/game/world.js	#ffe3b0
+js	client/src/game/world.js	, D:
+js	client/src/game/world.js	, L:
+js	client/src/game/world.js	, R:
+js	client/src/game/world.js	./fauna.js
+js	client/src/game/world.js	./pip.js
+js	client/src/game/world.js	./pulley.js
+js	client/src/game/world.js	:' + c.ch +
+js	client/src/game/world.js	R', R:
+js	client/src/game/world.js	angle
+js	client/src/game/world.js	away from the camera
+js	client/src/game/world.js	boulder
+js	client/src/game/world.js	cslide
+js	client/src/game/world.js	door
+js	client/src/game/world.js	drop
+js	client/src/game/world.js	float
+js	client/src/game/world.js	gate
+js	client/src/game/world.js	glide
+js	client/src/game/world.js	goal
+js	client/src/game/world.js	gust
+js	client/src/game/world.js	hazard
+js	client/src/game/world.js	high-performance
+js	client/src/game/world.js	lever
+js	client/src/game/world.js	open
+js	client/src/game/world.js	pile
+js	client/src/game/world.js	plate
+js	client/src/game/world.js	portal
+js	client/src/game/world.js	post
+js	client/src/game/world.js	pressed
+js	client/src/game/world.js	release
+js	client/src/game/world.js	rgba(255,255,255,0)
+js	client/src/game/world.js	rgba(255,255,255,0.55)
+js	client/src/game/world.js	rgba(255,255,255,1)
+js	client/src/game/world.js	scales
+js	client/src/game/world.js	sink
+js	client/src/game/world.js	slide
+js	client/src/game/world.js	take
+js	client/src/game/world.js	thorn
+js	client/src/game/world.js	toggle
+js	client/src/game/world.js	varying vec3 vP; void main(){ vP = normalize(position); gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }
+js	client/src/game/world.js	wait
+js	client/src/game/world.js	}, OPPD = { U:
+js	client/src/main.js	#' + dailyNumber(e.date, DAILY_EPOCH_DATE))).join(
+js	client/src/main.js	#authchip
+js	client/src/main.js	#btnBack
+js	client/src/main.js	#btnContinue
+js	client/src/main.js	#btnDaily
+js	client/src/main.js	#btnHelp
+js	client/src/main.js	#btnHint
+js	client/src/main.js	#btnMap
+js	client/src/main.js	#btnRestart
+js	client/src/main.js	#btnSolution
+js	client/src/main.js	#btnSound
+js	client/src/main.js	#btnTimer
+js	client/src/main.js	#btnTurn
+js	client/src/main.js	#btnUndo
+js	client/src/main.js	#fbCancel
+js	client/src/main.js	#fbCount
+js	client/src/main.js	#fbEmail
+js	client/src/main.js	#fbMsg
+js	client/src/main.js	#fbSend
+js	client/src/main.js	#hintText
+js	client/src/main.js	#hudName
+js	client/src/main.js	#hudSub
+js	client/src/main.js	#keystrip
+js	client/src/main.js	#modal
+js	client/src/main.js	#modalBody
+js	client/src/main.js	#onlineGrid
+js	client/src/main.js	#scr-create .side
+js	client/src/main.js	#selectList
+js	client/src/main.js	#skyClose
+js	client/src/main.js	#skyStrip
+js	client/src/main.js	#stage
+js	client/src/main.js	#statKeys
+js	client/src/main.js	#statKeysWrap
+js	client/src/main.js	#statMoves
+js	client/src/main.js	#statPar
+js	client/src/main.js	#statSeeds
+js	client/src/main.js	#statSeedsWrap
+js	client/src/main.js	#statTime
+js	client/src/main.js	#statTimeWrap
+js	client/src/main.js	#toast
+js	client/src/main.js	#wAgain
+js	client/src/main.js	#wBuild
+js	client/src/main.js	#wConf
+js	client/src/main.js	#wDaily
+js	client/src/main.js	#wList
+js	client/src/main.js	#wNext
+js	client/src/main.js	#wShare
+js	client/src/main.js	#wWatch
+js	client/src/main.js	${FEEDBACK_MAX}
+js	client/src/main.js	${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, '0')}
+js	client/src/main.js	${REPO_URL}/blob/main/CONTRIBUTING.md
+js	client/src/main.js	${REPO_URL}/blob/main/isles/README.md
+js	client/src/main.js	${chapterOf(d)?.title || themeOf(d.theme).chapter} · ${d.twist ? 'Twist isle' : d.joins ? d.joins.map(chapterTitle).join(' × ') :
+js	client/src/main.js	${esc(e.doc.id)}
+js	client/src/main.js	${esc(lock)}
+js	client/src/main.js	${img ? `background:url(${img}) center/cover` : `background:linear-gradient(180deg, ${T.sky[0]}, ${T.sky[1]} 75%, ${T.sky[2]})`}
+js	client/src/main.js	${msg.value.length} / ${FEEDBACK_MAX}
+js	client/src/main.js	${n.title} ${Math.min(n.cleared, n.need)}/${n.need}
+js	client/src/main.js	${s.clearRate}% clear
+js	client/src/main.js	${s.parRate}% at par
+js	client/src/main.js	${s.seeds.size}/${s.level.seeds.length}
+js	client/src/main.js	${share}\n${shareUrl}
+js	client/src/main.js	${skySvg(sky, false)}<span>Your sky · ${got} / ${max} ★ · ${sky.filter(c => c.lit).length} lit</span>
+js	client/src/main.js	' + (entry.author && !entry.daily ? `by <a href="https://github.com/${esc(entry.author)}" target="_blank" rel="noopener" style="color:inherit">@${esc(entry.author)}</a>` : esc(entry.sub ||
+js	client/src/main.js	').join(
+js	client/src/main.js	').replace(/[&<>"]/g, c => ({
+js	client/src/main.js	')}</div>` :
+js	client/src/main.js	': case
+js	client/src/main.js	) dot(
+js	client/src/main.js	) dot(T.accent, 0.3); else if(ch ===
+js	client/src/main.js	) dot({ p:
+js	client/src/main.js	) top = T.ice; else if(ch ===
+js	client/src/main.js	) top = T.water; else if(ch ===
+js	client/src/main.js	)}</div></div>` :
+js	client/src/main.js	+ fmtTime(s.time) :
+js	client/src/main.js	, 0.2); else if(ch ===
+js	client/src/main.js	, down:
+js	client/src/main.js	, left:
+js	client/src/main.js	--accent
+js	client/src/main.js	../../isles/community/*/*.json
+js	client/src/main.js	../../isles/daily/*.json
+js	client/src/main.js	./auth.js
+js	client/src/main.js	./builder.js
+js	client/src/main.js	./game/session.js
+js	client/src/main.js	./game/world.js
+js	client/src/main.js	./net.js
+js	client/src/main.js	.card
+js	client/src/main.js	.dpad [data-arrow]
+js	client/src/main.js	.feedback-open
+js	client/src/main.js	.tabs button
+js	client/src/main.js	/' : current?.author ?
+js	client/src/main.js	/api/plays
+js	client/src/main.js	/community
+js	client/src/main.js	/create
+js	client/src/main.js	/daily
+js	client/src/main.js	/daily/
+js	client/src/main.js	/feedback
+js	client/src/main.js	/how-to-build
+js	client/src/main.js	/isle/
+js	client/src/main.js	/play
+js	client/src/main.js	/plays
+js	client/src/main.js	/privacy
+js	client/src/main.js	/puzzles/
+js	client/src/main.js	/puzzles?limit=30
+js	client/src/main.js	: !all ? ' — they’re off the short route' : ''}</div>
+js	client/src/main.js	: ''}${rare}</div>
+js	client/src/main.js	: 'a Confluence isle has'} opened: <b>${opened.map(x => esc(x.name)).join(', ')}</b>
+js	client/src/main.js	: case
+js	client/src/main.js	: current?.online ?
+js	client/src/main.js	: e.preventDefault(); game.input(
+js	client/src/main.js	: j === i ?
+js	client/src/main.js	:'&amp;
+js	client/src/main.js	:'&gt;
+js	client/src/main.js	<button class="btn ghost" id="wList">All isles</button>
+js	client/src/main.js	<button class="btn primary" id="wBuild">Back to builder</button>
+js	client/src/main.js	<button class="btn primary" id="wConf">✦ Play ${esc(news.open.name)}</button>
+js	client/src/main.js	<button class="btn primary" id="wDaily">📋 Copy result</button>
+js	client/src/main.js	<button class="btn primary" id="wNext">Next isle ▶</button>
+js	client/src/main.js	<button class="btn" id="wShare">🔗 Copy link</button>
+js	client/src/main.js	<button class="btn" id="wWatch">▶ Watch solution</button>
+js	client/src/main.js	<button class="card${lock ? ' locked' : ''}" data-key="${esc(e.key)}"${lock ?
+js	client/src/main.js	<circle cx="${(R + r * Math.cos(a)).toFixed(1)}" cy="${(R + r * Math.sin(a)).toFixed(1)}" r="${(1.2 + (dailies[d] || 1) * 0.7).toFixed(1)}" fill="#ffe7a3"><title>${d} ${'★'.repeat(dailies[d] || 1)}</title></circle>
+js	client/src/main.js	<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(n ? (big ? 2 : 1.5) + n * (big ? 1 : 0.7) : (big ? 1.4 : 1.2)).toFixed(1)}" fill="${n && c.lit ? acc : '#fff'}" fill-opacity="${n ? 1 : 0.3}"${n === 3 ? ' class="tw"' : ''}/>
+js	client/src/main.js	<div class="conf"><b>${esc(e.name)}</b><span>${esc(e.sub)}</span>${l ?
+js	client/src/main.js	<div class="credit">by <a href="https://github.com/${esc(e.author)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">@${esc(e.author)}</a></div>
+js	client/src/main.js	<div class="crowd">Played ${s.plays} times · ${s.clearRate}% clear it${s.parRate != null ?
+js	client/src/main.js	<div class="empty">Online isles are unavailable right now.</div>
+js	client/src/main.js	<div class="facts" style="font-weight:600;margin-top:4px">The smart route takes ${e.par} moves — watch it?</div>
+js	client/src/main.js	<div class="facts" style="margin-top:4px">🌱 ${s.seeds.size} of ${n} seed${n > 1 ? 's' : ''}${all && e.seedPar ?
+js	client/src/main.js	<div class="help-tabs"><button class="${which === 'play' ? 'on' : ''}" data-help="play">How to play</button><button class="${which === 'build' ? 'on' : ''}" data-help="build">How to build</button></div>
+js	client/src/main.js	<div class="note" style="margin-top:10px;text-align:left"><b>The catch:</b> ${esc(e.catch)}</div>
+js	client/src/main.js	<div class="pstats lock">🔒 ${esc(lock)}</div>
+js	client/src/main.js	<div class="pstats" data-stats="${esc(e.key)}">${statsLine(e)}</div>
+js	client/src/main.js	<div class="share-text" id="wShareText">${esc(share)}<br><small>${esc(shareUrl)}</small></div>
+js	client/src/main.js	<div class="sky-empty">Clear a Daily Isle to place your first star here.</div>
+js	client/src/main.js	<div class="sky-news">✦ ${lit.map(c =>
+js	client/src/main.js	<div style="height:8px;border-radius:99px;background:rgba(42,34,56,.08);overflow:hidden;margin:4px 0 10px"><div style="height:100%;width:${Math.min(100, v / max * 100)}%;background:var(--accent)"></div></div>
+js	client/src/main.js	<h2>${e.daily ?
+js	client/src/main.js	<i class="${k === you ? 'you' : ''}" style="height:${4 + Math.round(40 * n / max)}px" title="${e.par + k}${k === 8 ? '+' : ''} moves: ${n}"></i>
+js	client/src/main.js	<line x1="${pts[i][0].toFixed(1)}" y1="${pts[i][1].toFixed(1)}" x2="${x.toFixed(1)}" y2="${y.toFixed(1)}" stroke="${c.lit ? acc : '#fff'}" stroke-opacity="${c.lit ? 0.9 : 0.35}" stroke-width="${big ? 1.4 : 1}"/>
+js	client/src/main.js	<span class="${i < stars ? 'lit' : ''}" style="animation-delay:${0.15 + i * 0.18}s">★</span>
+js	client/src/main.js	<span class="k">${glyphFor(m)}</span>
+js	client/src/main.js	<span class="kbd">H</span>
+js	client/src/main.js	<span class="num">${num}</span>
+js	client/src/main.js	<span class="stars">${'<b>★</b>'.repeat(n)}${'★'.repeat(3 - n)}</span>
+js	client/src/main.js	<span class="tier t-${d.tier.id}" data-score="${esc(e.key)}" title="Difficulty ${d.score}/100 · ${why}">${d.tier.name} ${d.score}</span>
+js	client/src/main.js	<svg viewBox="0 0 ${(2 * R).toFixed(1)} ${(2 * R).toFixed(1)}" style="width:${Math.min(220, Math.round(8 * R))}px">${dots}</svg>
+js	client/src/main.js	<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Your sky: ${lit} of ${sky.length} constellations lit">${body}</svg>
+js	client/src/main.js	<text x="${ox + cw / 2}" y="${oy + ch + 10}" text-anchor="middle" class="sky-lbl">${esc(c.title)} ${c.lit ? '✦' :
+js	client/src/main.js	?'}${settings.timer ?
+js	client/src/main.js	Best next move from here (H)
+js	client/src/main.js	Bonk! Something comes through there on the next beat — the glowing rings show where. Space waits a beat.
+js	client/src/main.js	Copy failed — select the text above
+js	client/src/main.js	Daily Isle #${no} · ${e.sub}
+js	client/src/main.js	Escape
+js	client/src/main.js	Hmm — this spot can’t reach the goal any more. Undo or restart.
+js	client/src/main.js	Isle cleared!
+js	client/src/main.js	Light
+js	client/src/main.js	Link copied
+js	client/src/main.js	New here? Press ? for How to build
+js	client/src/main.js	Not yet — ${c.dataset.locked} (clear ${CONFLUENCE_NEED} isles in each chapter)
+js	client/src/main.js	Result copied — no spoilers inside
+js	client/src/main.js	Sent with your account.
+js	client/src/main.js	Show this isle’s tip (H)
+js	client/src/main.js	Sign in
+js	client/src/main.js	Sign out
+js	client/src/main.js	T') dot(T.leaf, 0.38); else if(ch ===
+js	client/src/main.js	Thank you — feedback sent
+js	client/src/main.js	That isle could not be found
+js	client/src/main.js	That link is from an older version of Klarbase
+js	client/src/main.js	This isle is broken:
+js	client/src/main.js	Time my attempts
+js	client/src/main.js	Timer off — take it easy
+js	client/src/main.js	Timer on — click to turn off
+js	client/src/main.js	Timer on — your times are saved
+js	client/src/main.js	Twist
+js	client/src/main.js	Write a message first
+js	client/src/main.js	X' ? `Best next move: ${game.level.hazards && game.level.hazards.length ?
+js	client/src/main.js	X') return
+js	client/src/main.js	YYYY-MM-DD
+js	client/src/main.js	[data-go]
+js	client/src/main.js	[data-help]
+js	client/src/main.js	[data-score]
+js	client/src/main.js	[data-sky]
+js	client/src/main.js	[data-stats]
+js	client/src/main.js	[klarbase] showcase isle not found:
+js	client/src/main.js	a' || ch ===
+js	client/src/main.js	application/json
+js	client/src/main.js	big-stars
+js	client/src/main.js	btn feedback-open
+js	client/src/main.js	btn ghost
+js	client/src/main.js	build
+js	client/src/main.js	by @${d.author}
+js	client/src/main.js	c/${d.author}/${d.id}
+js	client/src/main.js	c:${d.author}/${d.id}
+js	client/src/main.js	canal-lift
+js	client/src/main.js	chapter
+js	client/src/main.js	chapter-head
+js	client/src/main.js	clear
+js	client/src/main.js	click
+js	client/src/main.js	color:inherit
+js	client/src/main.js	community
+js	client/src/main.js	community isle “${d.name}” by @${d.author}
+js	client/src/main.js	conf-list
+js	client/src/main.js	content-type
+js	client/src/main.js	create
+js	client/src/main.js	daily-
+js	client/src/main.js	default
+js	client/src/main.js	document.getElementById('modal').classList.remove('on')
+js	client/src/main.js	draft
+js	client/src/main.js	e': case
+js	client/src/main.js	early estimate — ${d.n} of 20 plays so far; starts from ${d.declared ? 'the maker’s gut call' : 'the solver’s estimate'}
+js	client/src/main.js	email
+js	client/src/main.js	empty
+js	client/src/main.js	facts
+js	client/src/main.js	fbCancel
+js	client/src/main.js	fbCount
+js	client/src/main.js	fbEmail
+js	client/src/main.js	fbMsg
+js	client/src/main.js	fbSend
+js	client/src/main.js	flex:1
+js	client/src/main.js	font-family:inherit;font-size:14.5px;white-space:pre-wrap
+js	client/src/main.js	font-size:12.5px
+js	client/src/main.js	font-size:12.5px;font-weight:600;margin:10px 0 0
+js	client/src/main.js	font-size:12.5px;margin-top:6px
+js	client/src/main.js	font-size:12px;text-align:right
+js	client/src/main.js	font-weight:600;margin:6px 0 12px
+js	client/src/main.js	from ${d.n} plays
+js	client/src/main.js	game
+js	client/src/main.js	github
+js	client/src/main.js	glacier-maze
+js	client/src/main.js	glass
+js	client/src/main.js	glass on
+js	client/src/main.js	glass who
+js	client/src/main.js	google
+js	client/src/main.js	h': case
+js	client/src/main.js	hint
+js	client/src/main.js	hints
+js	client/src/main.js	hist
+js	client/src/main.js	hist-axis
+js	client/src/main.js	hist-cap
+js	client/src/main.js	https://github.com/TanmoyP/klarbase
+js	client/src/main.js	in-game
+js	client/src/main.js	k' + (j < i ?
+js	client/src/main.js	k') dot(
+js	client/src/main.js	klarbase.v2.dailies
+js	client/src/main.js	klarbase.v2.effort
+js	client/src/main.js	klarbase.v2.guideSeen
+js	client/src/main.js	klarbase.v2.progress
+js	client/src/main.js	klarbase.v2.settings
+js	client/src/main.js	left
+js	client/src/main.js	m': case
+js	client/src/main.js	margin-top:10px
+js	client/src/main.js	margin-top:14px
+js	client/src/main.js	meta
+js	client/src/main.js	modal
+js	client/src/main.js	move
+js	client/src/main.js	name
+js	client/src/main.js	next
+js	client/src/main.js	next move
+js	client/src/main.js	night-market
+js	client/src/main.js	official
+js	client/src/main.js	omit
+js	client/src/main.js	onlineGrid
+js	client/src/main.js	p' || ch ===
+js	client/src/main.js	palm-plates
+js	client/src/main.js	play
+js	client/src/main.js	primary
+js	client/src/main.js	privacy
+js	client/src/main.js	q': case
+js	client/src/main.js	r': case
+js	client/src/main.js	restart
+js	client/src/main.js	rgb(${f(n >> 16)},${f(n >> 8 & 255)},${f(n & 255)})
+js	client/src/main.js	right
+js	client/src/main.js	rooftops
+js	client/src/main.js	root-bridge
+js	client/src/main.js	rules
+js	client/src/main.js	s lit; light both of a Confluence isle
+js	client/src/main.js	s solvable and fair, and you
+js	client/src/main.js	s' :
+js	client/src/main.js	scr-
+js	client/src/main.js	scr-create
+js	client/src/main.js	seed par ${e.seedPar}
+js	client/src/main.js	seed par!
+js	client/src/main.js	select
+js	client/src/main.js	settling
+js	client/src/main.js	shared by
+js	client/src/main.js	siGh
+js	client/src/main.js	siGo
+js	client/src/main.js	sky-big
+js	client/src/main.js	skyClose
+js	client/src/main.js	solution
+js	client/src/main.js	span
+js	client/src/main.js	start
+js	client/src/main.js	testing your isle
+js	client/src/main.js	text-align:left
+js	client/src/main.js	the-peak
+js	client/src/main.js	title
+js	client/src/main.js	today’s hand-made isle
+js	client/src/main.js	tricky
+js	client/src/main.js	ve cleared that isle, OR you
+js	client/src/main.js	ve tried. Unlock this isle
+js	client/src/main.js	wAgain
+js	client/src/main.js	wide
+js	client/src/main.js	z': case
+js	client/src/main.js	|| ch ===
+js	client/src/main.js	} (Space) · ${h.left} to go` : `Best next move: ${glyphFor(h.move)} · ${h.left} to go`) + (unlocked(current) ?
+js	client/src/main.js	}${s.hintsUsed ? ` · ${s.hintsUsed} hint${s.hintsUsed > 1 ?
+js	client/src/main.js	}</div>
+js	client/src/main.js	}</text>
+js	client/src/main.js	~' || ch ===
+js	client/src/main.js	· best ${p.moves}
+js	client/src/main.js	— ${opened.length > 1 ?
+js	client/src/main.js	— you're among the ${Math.max(1, s.parRate)}% who hit par
+js	client/src/main.js	↑', right:
+js	client/src/main.js	■<span class="lbl"> Stop</span>
+js	client/src/main.js	▶ ${s.plays} play${s.plays > 1 ? 's' : ''}
+js	client/src/main.js	▶ 128 plays · 64% clear · 9% at par
+js	client/src/main.js	▶<span class="lbl"> Solution</span>
+js	client/src/main.js	☀ Daily
+js	client/src/main.js	☀ Daily #${d.daily.no}
+js	client/src/main.js	✦ new — no plays yet
+js	client/src/main.js	✦' : e.num)).join(
+js	client/src/main.js	💡<span class="lbl"> Tip</span>
+js	client/src/main.js	🔒<span class="lbl"> Solution</span>
+js	client/src/main.js	🔓 You’ve earned the solution for this isle
+js	client/src/main.js	🧭<span class="lbl"> Next move</span>
+js	client/src/net.js	/api
+js	client/src/net.js	http
+js	client/src/net.js	same-origin
+js	core/src/components.js	,'+n.y+
+js	core/src/components.js	,'+y+
+js	core/src/components.js	Block
+js	core/src/components.js	Column
+js	core/src/components.js	Goal
+js	core/src/components.js	Slab
+js	core/src/components.js	Spawn
+js	core/src/components.js	Stair
+js	core/src/components.js	accent
+js	core/src/components.js	column
+js	core/src/components.js	slab
+js	core/src/components.js	spawn
+js	core/src/components.js	stairs
+js	core/src/components.js	structure
+js	core/src/graph.js	+a) +
+js	core/src/graph.js	./components.js
+js	core/src/graph.js	half
+js	core/src/graph.js	illusion
+js	core/src/graph.js	illusionDenylist
+js	core/src/graph.js	stair
+js	core/src/graph.js	|'+b : b+
+js	core/src/index.js	./graph.js
+js	core/src/index.js	./isle/index.js
+js	core/src/index.js	./lattice.js
+js	core/src/index.js	./ports.js
+js	core/src/index.js	./schema.js
+js	core/src/index.js	./solve.js
+js	core/src/index.js	./validate.js
+js	core/src/isle/contrib.js	${e.text}${e.at ?
+js	core/src/isle/contrib.js	&& !e.near ?
+js	core/src/isle/contrib.js	'}column ${e.at[0] + 1}, row ${e.at[1] + 1})` :
+js	core/src/isle/contrib.js	).slice(0, 40) ||
+js	core/src/isle/contrib.js	, 'author
+js	core/src/isle/contrib.js	, 'fall
+js	core/src/isle/contrib.js	, 'theme
+js	core/src/isle/contrib.js	-').replace(/^-|-$/g,
+js	core/src/isle/contrib.js	./difficulty.js
+js	core/src/isle/contrib.js	./format.js
+js	core/src/isle/contrib.js	./rules.js
+js	core/src/isle/contrib.js	.json
+js	core/src/isle/contrib.js	: e.t ===
+js	core/src/isle/contrib.js	NFKD
+js	core/src/isle/contrib.js	T00:00:00Z
+js	core/src/isle/contrib.js	author
+js	core/src/isle/contrib.js	author must be your GitHub username
+js	core/src/isle/contrib.js	catch
+js	core/src/isle/contrib.js	catch must be plain text, up to 200 chars, no links
+js	core/src/isle/contrib.js	credit
+js	core/src/isle/contrib.js	credit must be plain text, up to 40 chars, no links
+js	core/src/isle/contrib.js	daily isle files are named isles/daily/YYYY-MM-DD.json (a real UTC date)
+js	core/src/isle/contrib.js	daily-${date}
+js	core/src/isle/contrib.js	daily-<date>
+js	core/src/isle/contrib.js	description
+js	core/src/isle/contrib.js	description must be plain text, up to 240 chars, no links
+js	core/src/isle/contrib.js	file is ${bytes} bytes — keep isles under ${CONTRIB.MAX_BYTES}
+js	core/src/isle/contrib.js	file must be a JSON object
+js	core/src/isle/contrib.js	gateway
+js	core/src/isle/contrib.js	hint must be plain text, up to 140 chars, no links
+js	core/src/isle/contrib.js	id must be "daily-${date}" to match the file name
+js	core/src/isle/contrib.js	id must be lowercase-words-with-dashes, up to 40 chars
+js	core/src/isle/contrib.js	id',
+js	core/src/isle/contrib.js	identical to an existing isle: ${existing.get(report.hash)}
+js	core/src/isle/contrib.js	missing required field "${k}"
+js	core/src/isle/contrib.js	my-isle
+js	core/src/isle/contrib.js	name must be 3–40 letters, numbers, spaces or simple punctuation
+js	core/src/isle/contrib.js	node tools/check-isles.mjs
+js	core/src/isle/contrib.js	not solvable — no sequence of moves reaches a goal
+js	core/src/isle/contrib.js	object
+js	core/src/isle/contrib.js	par is ${doc.par} but the shortest solution is ${r.par} moves (e.g. "${r.solution}")
+js	core/src/isle/contrib.js	par must be an integer
+js	core/src/isle/contrib.js	rows
+js	core/src/isle/contrib.js	schemaVersion
+js	core/src/isle/contrib.js	schemaVersion must be ${ISLE_SCHEMA} (one isle, "rows") or ${MAP_SCHEMA} (a map, "storeys")
+js	core/src/isle/contrib.js	solution "${doc.solution}" does not reach a goal${sim.failedAt >= 0 ?
+js	core/src/isle/contrib.js	solution has extra moves after the goal is reached
+js	core/src/isle/contrib.js	solution is ${doc.solution.length} moves but par is ${r.par} — submit a shortest solution (e.g. "${r.solution}")
+js	core/src/isle/contrib.js	solution must be a string of U D L R X
+js	core/src/isle/contrib.js	storey ${e.at[2] + 1},
+js	core/src/isle/contrib.js	storeys
+js	core/src/isle/contrib.js	string
+js	core/src/isle/contrib.js	the solution is plain flat walking — use at least one mechanic (ramps, ledges, crates, ice, plates, levers, keys, portals, gateways, scales, balloons, stones, buoys, gusts or hazards)
+js	core/src/isle/contrib.js	theme
+js	core/src/isle/contrib.js	theme must be one of: ${THEMES.join(', ')}
+js	core/src/isle/contrib.js	tier must be one of: ${TIER_IDS.join(', ')}
+js	core/src/isle/contrib.js	too large to verify — the solver gave up after ${CONTRIB.MAX_STATES} states; make it smaller
+js	core/src/isle/contrib.js	too short: the best solution is ${r.par} moves — a puzzle needs at least ${CONTRIB.MIN_PAR}
+js	core/src/isle/contrib.js	tp' && e.gateway ?
+js	core/src/isle/contrib.js	tp',
+js	core/src/isle/contrib.js	unknown field "${k}" (allowed: ${[...required, ...spec.OPTIONAL].join(', ')})
+js	core/src/isle/contrib.js	walk:
+js	core/src/isle/contrib.js	walk:down
+js	core/src/isle/contrib.js	walk:ramp
+js	core/src/isle/daily.js	: ''} · ${'★'.repeat(stars)}${'☆'.repeat(3 - stars)}
+js	core/src/isle/daily.js	Klarbase Daily #${no} · ${moves} moves${par ?
+js	core/src/isle/daily.js	Klarbase Daily #42 · 18 moves (par 17) · ★★☆
+js	core/src/isle/daily.js	keys
+js	core/src/isle/daily.js	klar
+js	core/src/isle/difficulty.js	${audit.routes > 999 ? 'Many' : audit.routes} shortest routes — narrow it to one, so there's a single clever answer.
+js	core/src/isle/difficulty.js	0% cleared
+js	core/src/isle/difficulty.js	<bucket>
+js	core/src/isle/difficulty.js	<moves>
+js	core/src/isle/difficulty.js	Breeze
+js	core/src/isle/difficulty.js	Easy
+js	core/src/isle/difficulty.js	Few positions to explore — a second crate or a lever multiplies the possibilities.
+js	core/src/isle/difficulty.js	Fiendish
+js	core/src/isle/difficulty.js	Hard
+js	core/src/isle/difficulty.js	Mythic
+js	core/src/isle/difficulty.js	No move can go wrong — put a crate near water or a ledge, where one careless push ruins the run.
+js	core/src/isle/difficulty.js	Only ${audit.traps} risky step${audit.traps > 1 ? 's' : ''} on the best route — add another place where the order matters.
+js	core/src/isle/difficulty.js	The best route never steps away from the star — make the solution start by going the "wrong" way.
+js	core/src/isle/difficulty.js	Tricky
+js	core/src/isle/difficulty.js	Walking straight toward the star wins — block the direct line so the way round is the way in.
+js	core/src/isle/difficulty.js	You called it ${d.name}, but the audit reads ${a.name}${audit.greedy ? ' — walking toward the star wins' : ''}. Players will settle it either way.
+js	core/src/isle/difficulty.js	You called it ${d.name}, but the audit reads ${a.name}. Players will settle it either way.
+js	core/src/isle/difficulty.js	always step closer to the goal, never revisit
+js	core/src/isle/difficulty.js	breeze
+js	core/src/isle/difficulty.js	easy
+js	core/src/isle/difficulty.js	fiendish
+js	core/src/isle/difficulty.js	hard
+js	core/src/isle/difficulty.js	hardness
+js	core/src/isle/difficulty.js	id` is what isle files store in
+js	core/src/isle/difficulty.js	mythic
+js	core/src/isle/difficulty.js	too big to map
+js	core/src/isle/difficulty.js	traps
+js	core/src/isle/format.js	#': { kind:
+js	core/src/isle/format.js	*': { kind:
+js	core/src/isle/format.js	+': { kind:
+js	core/src/isle/format.js	, 'D
+js	core/src/isle/format.js	, 'r
+js	core/src/isle/format.js	, blow:
+js	core/src/isle/format.js	, buoy:true, label:
+js	core/src/isle/format.js	, crate:true, label:
+js	core/src/isle/format.js	, dir:
+js	core/src/isle/format.js	, flora:true, label:
+js	core/src/isle/format.js	, key:true, label:
+js	core/src/isle/format.js	, label:
+js	core/src/isle/format.js	, on:false, label:
+js	core/src/isle/format.js	, on:true, label:
+js	core/src/isle/format.js	, pair:
+js	core/src/isle/format.js	, pan:
+js	core/src/isle/format.js	, roll:
+js	core/src/isle/format.js	, seed:true, label:
+js	core/src/isle/format.js	, start:true, label:
+js	core/src/isle/format.js	,': { kind:
+js	core/src/isle/format.js	- ,2 G2 ,2 -
+js	core/src/isle/format.js	-': { kind:
+js	core/src/isle/format.js	. S . > .1
+js	core/src/isle/format.js	.': { kind:
+js	core/src/isle/format.js	../schema.js
+js	core/src/isle/format.js	<': { kind:
+js	core/src/isle/format.js	=': { kind:
+js	core/src/isle/format.js	>': { kind:
+js	core/src/isle/format.js	B': { kind:
+js	core/src/isle/format.js	C': { kind:
+js	core/src/isle/format.js	D', D:
+js	core/src/isle/format.js	D': { kind:
+js	core/src/isle/format.js	E_AT
+js	core/src/isle/format.js	E_CRATES
+js	core/src/isle/format.js	E_CYCLE
+js	core/src/isle/format.js	E_GATE
+js	core/src/isle/format.js	E_GOAL
+js	core/src/isle/format.js	E_GUSTS
+js	core/src/isle/format.js	E_HAZARD_LANE
+js	core/src/isle/format.js	E_HAZARD_PIECE
+js	core/src/isle/format.js	E_HAZARD_START
+js	core/src/isle/format.js	E_OVERLAP
+js	core/src/isle/format.js	E_PANS
+js	core/src/isle/format.js	E_PAN_H
+js	core/src/isle/format.js	E_PAN_PLAIN
+js	core/src/isle/format.js	E_PORTAL
+js	core/src/isle/format.js	E_RAGGED
+js	core/src/isle/format.js	E_ROWS
+js	core/src/isle/format.js	E_SEEDS
+js	core/src/isle/format.js	E_SIZE
+js	core/src/isle/format.js	E_START
+js	core/src/isle/format.js	E_STOREYS
+js	core/src/isle/format.js	E_THEME
+js	core/src/isle/format.js	E_TOKEN
+js	core/src/isle/format.js	E_V6
+js	core/src/isle/format.js	G': { kind:
+js	core/src/isle/format.js	H': { kind:
+js	core/src/isle/format.js	I': { kind:
+js	core/src/isle/format.js	K': { kind:
+js	core/src/isle/format.js	L': { kind:
+js	core/src/isle/format.js	P': { kind:
+js	core/src/isle/format.js	Pip would start inside a hazard
+js	core/src/isle/format.js	S': { kind:
+js	core/src/isle/format.js	Sky Scales need both pans — at least one a and one b
+js	core/src/isle/format.js	T .1 ^1 .1 T
+js	core/src/isle/format.js	T': { kind:
+js	core/src/isle/format.js	Untitled isle
+js	core/src/isle/format.js	Y': { kind:
+js	core/src/isle/format.js	^': { kind:
+js	core/src/isle/format.js	_': { kind:
+js	core/src/isle/format.js	a crate or buoy starts in a hazard’s path — move it off the boulder lane or thorn arm
+js	core/src/isle/format.js	a gate (D) needs at least one plate (o) to open it
+js	core/src/isle/format.js	a pan is plain ground — it cannot also be water, ice, a plate, a crate, a start, a goal or a key
+js	core/src/isle/format.js	a pan needs a base height from 1 to 4 (it moves one level down and up)
+js	core/src/isle/format.js	a': { kind:
+js	core/src/isle/format.js	arches come in pairs — each of p / q / r appears 0 or 2 times
+js	core/src/isle/format.js	at most ${MAX_CRATES} crates and buoys in all
+js	core/src/isle/format.js	at most ${MAX_SEEDS} seeds
+js	core/src/isle/format.js	b': { kind:
+js	core/src/isle/format.js	e': { kind:
+js	core/src/isle/format.js	each storey needs "at": [x, z, altitude] — whole numbers, x and z 0–${MAX_AT}, altitude 0–${MAX_ALT}
+js	core/src/isle/format.js	every row needs the same number of tiles
+js	core/src/isle/format.js	hazards must repeat within ${MAX_CYCLE} moves together — shorten a boulder lane (at most 7 tiles) or use fewer kinds
+js	core/src/isle/format.js	isle must be at most ${MAX_W} wide and ${MAX_H} tall
+js	core/src/isle/format.js	k': { kind:
+js	core/src/isle/format.js	mountain
+js	core/src/isle/format.js	n': { kind:
+js	core/src/isle/format.js	needs at least one goal (G)
+js	core/src/isle/format.js	needs exactly one start (S)
+js	core/src/isle/format.js	night
+js	core/src/isle/format.js	o': { kind:
+js	core/src/isle/format.js	oasis
+js	core/src/isle/format.js	p': { kind:
+js	core/src/isle/format.js	pans (a, b), arch C (r), balloon posts (B), stone piles (P), buoys (u), vents (n e s w) and seeds (+) need an archipelago map (schemaVersion 6 with "storeys")
+js	core/src/isle/format.js	q': { kind:
+js	core/src/isle/format.js	r': { kind:
+js	core/src/isle/format.js	rows must be a non-empty list of strings
+js	core/src/isle/format.js	s': { kind:
+js	core/src/isle/format.js	storeys must be a list of 1 to ${MAX_STOREYS} isles, each { rows, at:[x, z, altitude] }
+js	core/src/isle/format.js	storeys that overlap on the map must float at least ${STOREY_GAP} levels apart
+js	core/src/isle/format.js	two boulder lanes cross or share a tile
+js	core/src/isle/format.js	two gusts cross or overlap — each tile may be in at most one gust line
+js	core/src/isle/format.js	u': { kind:
+js	core/src/isle/format.js	unknown theme
+js	core/src/isle/format.js	unknown tile
+js	core/src/isle/format.js	v': { kind:
+js	core/src/isle/format.js	w': { kind:
+js	core/src/isle/format.js	~': { kind:
+js	core/src/isle/index.js	./contrib.js
+js	core/src/isle/index.js	./daily.js
+js	core/src/isle/index.js	./isles.js
+js	core/src/isle/index.js	./sky.js
+js	core/src/isle/isles.js	./official.js
+js	core/src/isle/isles.js	twist:true
+js	core/src/isle/official.js	# # # # K #
+js	core/src/isle/official.js	# # G # #
+js	core/src/isle/official.js	# # G # # #
+js	core/src/isle/official.js	# . * . C *
+js	core/src/isle/official.js	# . C . # .
+js	core/src/isle/official.js	# . S . . #
+js	core/src/isle/official.js	# D # . .
+js	core/src/isle/official.js	# D * * * #
+js	core/src/isle/official.js	# D . - . C .
+js	core/src/isle/official.js	# D o - C .
+js	core/src/isle/official.js	# D o C .
+js	core/src/isle/official.js	# G # # # #
+js	core/src/isle/official.js	# G # , T
+js	core/src/isle/official.js	# G # - . .
+js	core/src/isle/official.js	# G # - . . .
+js	core/src/isle/official.js	# G # . .
+js	core/src/isle/official.js	# K # - -
+js	core/src/isle/official.js	* * . C . .
+js	core/src/isle/official.js	* * D * * *
+js	core/src/isle/official.js	*3 *3 *3 C3 *3 *3
+js	core/src/isle/official.js	*3 C3 *3 *3 #3 *3
+js	core/src/isle/official.js	, "cslide
+js	core/src/isle/official.js	, "door
+js	core/src/isle/official.js	, "gate
+js	core/src/isle/official.js	, "sink
+js	core/src/isle/official.js	, . . ~ C . -
+js	core/src/isle/official.js	, G , - -
+js	core/src/isle/official.js	, G . T -
+js	core/src/isle/official.js	, q - - . .
+js	core/src/isle/official.js	,3 S3 .3 .3 .3 ,3
+js	core/src/isle/official.js	- # # D # . -
+js	core/src/isle/official.js	- #2 .3 .3 p3
+js	core/src/isle/official.js	- , G , - - -
+js	core/src/isle/official.js	- , G T -
+js	core/src/isle/official.js	- ,1 T1 - -
+js	core/src/isle/official.js	- - # G # - -
+js	core/src/isle/official.js	- - , C , . . . .
+js	core/src/isle/official.js	- - - , G - -
+js	core/src/isle/official.js	- - - , G .
+js	core/src/isle/official.js	- - - - - - - G
+js	core/src/isle/official.js	- - - - - - - G - - -
+js	core/src/isle/official.js	- - - - - .3 S3 .3
+js	core/src/isle/official.js	- - - - - G1 -
+js	core/src/isle/official.js	- - - - - S - -
+js	core/src/isle/official.js	- - - - .3 .3 C3 L3
+js	core/src/isle/official.js	- - - - G - -
+js	core/src/isle/official.js	- - - - G - - -
+js	core/src/isle/official.js	- - - - G1 -
+js	core/src/isle/official.js	- - - - p T
+js	core/src/isle/official.js	- - - . p .
+js	core/src/isle/official.js	- - - D - - -
+js	core/src/isle/official.js	- - - D - - - - -
+js	core/src/isle/official.js	- - - G -
+js	core/src/isle/official.js	- - - G - -
+js	core/src/isle/official.js	- - - G - - -
+js	core/src/isle/official.js	- - - G - - - - -
+js	core/src/isle/official.js	- - - G3 - k2 q2
+js	core/src/isle/official.js	- - .2 .2 K2 .2 -
+js	core/src/isle/official.js	- - .3 .3 - - G3
+js	core/src/isle/official.js	- - G1 -
+js	core/src/isle/official.js	- - G2 - - -
+js	core/src/isle/official.js	- - G3 - -
+js	core/src/isle/official.js	- - H1 .1 .1 .1 .1 .1
+js	core/src/isle/official.js	- - S - - - - -
+js	core/src/isle/official.js	- - T . - -
+js	core/src/isle/official.js	- - b2 a2 . G
+js	core/src/isle/official.js	- . . . S . -
+js	core/src/isle/official.js	- . C # . . .
+js	core/src/isle/official.js	- . C L -
+js	core/src/isle/official.js	- . H + -
+js	core/src/isle/official.js	- . S . -
+js	core/src/isle/official.js	- . S . .
+js	core/src/isle/official.js	- .1 .1 .1 p1
+js	core/src/isle/official.js	- .1 T1 .1 .1
+js	core/src/isle/official.js	- .2 C2 b2 -
+js	core/src/isle/official.js	- .3 - - - - C3
+js	core/src/isle/official.js	- .3 - - G2
+js	core/src/isle/official.js	- .3 .3 C3 .3 #3 .3 - ,1 -
+js	core/src/isle/official.js	- .3 .3 T3 .3 .3 - - - -
+js	core/src/isle/official.js	- .3 C3 .3 - -
+js	core/src/isle/official.js	- C1 ~1 .1 b1
+js	core/src/isle/official.js	- G # -
+js	core/src/isle/official.js	- G - - - - - -
+js	core/src/isle/official.js	- H . L . . -
+js	core/src/isle/official.js	- S . T
+js	core/src/isle/official.js	- S3 .3 C3 .3 .3 w3
+js	core/src/isle/official.js	- T . . S
+js	core/src/isle/official.js	- T . S .
+js	core/src/isle/official.js	- T3 - p3
+js	core/src/isle/official.js	- T3 .3 - - -
+js	core/src/isle/official.js	- a2 .3 .3
+js	core/src/isle/official.js	- ~ . . S . -
+js	core/src/isle/official.js	. # _ # . S -
+js	core/src/isle/official.js	. # p - . k
+js	core/src/isle/official.js	. * * * * o
+js	core/src/isle/official.js	. , . C . .
+js	core/src/isle/official.js	. - . Y . . ,
+js	core/src/isle/official.js	. . - . p
+js	core/src/isle/official.js	. . . # . C ~
+js	core/src/isle/official.js	. . . # G #
+js	core/src/isle/official.js	. . . - . o ~
+js	core/src/isle/official.js	. . . - o .
+js	core/src/isle/official.js	. . . C .
+js	core/src/isle/official.js	. . . C . C .
+js	core/src/isle/official.js	. . . C u . . . . . #
+js	core/src/isle/official.js	. . . ~ k
+js	core/src/isle/official.js	. . .1 .1 C1 .1
+js	core/src/isle/official.js	. . C .
+js	core/src/isle/official.js	. . D1 .1 . .
+js	core/src/isle/official.js	. . K . . .
+js	core/src/isle/official.js	. . L . .
+js	core/src/isle/official.js	. . S . .
+js	core/src/isle/official.js	. . S . . o
+js	core/src/isle/official.js	. . ^ C1 C1 S1
+js	core/src/isle/official.js	. . q - . .
+js	core/src/isle/official.js	. C . # D #
+js	core/src/isle/official.js	. C . . - - -
+js	core/src/isle/official.js	. C . . . #
+js	core/src/isle/official.js	. C . S - - -
+js	core/src/isle/official.js	. C ~ , . . -
+js	core/src/isle/official.js	. C ~ - o C S
+js	core/src/isle/official.js	. C ~ . , T o
+js	core/src/isle/official.js	. T - C .
+js	core/src/isle/official.js	. T . - - -
+js	core/src/isle/official.js	. T . - p .
+js	core/src/isle/official.js	. T C ~ .
+js	core/src/isle/official.js	. o * S * #
+js	core/src/isle/official.js	. o . . o .
+js	core/src/isle/official.js	. ~ . o . . ~
+js	core/src/isle/official.js	.1 .1 ,1 - - G -
+js	core/src/isle/official.js	.1 .1 .1 C1 .1
+js	core/src/isle/official.js	.1 .1 C1 .1 .1
+js	core/src/isle/official.js	.1 .1 ~1 G1
+js	core/src/isle/official.js	.1 C1 - b1 .1
+js	core/src/isle/official.js	.1 C1 .1 - b1 .1
+js	core/src/isle/official.js	.1 C1 .1 .1 .1 -
+js	core/src/isle/official.js	.1 C1 .1 .1 .1 .1
+js	core/src/isle/official.js	.1 T1 .1 .1 b1 .1
+js	core/src/isle/official.js	.2 .2 .2 q2
+js	core/src/isle/official.js	.2 .2 C2 .2 #2
+js	core/src/isle/official.js	.2 C2 .2 .2 .2 - -
+js	core/src/isle/official.js	.2 C2 .2 .2 .2 - G1
+js	core/src/isle/official.js	.2 C2 .2 .2 b1
+js	core/src/isle/official.js	.2 C2 a2 - -
+js	core/src/isle/official.js	.2 T2 T2 #2 #2
+js	core/src/isle/official.js	.3 .3 #3 - T2
+js	core/src/isle/official.js	.3 .3 .3 b3 - - -
+js	core/src/isle/official.js	.3 .3 .3 b3 - T2
+js	core/src/isle/official.js	.3 .3 a2 .3 G3
+js	core/src/isle/official.js	.3 C3 .3 - G2
+js	core/src/isle/official.js	.3 C3 .3 a2 .2
+js	core/src/isle/official.js	.3 C3 .3 b3 - - -
+js	core/src/isle/official.js	A balloon weighs nothing — not even enough to press a plate.
+js	core/src/isle/official.js	A bridge that sinks with a crate on it keeps the crate.
+js	core/src/isle/official.js	A buoy on a pan lifts it. Pip and a buoy together weigh nothing.
+js	core/src/isle/official.js	A crate can’t go anywhere a thorn arm can reach — not even into water.
+js	core/src/isle/official.js	A crate pushed into water sinks and becomes a stepping stone. Line it up first.
+js	core/src/isle/official.js	A stone weighs two. Take one from the pile before you ride the scales.
+js	core/src/isle/official.js	A thorn arm reaches two tiles straight out. The tiles between its arms are always safe.
+js	core/src/isle/official.js	An arch catches whatever the ice carries, but only you go through.
+js	core/src/isle/official.js	Arrive through the arch, then build your own way across.
+js	core/src/isle/official.js	B3 *3 *3 *3 C3 w3
+js	core/src/isle/official.js	B3 .3 .3 .3 b2 w3 -
+js	core/src/isle/official.js	B3 D3 - - - - -
+js	core/src/isle/official.js	Ballast
+js	core/src/isle/official.js	Balloons, stones, buoys and gusts: what Pip carries decides where Pip can go.
+js	core/src/isle/official.js	Both bridges must be up at once. A crate on a sinking bridge stays behind as a block.
+js	core/src/isle/official.js	Brace
+js	core/src/isle/official.js	Bramble Bridge
+js	core/src/isle/official.js	Buoy Bay
+js	core/src/isle/official.js	Buoys float up a step that crates can’t climb — and they float on water.
+js	core/src/isle/official.js	C1 .1 .1 .1 .1 .1
+js	core/src/isle/official.js	C3 C3 .3 .3 - - -
+js	core/src/isle/official.js	Canal Lift
+js	core/src/isle/official.js	Clear the walkway — but never push the crate where you still need to walk.
+js	core/src/isle/official.js	Coconut Key
+js	core/src/isle/official.js	Confluence
+js	core/src/isle/official.js	Count your stops — the shortest route zig-zags.
+js	core/src/isle/official.js	Counterweight
+js	core/src/isle/official.js	Crates can be pushed off a ledge too. Choose where it lands.
+js	core/src/isle/official.js	Crates can drop off a roof, but they never come back up.
+js	core/src/isle/official.js	Crates can't take the arch. Whatever weighs the far pan must be set before you leave.
+js	core/src/isle/official.js	Crosswalk
+js	core/src/isle/official.js	DDRURDLLULDXURDRURDD
+js	core/src/isle/official.js	DLLLRUUUURDLDDDLRRRULDLLULURUU
+js	core/src/isle/official.js	DLXRRURRRLLLDRLLLXRUULXRDRRRRDDDD
+js	core/src/isle/official.js	DRDRRDUXRRUUU
+js	core/src/isle/official.js	DRRUUURRRDDLDLRURUULLLDDRDRULLDLLDUUURDRRRU
+js	core/src/isle/official.js	DRUURDLDRURRRUU
+js	core/src/isle/official.js	DXRRRDURLLLLXRDDLXRUURRDRDDD
+js	core/src/isle/official.js	Drift
+js	core/src/isle/official.js	Drowned Gangway
+js	core/src/isle/official.js	Each flip raises one bridge and sinks another. Think two flips ahead.
+js	core/src/isle/official.js	Every door wants a key. Some keys want a bridge first.
+js	core/src/isle/official.js	Every slide ends at a rock. Choose your stops.
+js	core/src/isle/official.js	Everything you have learned, on one mountain.
+js	core/src/isle/official.js	Fern Gate
+js	core/src/isle/official.js	First Frost
+js	core/src/isle/official.js	First Steps
+js	core/src/isle/official.js	Follow the boulder closely — and find a nook before it comes back.
+js	core/src/isle/official.js	Frost Ferry
+js	core/src/isle/official.js	Frost Mirage
+js	core/src/isle/official.js	Frozen Gate
+js	core/src/isle/official.js	G , = . L
+js	core/src/isle/official.js	G . - - . q
+js	core/src/isle/official.js	G . .1 .1 .1
+js	core/src/isle/official.js	G . K . . k
+js	core/src/isle/official.js	G K . - q .
+js	core/src/isle/official.js	G2 .2 - -
+js	core/src/isle/official.js	G2 _2 a2 =3 .3 C3 .3 b3
+js	core/src/isle/official.js	G3 <2 .2 .2 .2
+js	core/src/isle/official.js	Garden Lift
+js	core/src/isle/official.js	Gates open while every plate is pressed — and you can only stand in one place.
+js	core/src/isle/official.js	Glacier Maze
+js	core/src/isle/official.js	Glacier Stops
+js	core/src/isle/official.js	Glide or Push
+js	core/src/isle/official.js	H . . . . # . - .
+js	core/src/isle/official.js	Hanging Gardens
+js	core/src/isle/official.js	Heavy Heart
+js	core/src/isle/official.js	Height is range: the higher the pan, the farther the glide.
+js	core/src/isle/official.js	High Arch
+js	core/src/isle/official.js	Holding a balloon, Pip is too light to push anything.
+js	core/src/isle/official.js	Ice keeps you sliding. Rocks are your brakes.
+js	core/src/isle/official.js	In Its Wake
+js	core/src/isle/official.js	LDDRRDLULDUUURDDDDLLULDLURRXLLUURUU
+js	core/src/isle/official.js	LDRURUUURDLULDRDLLUU
+js	core/src/isle/official.js	LLUDRRUULUULLLLRRRRRRUULLUU
+js	core/src/isle/official.js	LURU
+js	core/src/isle/official.js	LUURXLUURXLLLL
+js	core/src/isle/official.js	Lagoon Locks
+js	core/src/isle/official.js	Ledge Drop
+js	core/src/isle/official.js	Let It Go
+js	core/src/isle/official.js	Lever Lane
+js	core/src/isle/official.js	Lift Off
+js	core/src/isle/official.js	Load the lower isle to lift the upper one.
+js	core/src/isle/official.js	Low Tide
+js	core/src/isle/official.js	Mossy Crate
+js	core/src/isle/official.js	Needle’s Eye
+js	core/src/isle/official.js	Neither the boulder’s lane nor the thorn’s reach will take a crate. Find the one gap between them.
+js	core/src/isle/official.js	Night Market
+js	core/src/isle/official.js	No push can lift a crate. A pan can — if it's loaded before the other side is.
+js	core/src/isle/official.js	No rock where you need one? Bring a crate.
+js	core/src/isle/official.js	On ice you never stop where you’d like, but the wind always gets the last word.
+js	core/src/isle/official.js	On ice, a push is a promise: the crate goes until something stops it.
+js	core/src/isle/official.js	One crate lifts the bridge — until you step on it. You weigh as much as a crate.
+js	core/src/isle/official.js	One plate for the crate, one for you — so stand where the gate is close.
+js	core/src/isle/official.js	One plate here, one across the arches. The crate cannot travel — you can.
+js	core/src/isle/official.js	Only a stone is heavy enough to push into the wind. Hands full? A pile takes it back.
+js	core/src/isle/official.js	Only one crate downstairs can reach the pan. Which one, and from where?
+js	core/src/isle/official.js	Own Weight
+js	core/src/isle/official.js	P3 .3 C3 .3 .3 a2 w3
+js	core/src/isle/official.js	P3 .3 C3 .3 o3 .3 w3
+js	core/src/isle/official.js	Palm Plates
+js	core/src/isle/official.js	Pulling a lever takes a beat — and the boulder doesn’t wait.
+js	core/src/isle/official.js	RDDLUUUU
+js	core/src/isle/official.js	RDDRUULLUURRRR
+js	core/src/isle/official.js	RDRRDRULLURRLLXRRRRRR
+js	core/src/isle/official.js	RDRRURRUULLLDRDDLLDLRUURRRU
+js	core/src/isle/official.js	RRDDLLDRRULLURRURDURRRU
+js	core/src/isle/official.js	RRDRRRUDRRDD
+js	core/src/isle/official.js	RRDXDDRD
+js	core/src/isle/official.js	RRRRDULDRRRRDDD
+js	core/src/isle/official.js	RRRRRUULUURLLLLL
+js	core/src/isle/official.js	RRRUULLDDRRDDLLULURRRDRUDDULLUL
+js	core/src/isle/official.js	RRUDLLUURRRRLLLUU
+js	core/src/isle/official.js	RRURUULDRDDLUUULU
+js	core/src/isle/official.js	RRUUDLLUURRR
+js	core/src/isle/official.js	RRUULLDLUUUU
+js	core/src/isle/official.js	RRUURUL
+js	core/src/isle/official.js	RRUUURRRURDDURRDDLLLLULDLDDRDD
+js	core/src/isle/official.js	RRUXRUU
+js	core/src/isle/official.js	RRXDRDRR
+js	core/src/isle/official.js	RRXRRR
+js	core/src/isle/official.js	RULULLDRDRURXLLURLLLLLL
+js	core/src/isle/official.js	RUUDLLLUURU
+js	core/src/isle/official.js	RUURRRRRDULLLLLDDXRRRRDDD
+js	core/src/isle/official.js	RXRRRXRR
+js	core/src/isle/official.js	Ramps only work along their slope. Find the one facing the goal.
+js	core/src/isle/official.js	Revolving Arch
+js	core/src/isle/official.js	Ride the arches out for the key, then ride them home.
+js	core/src/isle/official.js	Rolling boulders and thorn sweepers move one beat per move. Read the rings, wait a beat, never get bonked.
+js	core/src/isle/official.js	Root Bridge
+js	core/src/isle/official.js	S , . o ~ - - Y .
+js	core/src/isle/official.js	S - . - . C o
+js	core/src/isle/official.js	S . , . .
+js	core/src/isle/official.js	S . . +
+js	core/src/isle/official.js	S . . , .
+js	core/src/isle/official.js	S . . . . - - . + - -
+js	core/src/isle/official.js	S . . . p .
+js	core/src/isle/official.js	S . . Y . +
+js	core/src/isle/official.js	S . . k . .
+js	core/src/isle/official.js	S . p - - -
+js	core/src/isle/official.js	S p - . .
+js	core/src/isle/official.js	S1 - ,1 - - _ -
+js	core/src/isle/official.js	S1 .1 - C1 .1 .1
+js	core/src/isle/official.js	S1 .1 .1 - -
+js	core/src/isle/official.js	S1 .1 .1 .1 .1
+js	core/src/isle/official.js	S1 T1 .1 C1 .1 .1
+js	core/src/isle/official.js	S2 - - -
+js	core/src/isle/official.js	S2 .2 .2 - - ,1 - -
+js	core/src/isle/official.js	S2 .2 .2 - .2 a1 .1
+js	core/src/isle/official.js	S2 .2 u2 .2 -
+js	core/src/isle/official.js	S2 C2 .2 .2 b1
+js	core/src/isle/official.js	S3 .3 .3 .3 .3 - -
+js	core/src/isle/official.js	S3 .3 .3 .3 a2 .3 .3
+js	core/src/isle/official.js	S3 .3 B3 .3 - .1 G1
+js	core/src/isle/official.js	S3 .3 B3 C3 ~3 ~3 .3 - .1 G1
+js	core/src/isle/official.js	S3 .3 P3 - - -
+js	core/src/isle/official.js	S3 B3 .3 - .1 o1 D1 G1
+js	core/src/isle/official.js	S3 B3 .3 .3 .3 .3 w3
+js	core/src/isle/official.js	S3 C3 C3 .3 a2 .2
+js	core/src/isle/official.js	Sky Scales
+js	core/src/isle/official.js	Sky Scales and gateways: isles on vines, weighed against each other.
+js	core/src/isle/official.js	Slide the crate onto the plate — the ice will carry it.
+js	core/src/isle/official.js	Snowball
+js	core/src/isle/official.js	Spend a Crate
+js	core/src/isle/official.js	Spring Lock
+js	core/src/isle/official.js	Squall Line
+js	core/src/isle/official.js	Stand on the lever and press Use. Every bridge flips.
+js	core/src/isle/official.js	Stand on the post and press Use to take its balloon. Then step off the edge.
+js	core/src/isle/official.js	Standing on a plate only helps if you can stay there.
+js	core/src/isle/official.js	Step into an arch to appear at its twin.
+js	core/src/isle/official.js	Street Drop
+js	core/src/isle/official.js	Subway
+js	core/src/isle/official.js	Sunken Step
+js	core/src/isle/official.js	Sunken Well
+js	core/src/isle/official.js	Sweeper
+js	core/src/isle/official.js	T . S ,
+js	core/src/isle/official.js	T . S . #
+js	core/src/isle/official.js	T . S . . #
+js	core/src/isle/official.js	T .1 .1 .1 ^
+js	core/src/isle/official.js	T S . , .
+js	core/src/isle/official.js	T S . . T
+js	core/src/isle/official.js	T3 .3 #3 C3 .3 - -
+js	core/src/isle/official.js	T3 .3 .3 - - G2
+js	core/src/isle/official.js	T3 .3 .3 T3 - .2
+js	core/src/isle/official.js	T4 .4 .4 a3 .3
+js	core/src/isle/official.js	Tailwind
+js	core/src/isle/official.js	The Crane
+js	core/src/isle/official.js	The Peak
+js	core/src/isle/official.js	The glowing ring shows where the boulder will be next. Press Space to wait a beat.
+js	core/src/isle/official.js	The near pan sinks under you alone. Weigh down the other one first.
+js	core/src/isle/official.js	The pan at the top answers to the pan at the bottom.
+js	core/src/isle/official.js	The spring keeps the first crate it gets. Make it worth it.
+js	core/src/isle/official.js	The wind carries the buoy. A crate in the gust stills the wind behind it.
+js	core/src/isle/official.js	Three Storeys
+js	core/src/isle/official.js	Tide Lever
+js	core/src/isle/official.js	Twin Mirages
+js	core/src/isle/official.js	Two crates, two jobs: one to weigh, one to stand on.
+js	core/src/isle/official.js	Two crates, two plates, and many ways to wedge a crate in a corner.
+js	core/src/isle/official.js	Two keys, three doors. One door is a trap.
+js	core/src/isle/official.js	Two pairs of arches. Ride them in the right order.
+js	core/src/isle/official.js	Two plates, three crates. Not every crate gets to keep its place.
+js	core/src/isle/official.js	ULDRDLLLUURDULDDRLUUUUU
+js	core/src/isle/official.js	ULULUURDRDDULDDRRRLUURUU
+js	core/src/isle/official.js	URDLDRULU
+js	core/src/isle/official.js	URDRLDDRDRUUULURU
+js	core/src/isle/official.js	URRDRDDRDDRLUULUULURLLLDRRRLLDLDLLUUUU
+js	core/src/isle/official.js	URRDRULDRRULL
+js	core/src/isle/official.js	URRRURDDULLDLDDRUULURRURDDDURRU
+js	core/src/isle/official.js	URRRUUULLLL
+js	core/src/isle/official.js	URRURUULDDRDLLLRRUULLU
+js	core/src/isle/official.js	URRUULDRDLLLUUU
+js	core/src/isle/official.js	URULDLUUU
+js	core/src/isle/official.js	URULDRRDRULLLURRULU
+js	core/src/isle/official.js	URURDLULURULU
+js	core/src/isle/official.js	URUU
+js	core/src/isle/official.js	URXLUUUU
+js	core/src/isle/official.js	UULXLUU
+js	core/src/isle/official.js	UURLULDLLLUURDLDRRDRRRRULLULDUUUU
+js	core/src/isle/official.js	UURRURDRUULLLL
+js	core/src/isle/official.js	UURUURRRUULLLDLDRRLUURRRDDDLULLDDLDDDRRRRDRRRU
+js	core/src/isle/official.js	UUURRRRRDDLDRUUULLLDDDDRDD
+js	core/src/isle/official.js	Wait a Beat
+js	core/src/isle/official.js	Where two chapters meet: light both constellations to open each isle.
+js	core/src/isle/official.js	Windward
+js	core/src/isle/official.js	With a balloon you can’t walk into the wind. Quiet the vent first.
+js	core/src/isle/official.js	You can hop down a ledge, but never climb one. Take the high road.
+js	core/src/isle/official.js	^ T u .
+js	core/src/isle/official.js	^2 - a2 - -
+js	core/src/isle/official.js	blurb
+js	core/src/isle/official.js	confluence
+js	core/src/isle/official.js	e ~ ~ . ~ ~ ~ ~ ~ ~ #
+js	core/src/isle/official.js	gardens
+js	core/src/isle/official.js	id":
+js	core/src/isle/official.js	joins
+js	core/src/isle/official.js	needs
+js	core/src/isle/official.js	o . , . .
+js	core/src/isle/official.js	o . . , .
+js	core/src/isle/official.js	o . . . . .
+js	core/src/isle/official.js	p * * * * * p
+js	core/src/isle/official.js	p1 - .1 - - T1
+js	core/src/isle/official.js	p1 .1 .1 - .1
+js	core/src/isle/official.js	p1 .1 T1 .1 .1 .1
+js	core/src/isle/official.js	p2 .2 - -
+js	core/src/isle/official.js	p2 T2 T2 .2 q2
+js	core/src/isle/official.js	p3 C3 .3 - -
+js	core/src/isle/official.js	p3 T3 #3 - -
+js	core/src/isle/official.js	q1 .1 .1 .1 .1 .1 -
+js	core/src/isle/official.js	q2 - .3 - -
+js	core/src/isle/official.js	q4 .4 #4 - G3
+js	core/src/isle/official.js	s `catch` note and the chapters
+js	core/src/isle/official.js	seedPar
+js	core/src/isle/official.js	tp",
+js	core/src/isle/official.js	twist
+js	core/src/isle/official.js	windward
+js	core/src/isle/official.js	~ . C L . C .
+js	core/src/isle/official.js	~ . p - p . .
+js	core/src/isle/official.js	~ C . .
+js	core/src/isle/official.js	~ ~ ~ . L
+js	core/src/isle/official.js	~2 .2 .2 ~2 b2 - -
+js	core/src/isle/official.js	~2 .2 C2 ~2 ~2 - -
+js	core/src/isle/rules.js	${s.p}|${sorted(s.crates)}|${sorted(s.filled)}|${s.keys}|${sorted(s.got)}|${sorted(s.opened)}|${s.flip?1:0}|${s.hold}|${sorted(s.buoys)}|${sorted(s.posts)}|${s.t}
+js	core/src/isle/rules.js	'; events.push({ t:
+js	core/src/isle/rules.js	, 'L
+js	core/src/isle/rules.js	, at, what:
+js	core/src/isle/rules.js	a') a += w; else if(p ===
+js	core/src/isle/rules.js	from
+js	core/src/isle/rules.js	near
+js	core/src/isle/rules.js	s tiles. The turn counter (mod the hazards
+js	core/src/isle/rules.js	tilt
+js	core/src/isle/rules.js	tp' || e.t ===
+js	core/src/isle/rules.js	tp', from:i, to:tw, gateway:true } : { t:
+js	core/src/isle/rules.js	|| (e.t ===
+js	core/src/isle/sky.js	joins:[a, b]
+js	core/src/lattice.js	cell already claimed
+js	core/src/lattice.js	must touch an existing plot
+js	core/src/lattice.js	plot already holds a puzzle — placements are immutable
+js	core/src/lattice.js	the world starts at (0,0)
+js	core/src/lattice.js	you do not own this cell
+js	core/src/ports.js	s', e:
+js	core/src/ports.js	the neighbour's ${OPPOSITE[edge]} edge has a walkway at cell ${p.off}, level ${p.lvl/2} — your puzzle has no matching walkway there
+js	core/src/ports.js	your ${edge} edge has a walkway at cell ${p.off}, level ${p.lvl/2} — the neighbour has no matching walkway there
+js	core/src/schema.js	+x.yaw).localeCompare(y.a+
+js	core/src/schema.js	+y.b+
+js	core/src/schema.js	0')).join(
+js	core/src/schema.js	:' + stableStringify(v[k])).join(
+js	core/src/schema.js	[' + v.map(stableStringify).join(
+js	core/src/schema.js	|'+x.b+
+js	core/src/solve.js	,'+(c.p[1]+1)+
+js	core/src/solve.js	solve
+js	core/src/solve.js	solveAtYaw
+js	core/src/validate.js	E_BOUNDS
+js	core/src/validate.js	E_FLOATING
+js	core/src/validate.js	E_NO_GOAL
+js	core/src/validate.js	E_SHAPE
+js	core/src/validate.js	E_SPAWN_COUNT
+js	core/src/validate.js	E_TOO_MANY
+js	core/src/validate.js	E_TYPE
+js	core/src/validate.js	W_STAIR_OPEN
+js	core/src/validate.js	floating — nothing holds it up
+js	core/src/validate.js	malformed component
+js	core/src/validate.js	needs at least one goal
+js	core/src/validate.js	needs exactly one spawn
+js	core/src/validate.js	outside the plot
+js	core/src/validate.js	solid below
+js	core/src/validate.js	stair connects to nothing — it only joins end to end
+js	core/src/validate.js	too many components
+js	core/src/validate.js	two things in one cell
+js	core/src/validate.js	unknown component type
+text	index.html	Anonymous play totals
+text	index.html	Choose an isle
+text	index.html	Community
+text	index.html	Continue ▶
+text	index.html	Feedback
+text	index.html	Getting your data deleted
+text	index.html	Hint
+text	index.html	IP address and browser (user agent)
+text	index.html	If you sign in
+text	index.html	Isle builder
+text	index.html	Isles you share online are public, with your name as their maker. Reports you file on isles are kept with your account.
+text	index.html	Klarbase
+text	index.html	Klarbase is a small open-source game made by one person. It collects as little as it can, sells nothing and shows no ads. This page lists everything that is stored.
+text	index.html	Klarbase — tiny isles, clever paths
+text	index.html	Last updated 25 October 2026.
+text	index.html	No account needed to play or build. Sign in only to share online.
+text	index.html	Official
+text	index.html	On your device
+text	index.html	Page views
+text	index.html	Privacy
+text	index.html	Restart
+text	index.html	Send feedback
+text	index.html	Signing in is only needed to share isles online. When you sign in with GitHub or Google we receive and keep:
+text	index.html	Solution
+text	index.html	Space
+text	index.html	The game runs on Railway, the database on Neon, and all traffic passes through Cloudflare. GitHub and Google handle sign-in. To protect the server from abuse, it remembers IP addresses in memory for up to an hour to limit how often one address can send requests; they are never written down.
+text	index.html	The only cookie is the sign-in one, and local storage only holds your own game. Both are strictly necessary for what you asked the game to do, so there's nothing to consent to.
+text	index.html	Tiny floating isles · clever little paths
+text	index.html	Turn
+text	index.html	Undo
+text	index.html	Visits are counted with Cloudflare Web Analytics, which uses no cookies and doesn't track you across sites.
+text	index.html	WASD
+text	index.html	When you send feedback we store your message, the page you sent it from, the reply email if you give one, and your account if you're signed in. No IP address is stored.
+text	index.html	Who handles the data
+text	index.html	Why there's no cookie banner
+text	index.html	Your progress (stars, best moves and times), settings, the isle you're building, your Daily stars and the GitHub name you type for exports are kept in your browser's local storage. They never leave your device. Clearing this site's data in your browser removes them.
+text	index.html	for each session, the
+text	index.html	from that account, and the link to it (including the sign-in tokens it hands us);
+text	index.html	it was started from, used to keep accounts secure. Signing out ends the session.
+text	index.html	keys
+text	index.html	moves
+text	index.html	name, email address and profile picture
+text	index.html	open an issue on GitHub
+text	index.html	paint tiles · test · share
+text	index.html	seeds
+text	index.html	session cookie
+text	index.html	that keeps you signed in — the only cookie Klarbase sets;
+text	index.html	time
+text	index.html	your
+text	index.html	▶ Play
+text	index.html	☀ Daily
+text	index.html	☁ Community
+text	index.html	✎ Create
