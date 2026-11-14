@@ -18,8 +18,16 @@ history.replaceState = (s, t, u) => origReplace(s, t, fixPath(u));
 window.__koPath = () => { const p = location.pathname; return under(p) ? (p.slice(BASE.length) || '/') : p; };
 
 // 2) 사전
+// 따옴표·줄표·공백 표기가 달라도 같은 문구로 보이도록 정규화한다
+const canon = s => s
+  .replace(/[\u2018\u2019]/g, "'")
+  .replace(/[\u201c\u201d]/g, '"')
+  .replace(/[\u2013\u2014]/g, '-')
+  .replace(/\u00a0/g, ' ')
+  .replace(/\s+/g, ' ')
+  .trim();
 const MAP = new Map();
-for (const p of [dUi, dIsles, dBuilder, dGuide, dExtra]) for (const k of Object.keys(p)) MAP.set(k, p[k]);
+for (const p of [dUi, dIsles, dBuilder, dGuide, dExtra]) for (const k of Object.keys(p)) MAP.set(canon(k), p[k]);
 const T = s => (MAP.get(s) != null ? MAP.get(s) : s);
 const lockKo = s => {
   const m = /^ 🔒 Light (.+) (\d+)\/(\d+) · (.+) (\d+)\/(\d+)$/.exec(s);
@@ -58,14 +66,15 @@ const WORDS = [
   [/\bTricky\b/g, '까다로움'], [/\bHard\b/g, '어려움'], [/\bFiendish\b/g, '가혹함'],
   [/\bMythic\b/g, '신화'], [/\bWin\b/g, '승리'],
 ];
-const norm = s => s.replace(/\s+/g, ' ').trim();
+const norm = canon;
 const wordPass = t => {
   if (t.length > 60) return null;
   let out = t;
   for (const [re, ko] of WORDS) out = out.replace(re, ko);
   return out === t ? null : out;
 };
-const lookup = t => {
+const lookup = raw => {
+  const t = canon(raw);
   const v = MAP.get(t);
   if (v != null) return v;
   for (const [re, fn] of RULES) { const m = re.exec(t); if (m) return fn(m); }
@@ -179,6 +188,8 @@ document.documentElement.lang = mode === 'ko' ? 'ko' : 'en';
 function start(){
   mount();
   walk(document.body);
+  // 화면이 나중에 덧그려지는 자리를 놓치지 않도록 주기적으로 다시 훑는다
+  setInterval(() => { try { walk(document.body); } catch {} }, 1500);
   obs.observe(document.documentElement, {
     childList: true, subtree: true, characterData: true,
     attributes: true, attributeFilter: ATTRS,
