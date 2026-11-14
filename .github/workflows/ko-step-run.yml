@@ -1,0 +1,19 @@
+name: ko-step-run
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name sigco3111
+          git config user.email sigco3111k@gmail.com
+          S="$(ls tools/steps/*.sh | sort | tail -1)"
+          echo "running $S"
+          bash "$S"
+          git add -A
+          git commit -m "chore: $S 적용" || echo none
+          git push origin HEAD:main
