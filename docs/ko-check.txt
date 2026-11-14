@@ -1,0 +1,33 @@
+== analytics/beacon/gtag ==
+client/index.html
+client/public/ko/dict-ui.js
+== fonts.g* in index.html ==
+0
+== klarbase.dev refs ==
+client/index.html
+client/public/robots.txt
+client/public/.well-known/security.txt
+client/public/llms.txt
+== root-absolute in index.html ==
+href="/favicon.svg"
+href="/site.webmanifest"
+src="/src/main.js"
+== __koPath uses ==
+client/src/auth.js:0
+client/src/main.js:4
+client/src/game/thumbs.js:0
+client/src/game/audio.js:0
+client/src/game/ground.js:0
+client/src/game/fauna.js:0
+client/src/game/trees.js:0
+client/src/game/session.js:0
+client/src/game/props.js:0
+client/src/game/pip.js:0
+client/src/game/softkit.js:0
+client/src/game/world.js:0
+client/src/game/biome.js:0
+client/src/game/pulley.js:0
+client/src/game/themes.js:0
+client/src/builder.js:0
+client/src/net.js:0
+client/src/buildguide.js:0

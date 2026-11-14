@@ -239,7 +239,7 @@ document.addEventListener('click', e => {
 });
 
 // ? opens How to build in the builder, How to play everywhere else; the tabs switch in place.
-const onBuilder = () => ['/create', '/how-to-build'].includes(location.pathname.replace(/\/+$/, ''));
+const onBuilder = () => ['/create', '/how-to-build'].includes((window.__koPath ? window.__koPath() : location.pathname).replace(/\/+$/, ''));
 const helpTabs = which => `<div class="help-tabs"><button class="${which === 'play' ? 'on' : ''}" data-help="play">How to play</button><button class="${which === 'build' ? 'on' : ''}" data-help="build">How to build</button></div>`;
 function helpModal(which = 'play'){
   if(which === 'build'){
@@ -292,7 +292,7 @@ function feedbackModal(){
     if(!msg.value.trim()) return toast('Write a message first', true);
     send.disabled = true;
     try {
-      await api('/feedback', { method:'POST', body:{ message:msg.value, email:$('#fbEmail').value.trim() || undefined, page:location.pathname } });
+      await api('/feedback', { method:'POST', body:{ message:msg.value, email:$('#fbEmail').value.trim() || undefined, page:(window.__koPath ? window.__koPath() : location.pathname) } });
       modal.close(); toast('Thank you — feedback sent');
     } catch(e){ send.disabled = false; toast(e.message, true); }
   };
@@ -664,12 +664,12 @@ const builder = mountBuilder({ world, api, toast, repoUrl:REPO_URL, communityHas
 // In-game navigation REPLACES the address instead of adding history: the browser's
 // Back leaves the game, the in-game back button moves between screens (player feedback).
 function nav(path){
-  if(path !== location.pathname) history.replaceState(null, '', path);
+  if(path !== (window.__koPath ? window.__koPath() : location.pathname)) history.replaceState(null, '', path);
   route();
 }
 async function route(){
   if(location.hash.startsWith('#/')) history.replaceState(null, '', location.hash.slice(1));
-  const h = location.pathname.replace(/\/+$/, '') || '/';
+  const h = (window.__koPath ? window.__koPath() : location.pathname).replace(/\/+$/, '') || '/';
   let m;
   if(h === '/') return titleScreen();
   if(h === '/privacy') return titleScreen('privacy');   // the showcase isle behind the text

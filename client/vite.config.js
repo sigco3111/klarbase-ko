@@ -34,7 +34,7 @@ const koOverlay = () => ({
   transformIndexHtml(){
     return [
       { tag:'link', attrs:{ rel:'stylesheet', href: BASE + 'ko/ko.css' }, injectTo:'head' },
-      { tag:'script', attrs:{ type:'module', src: BASE + 'ko/ko.js' }, injectTo:'head' },
+      { tag:'script', attrs:{ type:'module', src: BASE + 'ko/ko.js' }, injectTo:'head-prepend' },
     ];
   },
 });

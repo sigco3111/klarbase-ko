@@ -1,21 +1,39 @@
-// ko.js — 한국어판 표시 시점 오버레이.
+// ko.js — 한국어판 표시 시점 오버레이 + 하위 경로(/klarbase-ko/) 보정.
 // 원문 DOM 은 그대로 두고, 사전에 있는 문구만 한국어로 바꾼다. English 로 토글하면 원문으로 되돌린다.
 // 원작: https://github.com/TanmoyP/klarbase (MIT) · 한국어판: sigco3111
-const PARTS = [
-  (await import('./dict-ui.js')).default,
-  (await import('./dict-isles.js')).default,
-  (await import('./dict-builder.js')).default,
-  (await import('./dict-guide.js')).default,
-];
-const MAP = new Map();
-for (const p of PARTS) for (const k of Object.keys(p)) MAP.set(k, p[k]);
-const T = s => (MAP.get(s) != null ? MAP.get(s) : s);
+import dUi from './dict-ui.js';
+import dIsles from './dict-isles.js';
+import dBuilder from './dict-builder.js';
+import dGuide from './dict-guide.js';
 
-// 숫자가 섞인 문구 규칙 (사전에 정확히 없는 것만)
+// 1) 하위 경로 보정. 앱은 '/play' 같은 절대 경로로 주소를 바꾸므로 BASE 를 앞에 붙이고, 읽을 때는 BASE 를 뺀다.
+const BASE = '/klarbase-ko';
+const under = u => u === BASE || u.startsWith(BASE + '/');
+const fixPath = u => (typeof u === 'string' && u.startsWith('/') && !under(u) ? BASE + u : u);
+const origPush = history.pushState.bind(history);
+const origReplace = history.replaceState.bind(history);
+history.pushState = (s, t, u) => origPush(s, t, fixPath(u));
+history.replaceState = (s, t, u) => origReplace(s, t, fixPath(u));
+window.__koPath = () => { const p = location.pathname; return under(p) ? (p.slice(BASE.length) || '/') : p; };
+
+// 2) 사전
+const MAP = new Map();
+for (const p of [dUi, dIsles, dBuilder, dGuide]) for (const k of Object.keys(p)) MAP.set(k, p[k]);
+const T = s => (MAP.get(s) != null ? MAP.get(s) : s);
+const lockKo = s => {
+  const m = /^ 🔒 Light (.+) (\d+)\/(\d+) · (.+) (\d+)\/(\d+)$/.exec(s);
+  return m ? ' 🔒 ' + T(m[1]) + ' ' + m[2] + '/' + m[3] + ' 밝힘 · ' + T(m[4]) + ' ' + m[5] + '/' + m[6] : s;
+};
+
+// 3) 숫자가 섞인 문구 규칙 (사전에 정확히 없는 것만)
 const RULES = [
   [/^(.+) · isle (\d+) of (\d+)$/, m => T(m[1]) + ' · 섬 ' + m[2] + ' / ' + m[3]],
   [/^isle (\d+) of (\d+)$/i, m => '섬 ' + m[1] + ' / ' + m[2]],
+  [/^(✦ )?(Twist )?(Breeze|Easy|Tricky|Hard|Fiendish|Mythic) (\d+) (.+?) par (\d+) ★★★(.*)$/,
+    m => (m[1] ? '✦ ' : '') + (m[2] ? '변형 ' : '') + T(m[3]) + ' ' + m[4] + ' ' + T(m[5]) + ' 기준 ' + m[6] + ' ★★★' + lockKo(m[7])],
+  [/^(Breeze|Easy|Tricky|Hard|Fiendish|Mythic) (\d+)$/, m => T(m[1]) + ' ' + m[2]],
   [/^(.+) · (.+) · (\d+)\/(\d+) ★$/, m => T(m[1]) + ' · ' + T(m[2]) + ' · ' + m[3] + '/' + m[4] + ' ★'],
+  [/^(.+) · (\d+)\/(\d+) ★$/, m => T(m[1]) + ' · ' + m[2] + '/' + m[3] + ' ★'],
   [/^par (\d+)$/, m => '기준 ' + m[1]],
   [/^☀ Daily #(\d+)$/, m => '☀ 데일리 #' + m[1]],
   [/^Your sky · (\d+) \/ (\d+) ★ · (\d+) lit$/, m => '내 하늘 · ' + m[1] + ' / ' + m[2] + ' ★ · ' + m[3] + '개 밝힘'],
@@ -23,33 +41,29 @@ const RULES = [
   [/^▶ (\d+) plays · (\d+)% clear · (\d+)% at par$/, m => '▶ ' + m[1] + '회 플레이 · ' + m[2] + '% 클리어 · ' + m[3] + '% 기준 달성'],
   [/^Difficulty (\d+)\/100 · early estimate — (\d+) of (\d+) plays so far; starts from the maker’s gut call$/,
     m => '난이도 ' + m[1] + '/100 · 초기 추정 — 지금까지 ' + m[2] + '/' + m[3] + '회 플레이, 만든 이의 짐작에서 시작'],
-  [/^🔒 Light (.+) (\d+)\/(\d+) · (.+) (\d+)\/(\d+)$/,
-    m => '🔒 ' + T(m[1]) + ' ' + m[2] + '/' + m[3] + ' 밝힘 · ' + T(m[4]) + ' ' + m[5] + '/' + m[6]],
   [/^✓ Solvable in (\d+) moves · sign in to see the route$/, m => '✓ ' + m[1] + '수로 풀 수 있음 · 경로를 보려면 로그인'],
   [/^([A-Za-z]+) (\d+) · estimated from the solver · settles as people play$/,
     m => T(m[1]) + ' ' + m[2] + ' · 해법기 추정 · 플레이가 쌓이면 안정됩니다'],
   [/^Remix: (.+)$/, m => '리믹스: ' + T(m[1])],
   [/^Isle (\d+)$/, m => '섬 ' + m[1]],
   [/^by @(.+)$/, m => '@' + m[1] + ' 제작'],
-  [/^(.+) · (\d+)\/(\d+) ★$/, m => T(m[1]) + ' · ' + m[2] + '/' + m[3] + ' ★'],
 ];
 
 const norm = s => s.replace(/\s+/g, ' ').trim();
+const lookup = t => {
+  const v = MAP.get(t);
+  if (v != null) return v;
+  for (const [re, fn] of RULES) { const m = re.exec(t); if (m) return fn(m); }
+  return null;
+};
+
+// 4) DOM 적용
 const ATTRS = ['title', 'aria-label', 'placeholder', 'alt'];
 const SKIP_TAGS = new Set(['SCRIPT', 'STYLE', 'NOSCRIPT', 'TEXTAREA', 'CODE', 'PRE', 'CANVAS']);
 const KEY = 'klarbase.ko.lang';
 let mode = localStorage.getItem(KEY) || 'ko';
 const recs = new WeakMap();
 
-function lookup(t){
-  const v = MAP.get(t);
-  if (v != null) return v;
-  for (const [re, fn] of RULES){
-    const m = re.exec(t);
-    if (m) return fn(m);
-  }
-  return null;
-}
 function applyText(node){
   const cur = node.nodeValue;
   if (!cur) return;
@@ -63,9 +77,7 @@ function applyText(node){
   if (mode === 'ko' && /[A-Za-z]/.test(cur)){
     const v = lookup(norm(cur));
     if (v != null){
-      const lead = (/^\s*/.exec(cur) || [''])[0];
-      const trail = (/\s*$/.exec(cur) || [''])[0];
-      const w = lead + v + trail;
+      const w = (/^\s*/.exec(cur) || [''])[0] + v + (/\s*$/.exec(cur) || [''])[0];
       recs.set(node, { orig: cur, written: w });
       node.nodeValue = w;
       return;
@@ -74,25 +86,25 @@ function applyText(node){
   recs.set(node, { orig: cur, written: cur });
 }
 function applyAttrs(el){
-  let store = recs.get(el);
-  if (!store){ store = {}; recs.set(el, store); }
+  let st = recs.get(el);
+  if (!st){ st = {}; recs.set(el, st); }
   for (const a of ATTRS){
     const cur = el.getAttribute(a);
     if (!cur) continue;
-    const rec = store[a];
+    const rec = st[a];
     if (rec && rec.written === cur) continue;
     if (mode === 'ko' && /[A-Za-z]/.test(cur)){
       const v = lookup(norm(cur));
-      if (v != null){ store[a] = { orig: cur, written: v }; el.setAttribute(a, v); continue; }
+      if (v != null){ st[a] = { orig: cur, written: v }; el.setAttribute(a, v); continue; }
     }
-    store[a] = { orig: cur, written: cur };
+    st[a] = { orig: cur, written: cur };
   }
 }
 function accept(n){
   const p = n.parentElement;
-  if (!p || SKIP_TAGS.has(p.tagName) || p.closest('[data-ko-skip]')) return false;
-  return true;
+  return !!p && !SKIP_TAGS.has(p.tagName) && !p.closest('[data-ko-skip]');
 }
+const ATTR_SEL = ATTRS.map(a => '[' + a + ']').join(',');
 function walk(root){
   if (!root) return;
   if (root.nodeType === 3){ if (accept(root)) applyText(root); return; }
@@ -101,8 +113,8 @@ function walk(root){
   if (!el) return;
   const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
   let n; while ((n = w.nextNode())) if (accept(n)) applyText(n);
-  if (el.querySelectorAll) el.querySelectorAll(ATTRS.map(a => '[' + a + ']').join(',')).forEach(applyAttrs);
-  applyAttrs(el);
+  if (el.querySelectorAll) el.querySelectorAll(ATTR_SEL).forEach(applyAttrs);
+  if (el.nodeType === 1) applyAttrs(el);
 }
 const obs = new MutationObserver(list => {
   for (const m of list){
@@ -111,6 +123,10 @@ const obs = new MutationObserver(list => {
     else for (const n of m.addedNodes) walk(n);
   }
 });
+function paintToggle(){
+  const b = document.getElementById('koToggle');
+  if (b) b.textContent = mode === 'ko' ? 'English' : '한국어';
+}
 function setMode(next){
   mode = next;
   localStorage.setItem(KEY, next);
@@ -122,18 +138,14 @@ function setMode(next){
       const rec = recs.get(n);
       if (rec && rec.written === n.nodeValue && rec.orig !== rec.written) n.nodeValue = rec.orig;
     }
-    document.querySelectorAll(ATTRS.map(a => '[' + a + ']').join(',')).forEach(el => {
+    document.querySelectorAll(ATTR_SEL).forEach(el => {
       const st = recs.get(el); if (!st) return;
       for (const a of ATTRS){ const rec = st[a]; if (rec && el.getAttribute(a) === rec.written) el.setAttribute(a, rec.orig); }
     });
-    obs.takeRecords();
   }
+  obs.takeRecords();
   walk(document.body);
   paintToggle();
-}
-function paintToggle(){
-  const b = document.getElementById('koToggle');
-  if (b) b.textContent = mode === 'ko' ? 'English' : '한국어';
 }
 function mount(){
   if (!document.getElementById('koToggle')){
