@@ -1,0 +1,68 @@
+Klarbase — tiny isles, clever paths
+Klarbase
+Tiny floating isles · clever little paths
+▶ Play
+✎ Create
+☁ Community
+☀ Daily
+No account needed to play or build. Sign in only to share online.
+Send feedback
+Privacy
+Choose an isle
+Continue ▶
+Official
+Community
+moves
+par
+keys
+seeds
+time
+Undo
+Z
+Restart
+R
+Hint
+H
+Solution
+Turn
+Q
+E
+Map
+M
+or
+WASD
+hop
+Space
+use
+USE
+Klarbase is a small open-source game made by one person. It collects as little as it can, sells nothing and shows no ads. This page lists everything that is stored.
+Last updated 25 October 2026.
+On your device
+Your progress (stars, best moves and times), settings, the isle you're building, your Daily stars and the GitHub name you type for exports are kept in your browser's local storage. They never leave your device. Clearing this site's data in your browser removes them.
+Anonymous play totals
+To rate how hard each isle is, the game sends small events when you start, clear, restart or ask for a hint on an isle, with your moves and a rough time for a clear. The server only adds them to running totals per isle. They are sent without cookies and carry no account, device id or IP address, so they can't be traced back to you.
+If you sign in
+Signing in is only needed to share isles online. When you sign in with GitHub or Google we receive and keep:
+your
+name, email address and profile picture
+from that account, and the link to it (including the sign-in tokens it hands us);
+a
+session cookie
+that keeps you signed in — the only cookie Klarbase sets;
+for each session, the
+IP address and browser (user agent)
+it was started from, used to keep accounts secure. Signing out ends the session.
+Isles you share online are public, with your name as their maker. Reports you file on isles are kept with your account.
+Feedback
+When you send feedback we store your message, the page you sent it from, the reply email if you give one, and your account if you're signed in. No IP address is stored.
+Page views
+Visits are counted with Cloudflare Web Analytics, which uses no cookies and doesn't track you across sites.
+Who handles the data
+The game runs on Railway, the database on Neon, and all traffic passes through Cloudflare. GitHub and Google handle sign-in. To protect the server from abuse, it remembers IP addresses in memory for up to an hour to limit how often one address can send requests; they are never written down.
+Why there's no cookie banner
+The only cookie is the sign-in one, and local storage only holds your own game. Both are strictly necessary for what you asked the game to do, so there's nothing to consent to.
+Getting your data deleted
+To delete your account, sign in and send feedback asking for it — that tells us the request really comes from you. Deleting an account removes your profile, sign-in links, sessions, shared isles, reports and feedback. For feedback sent without signing in, tell us the reply email you used. You can also
+open an issue on GitHub
+Isle builder
+paint tiles · test · share
