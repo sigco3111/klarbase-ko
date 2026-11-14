@@ -5,6 +5,7 @@ import dUi from './dict-ui.js';
 import dIsles from './dict-isles.js';
 import dBuilder from './dict-builder.js';
 import dGuide from './dict-guide.js';
+import dExtra from './dict-extra.js';
 
 // 1) 하위 경로 보정. 앱은 '/play' 같은 절대 경로로 주소를 바꾸므로 BASE 를 앞에 붙이고, 읽을 때는 BASE 를 뺀다.
 const BASE = '/klarbase-ko';
@@ -18,7 +19,7 @@ window.__koPath = () => { const p = location.pathname; return under(p) ? (p.slic
 
 // 2) 사전
 const MAP = new Map();
-for (const p of [dUi, dIsles, dBuilder, dGuide]) for (const k of Object.keys(p)) MAP.set(k, p[k]);
+for (const p of [dUi, dIsles, dBuilder, dGuide, dExtra]) for (const k of Object.keys(p)) MAP.set(k, p[k]);
 const T = s => (MAP.get(s) != null ? MAP.get(s) : s);
 const lockKo = s => {
   const m = /^ 🔒 Light (.+) (\d+)\/(\d+) · (.+) (\d+)\/(\d+)$/.exec(s);
@@ -49,12 +50,26 @@ const RULES = [
   [/^by @(.+)$/, m => '@' + m[1] + ' 제작'],
 ];
 
+// 낱말 단위 보정: 문장이 사전에 없을 때 짧은 라벨에서만 쓴다
+const WORDS = [
+  [/\bUndo\b/g, '되돌리기'], [/\bRestart\b/g, '다시 시작'], [/\bTip\b/g, '팁'],
+  [/\bSolution\b/g, '해법'], [/\bTurn\b/g, '회전'], [/\bMap\b/g, '지도'],
+  [/\bHint\b/g, '힌트'], [/\bBreeze\b/g, '산들바람'], [/\bEasy\b/g, '쉬움'],
+  [/\bTricky\b/g, '까다로움'], [/\bHard\b/g, '어려움'], [/\bFiendish\b/g, '가혹함'],
+  [/\bMythic\b/g, '신화'], [/\bWin\b/g, '승리'],
+];
 const norm = s => s.replace(/\s+/g, ' ').trim();
+const wordPass = t => {
+  if (t.length > 60) return null;
+  let out = t;
+  for (const [re, ko] of WORDS) out = out.replace(re, ko);
+  return out === t ? null : out;
+};
 const lookup = t => {
   const v = MAP.get(t);
   if (v != null) return v;
   for (const [re, fn] of RULES) { const m = re.exec(t); if (m) return fn(m); }
-  return null;
+  return wordPass(t);
 };
 
 // 4) DOM 적용

@@ -2,4 +2,4 @@ Contact: https://github.com/TanmoyP/klarbase/security/advisories/new
 Policy: https://github.com/TanmoyP/klarbase/blob/main/SECURITY.md
 Expires: 2027-10-25T00:00:00.000Z
 Preferred-Languages: en
-Canonical: https://klarbase.dev/.well-known/security.txt
+Canonical: https://sigco3111.github.io/klarbase-ko/.well-known/security.txt
