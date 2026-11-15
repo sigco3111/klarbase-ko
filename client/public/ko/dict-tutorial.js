@@ -1,0 +1,20 @@
+// 튜토리얼("노는 법") 문단 사전. 한 줄이 한 문단이며, 오버레이가 줄 단위로 번역한다.
+export default {
+  "🐣 Hop one tile per key. ↑ always means away from you — turn the view with Q / E.": "🐣 키 하나에 한 칸. ↑은 언제나 당신 반대쪽입니다 — Q / E로 시점을 돌리세요.",
+  "⬆ Stairs climb one level. You can hop down a ledge, but never climb one.": "⬆ 계단은 한 층을 오릅니다. 턱 아래로는 내려갈 수 있지만 올라갈 수는 없습니다.",
+  "📦 Walk into crates to push them. In water they sink and become stepping stones.": "📦 상자로 걸어가면 밀 수 있습니다. 물에서는 가라앉아 디딤돌이 됩니다.",
+  "🧊 Ice keeps you sliding until something stops you — crates included.": "🧊 얼음에서는 무언가 멈출 때까지 계속 미끄러집니다. 상자도 마찬가지입니다.",
+  "◎ Gates open while every plate is pressed, by you or a crate.": "◎ 게이트는 당신이나 상자가 모든 압판을 누르고 있는 동안 열립니다.",
+  "🕹 Stand on a lever and press Space: every bridge flips. A crate on a sinking bridge stays as a block.": "🕹 레버 위에 서서 스페이스를 누르면 모든 다리가 뒤집힙니다. 가라앉는 다리 위의 상자는 장애물로 남습니다.",
+  "🔑 Keys open doors — one key each. Step into an arch ⛩ to appear at its twin.": "🔑 열쇠는 문을 엽니다 — 열쇠 하나에 문 하나. 아치 ⛩로 들어서면 짝 아치로 나타납니다.",
+  "⚖ Sky Scales: two pans hang from one vine. The heavier pan sinks a level, the lighter rises one — and you ride along. You and crates weigh 1.": "⚖ 하늘 저울: 접시 둘이 덩굴 하나에 매달려 있습니다. 더 무거운 접시가 한 층 내려가고 가벼운 쪽이 한 층 올라갑니다 — 당신도 함께 움직입니다. 당신과 상자의 무게는 1입니다.",
+  "🎈 Press Space on a post to take its balloon: you weigh nothing, can’t push or press plates, and a step off an edge becomes a glide — one level down per tile. Space again lets it go, forever.": "🎈 기둥에서 스페이스를 눌러 풍선을 가지세요. 무게가 0이 되어 밀거나 압판을 누를 수 없고, 턱 밖으로 내디디면 활공이 되어 칸마다 한 층씩 내려앉습니다. 다시 스페이스를 누르면 풍선을 영영 놓아버립니다.",
+  "🥌 Space on a stone pile: carry a stone and weigh 2. It only goes back on a pile. You hold one thing at a time.": "🥌 돌더미에서 스페이스: 돌을 들면 무게가 2가 됩니다. 돌은 돌더미에만 돌려놓을 수 있습니다. 한 번에 하나만 들 수 있습니다.",
+  "🛟 Buoys weigh −1: they float up a step, never down, and float on water as stepping stones.": "🛟 부표의 무게는 −1입니다. 한 칸 턱을 떠올라 오르고 내려가지는 않으며, 물 위에 디딤돌로 뜹니다.",
+  "💨 Vents blow light things (balloon-you, buoys) one tile after each move. A crate in the gust shelters what’s behind it. Only a stone lets you push into the wind.": "💨 바람구멍은 매 수마다 가벼운 것(풍선을 든 당신, 부표)을 한 칸씩 밀어냅니다. 돌풍 속의 상자는 뒤쪽을 가려 줍니다. 바람을 거슬러 밀 수 있는 것은 돌을 든 경우뿐입니다.",
+  "🌱 Seeds are optional — they’re off the short route.": "🌱 씨앗은 선택입니다 — 최단 경로에서 벗어난 곳에 있습니다.",
+  "🪨 Boulders roll their lane and thorn sweepers turn, one beat per move. Glowing rings show where they’ll be next. Get caught and Pip bonks — the move doesn’t count. Space waits a beat.": "🪨 바위는 제 길을 굴러가고 가시 청소부는 돌아갑니다. 한 수에 한 박자입니다. 빛나는 고리가 다음 자리를 보여 줍니다. 잡히면 핍이 쿵 하고 그 수는 세지 않습니다. 스페이스는 한 박자를 기다립니다.",
+  "🗺 Some maps have several isles. A gateway arch carries you between them; press M to see the whole map.": "🗺 어떤 맵은 섬이 여럿입니다. 관문 아치가 섬 사이를 이어 줍니다. M을 누르면 맵 전체를 봅니다.",
+  "⭐ Reach the glowing star. Match par for ★★★. Stuck? H shows the isle’s tip, then your best next move.": "⭐ 빛나는 별에 닿으세요. 기준을 맞추면 ★★★입니다. 막혔나요? H를 누르면 섬의 팁과 최선의 다음 수를 보여 줍니다.",
+  "📈 Each isle shows a difficulty from Breeze to Mythic. It starts as the maker’s guess and settles as people play.": "📈 섬마다 산들바람부터 신화까지 난이도가 표시됩니다. 만든 이의 짐작에서 시작해 플레이가 쌓이면 안정됩니다.",
+};
