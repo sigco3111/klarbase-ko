@@ -7,6 +7,7 @@ import dBuilder from './dict-builder.js';
 import dGuide from './dict-guide.js';
 import dExtra from './dict-extra.js';
 import dScan from './dict-scan.js';
+import dTut from './dict-tutorial.js';
 
 // 1) 하위 경로 보정. 앱은 '/play' 같은 절대 경로로 주소를 바꾸므로 BASE 를 앞에 붙이고, 읽을 때는 BASE 를 뺀다.
 const BASE = '/klarbase-ko';
@@ -28,7 +29,7 @@ const canon = s => s
  .replace(/\s+/g, ' ')
  .trim();
 const MAP = new Map();
-for (const p of [dUi, dIsles, dBuilder, dGuide, dExtra, dScan]) for (const k of Object.keys(p)) MAP.set(canon(k), p[k]);
+for (const p of [dUi, dIsles, dBuilder, dGuide, dExtra, dScan, dTut]) for (const k of Object.keys(p)) MAP.set(canon(k), p[k]);
 const T = s => (MAP.get(s) != null ? MAP.get(s) : s);
 const lockKo = s => {
  const m = /^ 🔒 Light (.+) (\d+)\/(\d+) · (.+) (\d+)\/(\d+)$/.exec(s);
@@ -49,7 +50,7 @@ const RULES = [
  [/^Your sky · (\d+) \/ (\d+) ★ · (\d+) lit$/, m => '내 하늘 · ' + m[1] + ' / ' + m[2] + ' ★ · ' + m[3] + '개 밝힘'],
  [/^Your sky: (\d+) of (\d+) constellations lit$/, m => '내 하늘: 별자리 ' + m[1] + ' / ' + m[2] + ' 밝힘'],
  [/^▶ (\d+) plays · (\d+)% clear · (\d+)% at par$/, m => '▶ ' + m[1] + '회 플레이 · ' + m[2] + '% 클리어 · ' + m[3] + '% 기준 달성'],
- [/^Difficulty (\d+)\/100 · early estimate — (\d+) of (\d+) plays so far; starts from the maker’s gut call$/,
+ [/^Difficulty (\d+)\/100 · early estimate - (\d+) of (\d+) plays so far; starts from the maker's gut call$/,
  m => '난이도 ' + m[1] + '/100 · 초기 추정 — 지금까지 ' + m[2] + '/' + m[3] + '회 플레이, 만든 이의 짐작에서 시작'],
  [/^✓ Solvable in (\d+) moves · sign in to see the route$/, m => '✓ ' + m[1] + '수로 풀 수 있음 · 경로를 보려면 로그인'],
  [/^([A-Za-z]+) (\d+) · estimated from the solver · settles as people play$/,
@@ -57,6 +58,7 @@ const RULES = [
  [/^Remix: (.+)$/, m => '리믹스: ' + T(m[1])],
  [/^Isle (\d+)$/, m => '섬 ' + m[1]],
  [/^by @(.+)$/, m => '@' + m[1] + ' 제작'],
+ [/^🔒 Light (.+) (\\d+)\\/(\\d+) · (.+) (\\d+)\\/(\\d+)$/, m => '🔒 ' + T2(m[1]) + ' ' + m[2] + '/' + m[3] + ' 밝힘 · ' + T2(m[4]) + ' ' + m[5] + '/' + m[6]],
 ];
 
 // 낱말 단위 보정: 문장이 사전에 없을 때 짧은 라벨에서만 쓴다
@@ -74,7 +76,24 @@ const wordPass = t => {
  for (const [re, ko] of WORDS) out = out.replace(re, ko);
  return out === t ? null : out;
 };
+const CHAP = { Canopy: '캐노피', Mirage: '신기루', Lagoon: '석호', Rooftops: '옥상', Summit: '정상', Windward: '바람맞이', Night: '밤', Jungle: '정글', Oasis: '오아시스', 'Hanging Gardens': '매달린 정원', Confluence: '합류' };
+const T2 = s => (CHAP[s] != null ? CHAP[s] : T(s));
+const linewise = raw => {
+ if (typeof raw !== 'string' || raw.indexOf('\n') < 0) return null;
+ let changed = false;
+ const out = raw.split('\n').map(line => {
+  if (!/[A-Za-z]/.test(line)) return line;
+  const key = canon(line);
+  const hv = MAP.get(key);
+  if (hv != null) { changed = true; return hv; }
+  for (const [re, fn] of RULES) { const m = re.exec(key); if (m) { changed = true; return fn(m); } }
+  return line;
+ });
+ return changed ? out.join('\n') : null;
+};
 const lookup = raw => {
+ const lw = linewise(raw);
+ if (lw != null) return lw;
  const t = canon(raw);
  const v = MAP.get(t);
  if (v != null) return v;
@@ -100,7 +119,7 @@ function applyText(node){
  return;
  }
  if (mode === 'ko' && /[A-Za-z]/.test(cur)){
- const v = lookup(norm(cur));
+ const v = lookup(cur);
  if (v != null){
  const w = (/^\s*/.exec(cur) || [''])[0] + v + (/\s*$/.exec(cur) || [''])[0];
  recs.set(node, { orig: cur, written: w });
@@ -119,7 +138,7 @@ function applyAttrs(el){
  const rec = st[a];
  if (rec && rec.written === cur) continue;
  if (mode === 'ko' && /[A-Za-z]/.test(cur)){
- const v = lookup(norm(cur));
+ const v = lookup(cur);
  if (v != null){ st[a] = { orig: cur, written: v }; el.setAttribute(a, v); continue; }
  }
  st[a] = { orig: cur, written: cur };
@@ -148,6 +167,11 @@ const obs = new MutationObserver(list => {
  else for (const n of m.addedNodes) walk(n);
  }
 });
+const origTitle = document.title;
+function applyTitle(){
+ const v = mode === 'ko' ? lookup(origTitle) : null;
+ document.title = v != null ? v : origTitle;
+}
 function paintToggle(){
  const b = document.getElementById('koToggle');
  if (b) b.textContent = mode === 'ko' ? 'English' : '한국어';
@@ -170,6 +194,7 @@ function setMode(next){
  }
  obs.takeRecords();
  walk(document.body);
+ applyTitle();
  paintToggle();
 }
 // 5) 캔버스에 그리는 글자도 사전을 거친다. 원문은 소스에 그대로 있고, 한국어 모드에서만 바꾼다.
@@ -198,6 +223,7 @@ document.documentElement.classList.toggle('ko', mode === 'ko');
 document.documentElement.lang = mode === 'ko' ? 'ko' : 'en';
 function start(){
  mount();
+ applyTitle();
  walk(document.body);
  // 화면이 나중에 덧그려지는 자리를 놓치지 않도록 주기적으로 다시 훑는다
  setInterval(() => { try { walk(document.body); } catch {} }, 1500);
