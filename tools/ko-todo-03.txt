@@ -1,0 +1,25 @@
+The glowing ring shows where the boulder will be next. Press Space to wait a beat.	2	core/src/isle/official.js:1046	js,json:hint
+The near pan sinks under you alone. Weigh down the other one first.	2	core/src/isle/official.js:575	js,json:hint
+The pan at the top answers to the pan at the bottom.	2	core/src/isle/official.js:629	js,json:hint
+The spring keeps the first crate it gets. Make it worth it.	2	core/src/isle/official.js:725	js,json:hint
+The wind carries the buoy. A crate in the gust stills the wind behind it.	2	core/src/isle/official.js:971	js,json:hint
+Two crates, two jobs: one to weigh, one to stand on.	2	core/src/isle/official.js:1212	js,json:hint
+Two crates, two plates, and many ways to wedge a crate in a corner.	2	core/src/isle/official.js:406	js,json:hint
+Two keys, three doors. One door is a trap.	2	core/src/isle/official.js:301	js,json:hint
+Two pairs of arches. Ride them in the right order.	2	core/src/isle/official.js:181	js,json:hint
+Two plates, three crates. Not every crate gets to keep its place.	2	core/src/isle/official.js:145	js,json:hint
+With a balloon you can't walk into the wind. Quiet the vent first.	2	core/src/isle/official.js:922	js,json:hint
+You can hop down a ledge, but never climb one. Take the high road.	2	core/src/isle/official.js:75	js,json:hint
+… big isle - press "Deep check" to verify	1	client/src/builder.js:226	js
+· sign in to see the route	1	client/src/builder.js:224	js
+· that was your free hint	1	client/src/main.js:614	js
+(click again or press R to turn)	1	client/src/builder.js:101	js
+(click again to turn the gust)	1	client/src/builder.js:101	js
+<b>Not ready yet - the repo checks would reject it:</b><br>•	1	client/src/builder.js:297	js
+<button class="chip" data-storey="add">＋ Isle</button>	1	client/src/builder.js:338	js
+<code>n</code> north · <code>e</code> east · <code>s</code> south · <code>w</code> west. Click the Vent tool again to turn it. Two gust lines may not cross. Pushing a crate or buoy into the wind needs a stone. Maps only.	1	client/src/buildguide.js:135	js
+<div class="empty">Nothing shared online yet.</div>	1	client/src/main.js:395	js
+<div class="empty">Online isles are unavailable right now.</div>	1	client/src/main.js:396	js
+<div class="sky-empty">Clear a Daily Isle to place your first star here.</div>	1	client/src/main.js:156	js
+<div>Difficulty: too many positions to map live - press "Deep check".</div>	1	client/src/builder.js:237	template
+<h2>Sign in</h2><p class="facts">Only needed to share isles online. Playing and building are free for everyone.</p> <div class="row"><button class="btn primary" id="siGh">GitHub</button><button class="btn" id="siGo">Google</button></div>	1	client/src/main.js:230	template

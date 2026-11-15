@@ -1,0 +1,6 @@
+With a thorn on the isle, boulder lanes must be 2, 3, 4, 5 or 7 tiles (12-beat cycle). Crates can't be in its reach, and Pip can't start there. Maps only.	1	client/src/buildguide.js:153	js
+Works like Arch A and B, paired only with the other <code>r</code>.	1	client/src/buildguide.js:116	js
+Works like Arch A, paired only with the other <code>q</code>.	1	client/src/buildguide.js:102	js
+Written as <code>-</code>. Right-click any cell to erase without switching tools.	1	client/src/buildguide.js:21	js
+you do not own this cell	1	core/src/lattice.js:25	js
+Your sky - every chapter is a constellation	1	client/index.html:41	attr

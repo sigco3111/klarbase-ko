@@ -1,0 +1,25 @@
+Exactly two, or none. Maps only.	1	client/src/buildguide.js:117	js
+file must be a JSON object	1	core/src/isle/contrib.js:67	js
+floating - nothing holds it up	1	core/src/validate.js:72	js
+Gate. Open while every plate is pressed.	1	client/src/buildguide.js:73	js
+glass on	1	client/src/main.js:192	js
+glass who	1	client/src/main.js:224	js
+Ground with flowers. Decoration only.	1	client/src/buildguide.js:15	js
+Gust vent. Blows light things one tile per move.	1	client/src/buildguide.js:133	js
+Height digit 0-5 after the character (<code>.2</code> = ground two levels up). No digit = height 0.	1	client/src/buildguide.js:13	js
+Heights run 0-5. A pan's base must be 1-4.	1	client/src/buildguide.js:25	js
+Hint (H)	1	client/index.html:69	attr
+hint must be plain text, up to 140 chars, no links	1	core/src/isle/contrib.js:81	js
+Holding a stone, Pip weighs 2: presses plates, sinks a pan, and can push a crate or buoy into the wind. A stone can only go back on a pile.	1	client/src/buildguide.js:126	js
+Ice. Pip and crates slide until stopped.	1	client/src/buildguide.js:45	js
+id must be lowercase-words-with-dashes, up to 40 chars	1	core/src/isle/contrib.js:76	js
+Imported isle	1	client/src/builder.js:323	js
+Isle imported	1	client/src/builder.js:324	js
+Its height digit is the base, 1-4. If pan A exists, pan B must too. A pan can span several tiles, and the two pans can be on different storeys.	1	client/src/buildguide.js:109	js
+Key. Picked up by walking over it.	1	client/src/buildguide.js:89	js
+Klarbase	1	client/index.html:30	htmltext
+Klarbase - tiny isles, clever paths	1	client/index.html:6	htmltext
+Klarbase is a small open-source game made by one person. It collects as little as it can, sells nothing and shows no ads. This page lists everything that is stored.	1	client/index.html:87	htmltext
+Lever. Stand on it and press Space to flip every bridge.	1	client/src/buildguide.js:77	js
+Light	1	client/src/main.js:137	js
+Lower a tile one level (min 0).	1	client/src/buildguide.js:27	js

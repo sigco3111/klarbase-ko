@@ -1,0 +1,25 @@
+Holding a balloon, Pip is too light to push anything.	2	core/src/isle/official.js:900	js,json:hint
+Home	2	client/index.html:48	attr
+Ice keeps you sliding. Rocks are your brakes.	2	core/src/isle/official.js:442	js,json:hint
+Load the lower isle to lift the upper one.	2	core/src/isle/official.js:781	js,json:hint
+Neither the boulder's lane nor the thorn's reach will take a crate. Find the one gap between them.	2	core/src/isle/official.js:1165	js,json:hint
+No push can lift a crate. A pan can - if it's loaded before the other side is.	2	core/src/isle/official.js:692	js,json:hint
+No rock where you need one? Bring a crate.	2	core/src/isle/official.js:479	js,json:hint
+On ice you never stop where you'd like, but the wind always gets the last word.	2	core/src/isle/official.js:1235	js,json:hint
+On ice, a push is a promise: the crate goes until something stops it.	2	core/src/isle/official.js:556	js,json:hint
+One crate lifts the bridge - until you step on it. You weigh as much as a crate.	2	core/src/isle/official.js:668	js,json:hint
+One plate for the crate, one for you - so stand where the gate is close.	2	core/src/isle/official.js:215	js,json:hint
+One plate here, one across the arches. The crate cannot travel - you can.	2	core/src/isle/official.js:389	js,json:hint
+Only a stone is heavy enough to push into the wind. Hands full? A pile takes it back.	2	core/src/isle/official.js:994	js,json:hint
+Only one crate downstairs can reach the pan. Which one, and from where?	2	core/src/isle/official.js:749	js,json:hint
+Pulling a lever takes a beat - and the boulder doesn't wait.	2	core/src/isle/official.js:1117	js,json:hint
+Ramps only work along their slope. Find the one facing the goal.	2	core/src/isle/official.js:59	js,json:hint
+Ride the arches out for the key, then ride them home.	2	core/src/isle/official.js:372	js,json:hint
+shared by	2	client/src/main.js:394	js
+Slide the crate onto the plate - the ice will carry it.	2	core/src/isle/official.js:516	js,json:hint
+Space	2	client/src/buildguide.js:166	js,htmltext
+Stand on the lever and press Use. Every bridge flips.	2	core/src/isle/official.js:250	js,json:hint
+Stand on the post and press Use to take its balloon. Then step off the edge.	2	core/src/isle/official.js:814	js,json:hint
+Standing on a plate only helps if you can stay there.	2	core/src/isle/official.js:233	js,json:hint
+Step into an arch to appear at its twin.	2	core/src/isle/official.js:164	js,json:hint
+Takes a height digit.	2	client/src/buildguide.js:39	js

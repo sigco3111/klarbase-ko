@@ -1,0 +1,25 @@
+Make the lever and the bridge far apart, so the player has to think about which side they'll be on after the flip.	1	client/src/buildguide.js:80	js
+Make the player plan where a slide stops. A crate or rock placed as a "stopper" turns open ice into a precise puzzle.	1	client/src/buildguide.js:48	js
+malformed component	1	core/src/validate.js:74	js
+maps only	1	client/src/buildguide.js:166	js
+Maps only. Pip holds one thing at a time, so no stone and balloon together.	1	client/src/buildguide.js:127	js
+Moonlit isles, rolling boulders and thorny sweepers - cozy, never cruel.	1	client/src/game/themes.js:72	js
+must touch an existing plot	1	core/src/lattice.js:16	js
+name must be 3-40 letters, numbers, spaces or simple punctuation	1	core/src/isle/contrib.js:77	js
+needs at least one goal	1	core/src/validate.js:73	js
+needs at least one goal (G)	1	core/src/isle/format.js:96	js
+needs exactly one spawn	1	core/src/validate.js:72	js
+needs exactly one start (S)	1	core/src/isle/format.js:95	js
+not solvable - no sequence of moves reaches a goal	1	core/src/isle/contrib.js:99	js
+On a three-isle map, give each link its own colour so the player builds a mental map.	1	client/src/buildguide.js:118	js
+One balloon per post. Pip holds one thing at a time. Maps only.	1	client/src/buildguide.js:123	js
+One isle a day, the same for everyone	1	client/index.html:33	attr
+One-level steps make one-way drops (Pip hops down but can't climb back), the simplest way to make order matter.	1	client/src/buildguide.js:26	js
+outside the plot	1	core/src/validate.js:71	js
+Pair one up bridge with one sunk bridge: every flip opens one way and closes another.	1	client/src/buildguide.js:84	js
+pans (a, b), arch C (r), balloon posts (B), stone piles (P), buoys (u), vents (n e s w) and seeds (+) need an archipelago map (schemaVersion 6 with "storeys")	1	core/src/isle/format.js:104	js
+par must be an integer	1	core/src/isle/contrib.js:86	js
+Park a crate on one pan to lift the other to a ledge you couldn't reach, then work out how to get the crate back.	1	client/src/buildguide.js:110	js
+Pip can't enter water. A crate pushed into water sinks and becomes floor at that spot. A buoy pushed in floats as a stepping stone.	1	client/src/buildguide.js:42	js
+Pip would start inside a hazard	1	core/src/isle/format.js:111	js
+Pip's starting tile. It's ordinary ground afterwards.	1	client/src/buildguide.js:56	js

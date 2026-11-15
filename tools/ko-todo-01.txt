@@ -1,0 +1,25 @@
+My isle	3	client/src/builder.js:30	js
+status bad	3	client/src/builder.js:221	js
+A balloon weighs nothing - not even enough to press a plate.	2	core/src/isle/official.js:835	js,json:hint
+A bridge that sinks with a crate on it keeps the crate.	2	core/src/isle/official.js:319	js,json:hint
+A buoy on a pan lifts it. Pip and a buoy together weigh nothing.	2	core/src/isle/official.js:947	js,json:hint
+A crate can't go anywhere a thorn arm can reach - not even into water.	2	core/src/isle/official.js:1140	js,json:hint
+A crate pushed into water sinks and becomes a stepping stone. Line it up first.	2	core/src/isle/official.js:92	js,json:hint
+A stone weighs two. Take one from the pile before you ride the scales.	2	core/src/isle/official.js:856	js,json:hint
+A thorn arm reaches two tiles straight out. The tiles between its arms are always safe.	2	core/src/isle/official.js:1071	js,json:hint
+An arch catches whatever the ice carries, but only you go through.	2	core/src/isle/official.js:1192	js,json:hint
+Arrive through the arch, then build your own way across.	2	core/src/isle/official.js:198	js,json:hint
+Both bridges must be up at once. A crate on a sinking bridge stays behind as a block.	2	core/src/isle/official.js:354	js,json:hint
+Buoys float up a step that crates can't climb - and they float on water.	2	core/src/isle/official.js:878	js,json:hint
+Clear the walkway - but never push the crate where you still need to walk.	2	core/src/isle/official.js:337	js,json:hint
+Count your stops - the shortest route zig-zags.	2	core/src/isle/official.js:496	js,json:hint
+Crates can be pushed off a ledge too. Choose where it lands.	2	core/src/isle/official.js:109	js,json:hint
+Crates can drop off a roof, but they never come back up.	2	core/src/isle/official.js:424	js,json:hint
+Crates can't take the arch. Whatever weighs the far pan must be set before you leave.	2	core/src/isle/official.js:598	js,json:hint
+Each flip raises one bridge and sinks another. Think two flips ahead.	2	core/src/isle/official.js:267	js,json:hint
+Every door wants a key. Some keys want a bridge first.	2	core/src/isle/official.js:284	js,json:hint
+Every slide ends at a rock. Choose your stops.	2	core/src/isle/official.js:459	js,json:hint
+Everything you have learned, on one mountain.	2	core/src/isle/official.js:534	js,json:hint
+Follow the boulder closely - and find a nook before it comes back.	2	core/src/isle/official.js:1095	js,json:hint
+Gates open while every plate is pressed - and you can only stand in one place.	2	core/src/isle/official.js:127	js,json:hint
+Height is range: the higher the pan, the farther the glide.	2	core/src/isle/official.js:1019	js,json:hint

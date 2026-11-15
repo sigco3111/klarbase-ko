@@ -1,0 +1,25 @@
+catch must be plain text, up to 200 chars, no links	1	core/src/isle/contrib.js:84	js
+cell already claimed	1	core/src/lattice.js:13	js
+chip theme	1	client/src/builder.js:113	js
+Classic idea: one crate, one gap. Give the player exactly as many crates as gaps, so a wasted push means a restart.	1	client/src/buildguide.js:44	js
+Closed, it blocks like a rock. Open, it is floor. It reads the plates at the start of each move.	1	client/src/buildguide.js:74	js
+Column	1	core/src/components.js:41	js
+Corners are traps: a crate pushed into a corner is stuck. Use that so a careless push costs the run.	1	client/src/buildguide.js:68	js
+Could not import:	1	client/src/builder.js:325	js
+Counts toward the 8 crates-and-buoys limit. Maps only.	1	client/src/buildguide.js:131	js
+Crate. Pushed by walking into it.	1	client/src/buildguide.js:65	js
+credit must be plain text, up to 40 chars, no links	1	core/src/isle/contrib.js:83	js
+Cut corners and holes out of the rectangle so the isle has a shape. The sky is a wall that reads as an edge.	1	client/src/buildguide.js:22	js
+description must be plain text, up to 240 chars, no links	1	core/src/isle/contrib.js:82	js
+Door. Uses one key.	1	client/src/buildguide.js:93	js
+Drag across a whole row to sink a channel, then bridge it with a ramp or a pushed crate.	1	client/src/buildguide.js:30	js
+Empty	1	core/src/isle/format.js:80	js
+Enter	1	client/src/main.js:636	js
+Erase: empty sky, no tile.	1	client/src/buildguide.js:19	js
+Escape	1	client/src/main.js:632	js
+Every move is one beat, and on each beat the boulder rolls one tile along its lane, bouncing at the ends. If it covers Pip's tile (or swaps with Pip), Pip bonks and the move is undone. The game rings where hazards will be next. Space with nothing to use waits a beat.	1	client/src/buildguide.js:144	js
+every row needs the same number of tiles	1	core/src/isle/format.js:93	js
+Exactly like ground: walkable, pushable onto, same rules. It only looks different.	1	client/src/buildguide.js:16	js
+Exactly one start per isle or map. Painting a new one moves it. Pip may not start where a hazard can reach.	1	client/src/buildguide.js:57	js
+Exactly two <code>p</code> arches, or none. On a map, a pair on two different storeys is a gateway between isles.	1	client/src/buildguide.js:99	js
+Exactly two, or none.	1	client/src/buildguide.js:103	js
