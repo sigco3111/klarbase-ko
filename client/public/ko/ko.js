@@ -82,14 +82,24 @@ const linewise = raw => {
  if (typeof raw !== 'string' || raw.indexOf('\n') < 0) return null;
  let changed = false;
  const out = raw.split('\n').map(line => {
-  if (!/[A-Za-z]/.test(line)) return line;
-  const key = canon(line);
-  const hv = MAP.get(key);
-  if (hv != null) { changed = true; return hv; }
-  for (const [re, fn] of RULES) { const m = re.exec(key); if (m) { changed = true; return fn(m); } }
-  return line;
+ if (!/[A-Za-z]/.test(line)) return line;
+ const key = canon(line);
+ const hv = MAP.get(key);
+ if (hv != null) { changed = true; return hv; }
+ for (const [re, fn] of RULES) { const m = re.exec(key); if (m) { changed = true; return fn(m); } }
+ return line;
  });
  return changed ? out.join('\n') : null;
+};
+// 긴 문단: 사전에 있는 긴 문구를 문장 단위로 치환한다 (튜토리얼처럼 한 덩어리로 그려지는 글)
+const LONG = Array.from(MAP.entries()).filter(([en]) => en.length >= 25).sort((a, b) => b[0].length - a[0].length);
+const phrasePass = t => {
+ if (t.length < 40 || LONG.length === 0) return null;
+ let out = t, hit = false;
+ for (const [en, ko] of LONG) {
+  if (out.indexOf(en) >= 0) { out = out.split(en).join(ko); hit = true; }
+ }
+ return hit ? out : null;
 };
 const lookup = raw => {
  const lw = linewise(raw);
@@ -98,7 +108,7 @@ const lookup = raw => {
  const v = MAP.get(t);
  if (v != null) return v;
  for (const [re, fn] of RULES) { const m = re.exec(t); if (m) return fn(m); }
- return wordPass(t);
+ return wordPass(t) || phrasePass(t);
 };
 
 // 4) DOM 적용
@@ -200,11 +210,11 @@ function setMode(next){
 // 5) 캔버스에 그리는 글자도 사전을 거친다. 원문은 소스에 그대로 있고, 한국어 모드에서만 바꾼다.
 const koFillText = CanvasRenderingContext2D.prototype.fillText;
 CanvasRenderingContext2D.prototype.fillText = function (t) {
-  if (mode === 'ko' && typeof t === 'string' && /[A-Za-z]/.test(t)) {
-    const v = lookup(norm(t));
-    if (v != null) return koFillText.apply(this, [v].concat([].slice.call(arguments, 1)));
-  }
-  return koFillText.apply(this, arguments);
+ if (mode === 'ko' && typeof t === 'string' && /[A-Za-z]/.test(t)) {
+ const v = lookup(norm(t));
+ if (v != null) return koFillText.apply(this, [v].concat([].slice.call(arguments, 1)));
+ }
+ return koFillText.apply(this, arguments);
 };
 
 function mount(){
