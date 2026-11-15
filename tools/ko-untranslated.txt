@@ -1,0 +1,459 @@
+walk:ramp	core/src/isle/contrib.js:22 core/src/isle/official.js:57 core/src/isle/official.js:73 core/src/isle/official.js:335 core/src/isle/official.js:422 core/src/isle/official.js:532 core/src/isle/sky.js:13	js
+walk:down	core/src/isle/contrib.js:22 core/src/isle/official.js:73 core/src/isle/official.js:107 core/src/isle/official.js:422 core/src/isle/official.js:1094 core/src/isle/sky.js:13	js
+800 {?}px Nunito	client/src/builder.js:183 client/src/builder.js:188 client/src/builder.js:189	template
+klarbase.v2.draft	client/src/builder.js:41 client/src/builder.js:144 client/src/builder.js:203	js
+klarbase.v2.settings	client/src/main.js:124 client/src/main.js:217 client/src/main.js:218	js
+My isle	client/src/builder.js:30 client/src/builder.js:200 client/src/builder.js:258	js
+status bad	client/src/builder.js:221 client/src/builder.js:227 client/src/builder.js:268	js
+.screen	client/src/builder.js:366 client/src/main.js:199	js
+.tabs button	client/src/main.js:367 client/src/main.js:408	js
+[data-at]	client/src/builder.js:341 client/src/builder.js:360	js
+]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '	client/src/builder.js:331 client/src/main.js:20	js
+{?}.json	client/src/builder.js:309 client/src/builder.js:314	template
+☀ Daily	client/src/main.js:312 client/index.html:35	js,htmltext
+A balloon weighs nothing - not even enough to press a plate.	core/src/isle/official.js:835 isles/official/windward/let-it-go.json:0	js,json:hint
+A bridge that sinks with a crate on it keeps the crate.	core/src/isle/official.js:319 isles/official/tropical/sunken-step.json:0	js,json:hint
+A buoy on a pan lifts it. Pip and a buoy together weigh nothing.	core/src/isle/official.js:947 isles/official/windward/ballast.json:0	js,json:hint
+A crate can't go anywhere a thorn arm can reach - not even into water.	core/src/isle/official.js:1140 isles/official/night/bramble-bridge.json:0	js,json:hint
+A crate pushed into water sinks and becomes a stepping stone. Line it up first.	core/src/isle/official.js:92 isles/official/jungle/mossy-crate.json:0	js,json:hint
+A stone weighs two. Take one from the pile before you ride the scales.	core/src/isle/official.js:856 isles/official/windward/heavy-heart.json:0	js,json:hint
+A thorn arm reaches two tiles straight out. The tiles between its arms are always safe.	core/src/isle/official.js:1071 isles/official/night/sweeper.json:0	js,json:hint
+An arch catches whatever the ice carries, but only you go through.	core/src/isle/official.js:1192 isles/official/confluence/frost-mirage.json:0	js,json:hint
+application/json	client/src/builder.js:330 client/src/main.js:100	js
+Arrive through the arch, then build your own way across.	core/src/isle/official.js:198 isles/official/oasis/sunken-well.json:0	js,json:hint
+Both bridges must be up at once. A crate on a sinking bridge stays behind as a block.	core/src/isle/official.js:354 isles/official/urban/canal-lift.json:0	js,json:hint
+Buoys float up a step that crates can't climb - and they float on water.	core/src/isle/official.js:878 isles/official/windward/buoy-bay.json:0	js,json:hint
+by @{?}	client/src/main.js:43 client/src/main.js:48	template
+Clear the walkway - but never push the crate where you still need to walk.	core/src/isle/official.js:337 isles/official/urban/rooftops.json:0	js,json:hint
+Count your stops - the shortest route zig-zags.	core/src/isle/official.js:496 isles/official/mountain/glacier-maze.json:0	js,json:hint
+Crates can be pushed off a ledge too. Choose where it lands.	core/src/isle/official.js:109 isles/official/jungle/root-bridge.json:0	js,json:hint
+Crates can drop off a roof, but they never come back up.	core/src/isle/official.js:424 isles/official/urban/street-drop.json:0	js,json:hint
+Crates can't take the arch. Whatever weighs the far pan must be set before you leave.	core/src/isle/official.js:598 isles/official/gardens/high-arch.json:0	js,json:hint
+Each flip raises one bridge and sinks another. Think two flips ahead.	core/src/isle/official.js:267 isles/official/tropical/low-tide.json:0	js,json:hint
+Every door wants a key. Some keys want a bridge first.	core/src/isle/official.js:284 isles/official/tropical/coconut-key.json:0	js,json:hint
+Every slide ends at a rock. Choose your stops.	core/src/isle/official.js:459 isles/official/mountain/glacier-stops.json:0	js,json:hint
+Everything you have learned, on one mountain.	core/src/isle/official.js:534 isles/official/mountain/the-peak.json:0	js,json:hint
+Follow the boulder closely - and find a nook before it comes back.	core/src/isle/official.js:1095 isles/official/night/in-its-wake.json:0	js,json:hint
+Gates open while every plate is pressed - and you can only stand in one place.	core/src/isle/official.js:127 isles/official/jungle/fern-gate.json:0	js,json:hint
+Height is range: the higher the pan, the farther the glide.	core/src/isle/official.js:1019 isles/official/windward/windward.json:0	js,json:hint
+Holding a balloon, Pip is too light to push anything.	core/src/isle/official.js:900 isles/official/windward/glide-or-push.json:0	js,json:hint
+Home	client/index.html:48 client/index.html:128	attr
+Ice keeps you sliding. Rocks are your brakes.	core/src/isle/official.js:442 isles/official/mountain/first-frost.json:0	js,json:hint
+klarbase.v2.dailies	client/src/main.js:133 client/src/main.js:471	js
+klarbase.v2.effort	client/src/main.js:547 client/src/main.js:559	js
+klarbase.v2.ghuser	client/src/builder.js:95 client/src/builder.js:289	js
+klarbase.v2.guideSeen	client/src/main.js:247 client/src/main.js:691	js
+klarbase.v2.progress	client/src/main.js:125 client/src/main.js:469	js
+Load the lower isle to lift the upper one.	core/src/isle/official.js:781 isles/official/gardens/sky-scales.json:0	js,json:hint
+Neither the boulder's lane nor the thorn's reach will take a crate. Find the one gap between them.	core/src/isle/official.js:1165 isles/official/night/needles-eye.json:0	js,json:hint
+No push can lift a crate. A pan can - if it's loaded before the other side is.	core/src/isle/official.js:692 isles/official/gardens/the-crane.json:0	js,json:hint
+No rock where you need one? Bring a crate.	core/src/isle/official.js:479 isles/official/mountain/snowball.json:0	js,json:hint
+On ice you never stop where you'd like, but the wind always gets the last word.	core/src/isle/official.js:1235 isles/official/confluence/squall-line.json:0	js,json:hint
+On ice, a push is a promise: the crate goes until something stops it.	core/src/isle/official.js:556 isles/official/mountain/frost-ferry.json:0	js,json:hint
+One crate lifts the bridge - until you step on it. You weigh as much as a crate.	core/src/isle/official.js:668 isles/official/gardens/own-weight.json:0	js,json:hint
+One plate for the crate, one for you - so stand where the gate is close.	core/src/isle/official.js:215 isles/official/oasis/palm-plates.json:0	js,json:hint
+One plate here, one across the arches. The crate cannot travel - you can.	core/src/isle/official.js:389 isles/official/urban/night-market.json:0	js,json:hint
+Only a stone is heavy enough to push into the wind. Hands full? A pile takes it back.	core/src/isle/official.js:994 isles/official/windward/brace.json:0	js,json:hint
+Only one crate downstairs can reach the pan. Which one, and from where?	core/src/isle/official.js:749 isles/official/gardens/garden-lift.json:0	js,json:hint
+Pulling a lever takes a beat - and the boulder doesn't wait.	core/src/isle/official.js:1117 isles/official/night/lever-lane.json:0	js,json:hint
+Ramps only work along their slope. Find the one facing the goal.	core/src/isle/official.js:59 isles/official/jungle/first-steps.json:0	js,json:hint
+Ride the arches out for the key, then ride them home.	core/src/isle/official.js:372 isles/official/urban/subway.json:0	js,json:hint
+shared by	client/src/main.js:394 client/src/main.js:700	js
+Slide the crate onto the plate - the ice will carry it.	core/src/isle/official.js:516 isles/official/mountain/frozen-gate.json:0	js,json:hint
+Space	client/src/buildguide.js:166 client/index.html:79	js,htmltext
+Stand on the lever and press Use. Every bridge flips.	core/src/isle/official.js:250 isles/official/tropical/tide-lever.json:0	js,json:hint
+Stand on the post and press Use to take its balloon. Then step off the edge.	core/src/isle/official.js:814 isles/official/windward/lift-off.json:0	js,json:hint
+Standing on a plate only helps if you can stay there.	core/src/isle/official.js:233 isles/official/oasis/revolving-arch.json:0	js,json:hint
+Step into an arch to appear at its twin.	core/src/isle/official.js:164 isles/official/oasis/mirage.json:0	js,json:hint
+Takes a height digit.	client/src/buildguide.js:39 client/src/buildguide.js:87	js
+The glowing ring shows where the boulder will be next. Press Space to wait a beat.	core/src/isle/official.js:1046 isles/official/night/wait-a-beat.json:0	js,json:hint
+The near pan sinks under you alone. Weigh down the other one first.	core/src/isle/official.js:575 isles/official/gardens/counterweight.json:0	js,json:hint
+The pan at the top answers to the pan at the bottom.	core/src/isle/official.js:629 isles/official/gardens/three-storeys.json:0	js,json:hint
+The spring keeps the first crate it gets. Make it worth it.	core/src/isle/official.js:725 isles/official/gardens/spend-a-crate.json:0	js,json:hint
+The wind carries the buoy. A crate in the gust stills the wind behind it.	core/src/isle/official.js:971 isles/official/windward/drift.json:0	js,json:hint
+three/examples/jsm/utils/BufferGeometryUtils.js	client/src/game/props.js:4 client/src/game/softkit.js:7	js
+Two crates, two jobs: one to weigh, one to stand on.	core/src/isle/official.js:1212 isles/official/confluence/drowned-gangway.json:0	js,json:hint
+Two crates, two plates, and many ways to wedge a crate in a corner.	core/src/isle/official.js:406 isles/official/urban/crosswalk.json:0	js,json:hint
+Two keys, three doors. One door is a trap.	core/src/isle/official.js:301 isles/official/tropical/lagoon-locks.json:0	js,json:hint
+Two pairs of arches. Ride them in the right order.	core/src/isle/official.js:181 isles/official/oasis/twin-mirages.json:0	js,json:hint
+Two plates, three crates. Not every crate gets to keep its place.	core/src/isle/official.js:145 isles/official/jungle/spring-lock.json:0	js,json:hint
+With a balloon you can't walk into the wind. Quiet the vent first.	core/src/isle/official.js:922 isles/official/windward/tailwind.json:0	js,json:hint
+You can hop down a ledge, but never climb one. Take the high road.	core/src/isle/official.js:75 isles/official/jungle/ledge-drop.json:0	js,json:hint
+YXZ	client/src/game/fauna.js:23 client/src/game/fauna.js:210	js
+- you're among the {?}% who hit par	client/src/main.js:93	template
+--accent	client/src/main.js:197	js
+… big isle - press "Deep check" to verify	client/src/builder.js:226	js
+.card	client/src/main.js:399	js
+.dpad [data-arrow]	client/src/main.js:645	js
+.feedback-open	client/src/main.js:239	js
+· sign in to see the route	client/src/builder.js:224	js
+· that was your free hint	client/src/main.js:614	js
+(click again or press R to turn)	client/src/builder.js:101	js
+(click again to turn the gust)	client/src/builder.js:101	js
+[data-go]	client/src/main.js:237	js
+[data-help]	client/src/main.js:238	js
+[data-score]	client/src/main.js:63	js
+[data-size]	client/src/builder.js:249	js
+[data-sky]	client/src/main.js:178	js
+[data-stats]	client/src/main.js:62	js
+[data-storey]	client/src/builder.js:350	js
+[klarbase] "{?}" has no How to build entry (buildguide.js)	client/src/builder.js:105	template
+[klarbase] showcase isle not found:	client/src/main.js:308	js
+[klarbase] thumb failed	client/src/game/thumbs.js:53	js
+{?} shortest routes - narrow it to one, so there's a single clever answer.	core/src/isle/difficulty.js:212	template
+{?}:flora:{?}	client/src/game/ground.js:372	template
+{?}:rock:{?}	client/src/game/ground.js:248	template
+{?}:scatter:{?}	client/src/game/ground.js:434	template
+{?}/new/main/isles/community/{?}?filename={?}.json&value={?}	client/src/builder.js:303	template
+{?}% at par	client/src/main.js:87	template
+{?}% clear	client/src/main.js:87	template
+{?}<h2>How to build</h2> <p class="facts">Every tile in the palette, what it does, how it's stored and how to use it. The full file format is in <a href="{?}/blob/main/isles/README.md" target="_blank" rel="noopener">isles/README.md</a>.</p> {?} <div class="row"><button class="btn primary" onclick="document.getElementById('modal').classList.remove('on')">Start building</button></div>	client/src/main.js:248	template
+{?}<span>Your sky · {?} / {?} ★ · {?} lit</span>	client/src/main.js:164	template
+{?}px "Segoe UI Emoji","Apple Color Emoji",sans-serif	client/src/builder.js:187	template
+<a class="btn small primary" style="text-decoration:none" href="{?}" target="_blank" rel="noopener">⇪ Open the pull request on GitHub</a><br> It opens <code>{?}</code> prefilled - sign in, then "Commit changes…" → "Propose changes" → "Create pull request" ({?}).	client/src/builder.js:305	template
+<a href="{?}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">how to contribute</a>	client/src/builder.js:300	template
+<b>Not ready yet - the repo checks would reject it:</b><br>•	client/src/builder.js:297	js
+<br>•	client/src/builder.js:297	js
+<button class="card{?}" data-key="{?}"{?}> <div class="sky" style="{?}"> {?}{?}</div> <div class="body"><div class="name">{?}</div> {?} <div class="meta"><span>{?}{?}</span>{?}</div> {?}</div></button>	client/src/main.js:357	template
+<button class="chip" data-storey="add">＋ Isle</button>	client/src/builder.js:338	js
+<button class="chip" data-storey="del">✕ Remove isle {?}</button>	client/src/builder.js:339	template
+<button class="chip{?}" data-storey="{?}">Isle {?}</button>	client/src/builder.js:337	template
+<circle cx="{?}" cy="{?}" r="{?}" fill="{?}" fill-opacity="{?}"{?}/>	client/src/main.js:148	template
+<circle cx="{?}" cy="{?}" r="{?}" fill="#ffe7a3"><title>{?} {?}</title></circle>	client/src/main.js:159	template
+<code>^</code> north · <code>v</code> south · <code>&lt;</code> west · <code>&gt;</code> east, plus the height digit of its low end. Click the Ramp tool again (or press R) to turn it.	client/src/buildguide.js:51	js
+<code>n</code> north · <code>e</code> east · <code>s</code> south · <code>w</code> west. Click the Vent tool again to turn it. Two gust lines may not cross. Pushing a crate or buoy into the wind needs a stone. Maps only.	client/src/buildguide.js:135	js
+<details class="g-sec"{?}><summary>{?}</summary>{?}</details>	client/src/buildguide.js:174	template
+<div class="biome-row">{?}</div><p>{?}</p>	client/src/builder.js:136	template
+<div class="chapter"><div class="chapter-head"><h3>{?}</h3><span>{?} · {?} · {?}/{?} ★</span></div> <div class="grid">{?}</div></div>	client/src/main.js:373	template
+<div class="crowd">Played {?} times · {?}% clear it{?}{?}</div>	client/src/main.js:94	template
+<div class="empty">Nothing shared online yet.</div>	client/src/main.js:395	js
+<div class="empty">Online isles are unavailable right now.</div>	client/src/main.js:396	js
+<div class="facts" style="margin-top:4px">🌱 {?} of {?} seed{?}{?}</div>	client/src/main.js:516	template
+<div class="g-el" id="g-{?}"> <div class="g-head"><span class="ico">{?}</span><b>{?}</b><code>{?}</code>{?}</div> <p>{?}</p><p class="g-meta"><b>In the file:</b> {?}</p><p class="g-tip"><b>Try:</b> {?}</p></div>	client/src/buildguide.js:170	template
+<div class="guide"> {?} {?} {?} {?} {?} {?} {?} {?} </div>	client/src/buildguide.js:180	template
+<div class="help-tabs"><button class="{?}" data-help="play">How to play</button><button class="{?}" data-help="build">How to build</button></div>	client/src/main.js:244	template
+<div class="hist-cap">How players cleared it · {?} clear{?}</div> <div class="hist">{?}</div> <div class="hist-axis"><span>par {?}</span><span>{?}+</span></div>	client/src/main.js:528	template
+<div class="sky-empty">Clear a Daily Isle to place your first star here.</div>	client/src/main.js:156	js
+<div class="sky-news">✦ {?}{?}</div>	client/src/main.js:186	template
+<div style="height:8px;border-radius:99px;background:rgba(42,34,56,.08);overflow:hidden;margin:4px 0 10px"><div style="height:100%;width:{?}%;background:var(--accent)"></div></div>	client/src/main.js:564	template
+<div><span class="tier t-{?}">{?} {?}</span> · {?} · settles as people play</div> <div style="font-weight:600">Solver audit: {?} positions · {?} trap{?} · {?} shortest route{?} · walking straight at the star {?} → reads <b>{?}</b></div> {?} {?}	client/src/builder.js:240	template
+<div>Difficulty: too many positions to map live - press "Deep check".</div>	client/src/builder.js:237	template
+<h2>{?}</h2> <div class="big-stars">{?}</div> <div class="facts">{?} moves · par {?}{?}{?}</div> {?} {?} {?} {?} {?} {?} {?} <div class="row"> {?} {?} {?} {?} <button class="btn" id="wAgain">⟲ Again</button> {?} {?} {?} </div>	client/src/main.js:478	template
+<h2>Sign in</h2><p class="facts">Only needed to share isles online. Playing and building are free for everyone.</p> <div class="row"><button class="btn primary" id="siGh">GitHub</button><button class="btn" id="siGo">Google</button></div>	client/src/main.js:230	template
+<h2>Your sky</h2> <div class="sky-big">{?}</div> <p class="note" style="margin-top:10px">Clear {?} isles of a chapter to light its constellation. Light two, and the Confluence isle where they meet opens.</p> {?} <div class="hist-cap">Daily stars · {?} day{?}</div> <div class="sky-big">{?}</div> <div class="row"><button class="btn" id="skyClose">Close</button></div>	client/src/main.js:169	template
+<i class="sw" style="background:linear-gradient({?}, {?} 42%, {?} 58%, {?} 58%, {?} 76%, {?} 76%)"></i>{?}	client/src/builder.js:114	template
+<line x1="{?}" y1="{?}" x2="{?}" y2="{?}" stroke="{?}" stroke-opacity="{?}" stroke-width="{?}"/>	client/src/main.js:146	template
+<span class="ico">{?}</span><small>{?}</small>	client/src/builder.js:101	template
+<span class="k">{?}</span>	client/src/main.js:584	template
+<span class="kbd">H</span>	client/src/main.js:602	js
+<span class="stars">{?}{?}</span>	client/src/main.js:316	template
+<span class="tier t-{?}" data-score="{?}" title="Difficulty {?}/100 · {?}">{?} {?}</span>	client/src/main.js:80	template
+<svg viewBox="0 0 {?} {?}" role="img" aria-label="Your sky: {?} of {?} constellations lit">{?}</svg>	client/src/main.js:152	template
+<svg viewBox="0 0 {?} {?}" style="width:{?}px">{?}</svg>	client/src/main.js:160	template
+<text x="{?}" y="{?}" text-anchor="middle" class="sky-lbl">{?} {?}</text>	client/src/main.js:149	template
+■<span class="lbl"> Stop</span>	client/src/main.js:456	js
+▶ {?} play{?}	client/src/main.js:87	template
+▶<span class="lbl"> Solution</span>	client/src/main.js:456	js
+☀ Daily #{?}	client/src/main.js:312	template
+✓ Passes every check (par {?}, uses {?}).<br>	client/src/builder.js:299	template
+✓ Solvable in {?} moves	client/src/builder.js:224	template
+✗ Not solvable yet - no path reaches a goal	client/src/builder.js:227	js
+💡<span class="lbl"> Tip</span>	client/src/main.js:602	js
+🔒<span class="lbl"> Solution</span>	client/src/main.js:456	js
+🧭<span class="lbl"> Next move</span>	client/src/main.js:602	js
+a crate or buoy starts in a hazard's path - move it off the boulder lane or thorn arm	core/src/isle/format.js:113	js
+a gate (D) needs at least one plate (o) to open it	core/src/isle/format.js:98	js
+A glide crosses gaps no crate can fill. Make the landing spot exact so the player has to count levels.	client/src/buildguide.js:124	js
+a pan is plain ground - it cannot also be water, ice, a plate, a crate, a start, a goal or a key	core/src/isle/format.js:107	js
+a pan needs a base height from 1 to 4 (it moves one level down and up)	core/src/isle/format.js:106	js
+A plate is pressed while Pip (on foot or holding a stone) or a crate stands on it. Gates open only while every plate on the isle is pressed.	client/src/buildguide.js:70	js
+A raised bridge is floor. When a lever flips, it sinks and can't be walked. A crate standing on a sinking bridge drops in and stays as a block.	client/src/buildguide.js:82	js
+A single ramp to a high goal is a natural "last step". Hide it behind a gate or a crate puzzle.	client/src/buildguide.js:52	js
+A solid block. Nothing walks or slides through it. It stops ice slides, gust lines and glides.	client/src/buildguide.js:34	js
+A sunk bridge is like water: Pip can't walk it until a lever raises it, and a crate pushed onto it sinks in and fills it for good.	client/src/buildguide.js:86	js
+A vent plus a balloon is a conveyor belt. A crate dropped into the line switches it off for everything behind.	client/src/buildguide.js:136	js
+Add your GitHub username - it becomes your credit on the isle.	client/src/builder.js:293	js
+Adds one to the height digit of whatever you paint over. Empty sky can't be raised.	client/src/buildguide.js:24	js
+All levers flip all bridges. There are no channels.	client/src/buildguide.js:79	js
+Already shared - link copied	client/src/builder.js:284	js
+An isle with a gate needs at least one plate.	client/src/buildguide.js:75	js
+Arch {?} is a gateway: isle {?} ↔ isle {?}	client/src/builder.js:345	template
+Arch A. Step in to appear at its twin.	client/src/buildguide.js:97	js
+Arch B. A second, separate pair.	client/src/buildguide.js:101	js
+Arch C. A third arch pair (maps only).	client/src/buildguide.js:115	js
+Arches are great for "the goal is right there, but not from here". Hide the twin somewhere surprising.	client/src/buildguide.js:100	js
+arches come in pairs - each of p / q / r appears 0 or 2 times	core/src/isle/format.js:97	js
+At least one. Takes a height digit, so a raised goal needs a way up.	client/src/buildguide.js:61	js
+at most {?} crates and buoys in all	core/src/isle/format.js:99	template
+at most {?} seeds	core/src/isle/format.js:108	template
+At most 3. Maps only.	client/src/buildguide.js:139	js
+author must be your GitHub username	core/src/isle/contrib.js:78	js
+Back (Esc)	client/index.html:55	attr
+Backspace	client/src/main.js:637	js
+Balloon post	core/src/isle/format.js:68	js
+Balloon post. Space takes its one balloon.	client/src/buildguide.js:121	js
+Base height 1-4. Can't be combined with water, ice, a plate, a crate, start, goal or key on the same tile.	client/src/buildguide.js:113	js
+Best next move from here (H)	client/src/main.js:603	js
+Best next move: {?} · {?} to go	client/src/main.js:614	template
+Best next move: {?} (Space) · {?} to go	client/src/main.js:614	template
+Block	core/src/components.js:22	js
+Blows along a straight line over floor no higher than the vent, until a rock, tree, gate, door, ramp, the sky or the edge. After each move every light thing in the wind (balloon-Pip, and buoys Pip isn't standing on) moves one tile downwind. A crate in the line shelters everything behind it.	client/src/buildguide.js:134	js
+Boulder ↔. Rolls east first, back and forth.	client/src/buildguide.js:143	js
+Boulder ↕. Rolls south first, back and forth.	client/src/buildguide.js:147	js
+Bridge (down)	core/src/isle/format.js:59	js
+Bridge (up)	core/src/isle/format.js:58	js
+Bridge, starts sunk (closed).	client/src/buildguide.js:85	js
+Bridge, starts up (walkable).	client/src/buildguide.js:81	js
+btn small	client/src/main.js:229	js
+btn small ghost	client/src/main.js:225	js
+Build the shape first in ground, then raise tiles to make ledges. Height is where most puzzles come from.	client/src/buildguide.js:14	js
+Buoy. A crate on a balloon, weight −1.	client/src/buildguide.js:129	js
+by <a href="https://github.com/{?}" target="_blank" rel="noopener" style="color:inherit">@{?}</a>	client/src/main.js:428	template
+catch must be plain text, up to 200 chars, no links	core/src/isle/contrib.js:84	js
+cell already claimed	core/src/lattice.js:13	js
+checking…	client/src/builder.js:272	js
+chip theme	client/src/builder.js:113	js
+Classic idea: one crate, one gap. Give the player exactly as many crates as gaps, so a wasted push means a restart.	client/src/buildguide.js:44	js
+Closed, it blocks like a rock. Open, it is floor. It reads the plates at the start of each move.	client/src/buildguide.js:74	js
+cloud:	client/src/game/props.js:485	js
+Column	core/src/components.js:41	js
+community isle "{?}" by @{?}	client/src/main.js:51	template
+Corners are traps: a crate pushed into a corner is stuck. Use that so a careless push costs the run.	client/src/buildguide.js:68	js
+Could not import:	client/src/builder.js:325	js
+Counts toward the 8 crates-and-buoys limit. Maps only.	client/src/buildguide.js:131	js
+Crate. Pushed by walking into it.	client/src/buildguide.js:65	js
+credit must be plain text, up to 40 chars, no links	core/src/isle/contrib.js:83	js
+Cut corners and holes out of the rectangle so the isle has a shape. The sky is a wall that reads as an edge.	client/src/buildguide.js:22	js
+Daily Isle #{?} · {?}	client/src/main.js:118	template
+daily isle files are named isles/daily/YYYY-MM-DD.json (a real UTC date)	core/src/isle/contrib.js:59	js
+daily-{?}	core/src/isle/contrib.js:60	template
+description must be plain text, up to 240 chars, no links	core/src/isle/contrib.js:82	js
+Door. Uses one key.	client/src/buildguide.js:93	js
+Drag across a whole row to sink a channel, then bridge it with a ramp or a pushed crate.	client/src/buildguide.js:30	js
+each storey needs "at": [x, z, altitude] - whole numbers, x and z 0-{?}, altitude 0-{?}	core/src/isle/format.js:102	template
+early estimate - {?} of 20 plays so far; starts from {?}	client/src/main.js:79	template
+Empty	core/src/isle/format.js:80	js
+Enter	client/src/main.js:636	js
+Erase: empty sky, no tile.	client/src/buildguide.js:19	js
+Escape	client/src/main.js:632	js
+Every move is one beat, and on each beat the boulder rolls one tile along its lane, bouncing at the ends. If it covers Pip's tile (or swaps with Pip), Pip bonks and the move is undone. The game rings where hazards will be next. Space with nothing to use waits a beat.	client/src/buildguide.js:144	js
+every row needs the same number of tiles	core/src/isle/format.js:93	js
+Exactly like ground: walkable, pushable onto, same rules. It only looks different.	client/src/buildguide.js:16	js
+Exactly one start per isle or map. Painting a new one moves it. Pip may not start where a hazard can reach.	client/src/buildguide.js:57	js
+Exactly two <code>p</code> arches, or none. On a map, a pair on two different storeys is a gateway between isles.	client/src/buildguide.js:99	js
+Exactly two, or none.	client/src/buildguide.js:103	js
+Exactly two, or none. Maps only.	client/src/buildguide.js:117	js
+fauna:	client/src/game/fauna.js:210	js
+fauna:{?}:{?}	client/src/game/fauna.js:96	template
+fauna:crab	client/src/game/fauna.js:337	js
+fauna:fish:	client/src/game/fauna.js:219	js
+fauna:frog	client/src/game/fauna.js:271	js
+fauna:lizard	client/src/game/fauna.js:298	js
+fauna:owl	client/src/game/fauna.js:410	js
+fauna:owl-eyes	client/src/game/fauna.js:415	js
+fauna:pad	client/src/game/fauna.js:278	js
+fauna:pigeon-perched	client/src/game/fauna.js:376	js
+fauna:pigeons	client/src/game/fauna.js:389	js
+file is {?} bytes - keep isles under {?}	core/src/isle/contrib.js:68	template
+file must be a JSON object	core/src/isle/contrib.js:67	js
+floating - nothing holds it up	core/src/validate.js:72	js
+from {?} plays	client/src/main.js:79	template
+Gate. Open while every plate is pressed.	client/src/buildguide.js:73	js
+glass on	client/src/main.js:192	js
+glass who	client/src/main.js:224	js
+Ground with flowers. Decoration only.	client/src/buildguide.js:15	js
+Gust vent. Blows light things one tile per move.	client/src/buildguide.js:133	js
+hazards must repeat within {?} moves together - shorten a boulder lane (at most 7 tiles) or use fewer kinds	core/src/isle/format.js:110	template
+Height digit 0-5 after the character (<code>.2</code> = ground two levels up). No digit = height 0.	client/src/buildguide.js:13	js
+Heights run 0-5. A pan's base must be 1-4.	client/src/buildguide.js:25	js
+Hint (H)	client/index.html:69	attr
+hint must be plain text, up to 140 chars, no links	core/src/isle/contrib.js:81	js
+Holding a stone, Pip weighs 2: presses plates, sinks a pan, and can push a crate or buoy into the wind. A stone can only go back on a pile.	client/src/buildguide.js:126	js
+Ice. Pip and crates slide until stopped.	client/src/buildguide.js:45	js
+id must be "daily-{?}" to match the file name	core/src/isle/contrib.js:60	template
+id must be lowercase-words-with-dashes, up to 40 chars	core/src/isle/contrib.js:76	js
+identical to an existing isle: {?}	core/src/isle/contrib.js:94	template
+image/png	client/src/game/thumbs.js:119	js
+Imported isle	client/src/builder.js:323	js
+Isle imported	client/src/builder.js:324	js
+isle must be at most {?} wide and {?} tall	core/src/isle/format.js:92	template
+isles/community/{?}/{?}.json	client/src/builder.js:298	template
+Its height digit is the base, 1-4. If pan A exists, pan B must too. A pan can span several tiles, and the two pans can be on different storeys.	client/src/buildguide.js:109	js
+Key. Picked up by walking over it.	client/src/buildguide.js:89	js
+Keys and doors needn't match in number; extra keys are fine.	client/src/buildguide.js:95	js
+Klarbase	client/index.html:30	htmltext
+Klarbase - tiny isles, clever paths	client/index.html:6	htmltext
+Klarbase Daily #{?} · {?} moves{?} · {?}{?}	core/src/isle/daily.js:34	template
+Klarbase is a small open-source game made by one person. It collects as little as it can, sells nothing and shows no ads. This page lists everything that is stored.	client/index.html:87	htmltext
+Lever. Stand on it and press Space to flip every bridge.	client/src/buildguide.js:77	js
+Light	client/src/main.js:137	js
+Lower a tile one level (min 0).	client/src/buildguide.js:27	js
+Make the lever and the bridge far apart, so the player has to think about which side they'll be on after the flip.	client/src/buildguide.js:80	js
+Make the player plan where a slide stops. A crate or rock placed as a "stopper" turns open ice into a precise puzzle.	client/src/buildguide.js:48	js
+malformed component	core/src/validate.js:74	js
+maps only	client/src/buildguide.js:166	js
+Maps only. Pip holds one thing at a time, so no stone and balloon together.	client/src/buildguide.js:127	js
+missing required field "{?}"	core/src/isle/contrib.js:70	template
+Moonlit isles, rolling boulders and thorny sweepers - cozy, never cruel.	client/src/game/themes.js:72	js
+must touch an existing plot	core/src/lattice.js:16	js
+name must be 3-40 letters, numbers, spaces or simple punctuation	core/src/isle/contrib.js:77	js
+needs at least one goal	core/src/validate.js:73	js
+needs at least one goal (G)	core/src/isle/format.js:96	js
+needs exactly one spawn	core/src/validate.js:72	js
+needs exactly one start (S)	core/src/isle/format.js:95	js
+not solvable - no sequence of moves reaches a goal	core/src/isle/contrib.js:99	js
+Not yet - {?} (clear {?} isles in each chapter)	client/src/main.js:401	template
+official isle "{?}"	client/src/builder.js:295	template
+On a three-isle map, give each link its own colour so the player builds a mental map.	client/src/buildguide.js:118	js
+One balloon per post. Pip holds one thing at a time. Maps only.	client/src/buildguide.js:123	js
+One isle a day, the same for everyone	client/index.html:33	attr
+One-level steps make one-way drops (Pip hops down but can't climb back), the simplest way to make order matter.	client/src/buildguide.js:26	js
+Only {?} risky step{?} on the best route - add another place where the order matters.	core/src/isle/difficulty.js:211	template
+outside the plot	core/src/validate.js:71	js
+Pair one up bridge with one sunk bridge: every flip opens one way and closes another.	client/src/buildguide.js:84	js
+pan:	client/src/game/props.js:409	js
+pans (a, b), arch C (r), balloon posts (B), stone piles (P), buoys (u), vents (n e s w) and seeds (+) need an archipelago map (schemaVersion 6 with "storeys")	core/src/isle/format.js:104	js
+par is {?} but the shortest solution is {?} moves (e.g. "{?}")	core/src/isle/contrib.js:104	template
+par must be an integer	core/src/isle/contrib.js:86	js
+Park a crate on one pan to lift the other to a ledge you couldn't reach, then work out how to get the crate back.	client/src/buildguide.js:110	js
+Pip can't enter water. A crate pushed into water sinks and becomes floor at that spot. A buoy pushed in floats as a stepping stone.	client/src/buildguide.js:42	js
+Pip would start inside a hazard	core/src/isle/format.js:111	js
+Pip's starting tile. It's ordinary ground afterwards.	client/src/buildguide.js:56	js
+Plain floor. Pip walks on it at its height.	client/src/buildguide.js:11	js
+plot already holds a puzzle - placements are immutable	core/src/lattice.js:26	js
+Portal A	core/src/isle/format.js:62	js
+Portal B	core/src/isle/format.js:63	js
+Portal C	core/src/isle/format.js:64	js
+Pressure plate. Pressed by Pip or a crate.	client/src/buildguide.js:69	js
+Pushed like a crate, but it floats up a one-level ledge and never drops down one. Pushed into water it floats as a stepping stone that never fills the water and only the wind can move. It presses no plates and lifts a pan.	client/src/buildguide.js:130	js
+Put a thorn at a crossroads: the safe direction changes every move.	client/src/buildguide.js:154	js
+Put rocks where a slide or a push should stop, so ice has a landing spot and crates can't be shoved off the edge.	client/src/buildguide.js:36	js
+Put seeds just off the short route, so collecting them is its own little puzzle.	client/src/buildguide.js:140	js
+Put the gate where Pip must walk off the plate to pass. The player then needs a crate to hold it.	client/src/buildguide.js:76	js
+Put the key behind the trickier half of the isle, so the door is a promise the player has to earn.	client/src/buildguide.js:92	js
+Put the pans far apart so the player has to remember what's weighing the other side down.	client/src/buildguide.js:114	js
+Raise a tile one level (max 5).	client/src/buildguide.js:23	js
+Ramp ←	core/src/isle/format.js:52	js
+Ramp →	core/src/isle/format.js:53	js
+Ramp ↑	core/src/isle/format.js:50	js
+Ramp ↓	core/src/isle/format.js:51	js
+Removes the tile. Pip can't step into the sky, and a crate pushed toward it stops.	client/src/buildguide.js:20	js
+Restart (R)	client/index.html:67	attr
+Rock. Blocks Pip and crates.	client/src/buildguide.js:33	js
+rows must be a non-empty list of strings	core/src/isle/format.js:91	js
+RRU	core/src/isle/official.js:161	js
+Same as the ↔ boulder, rolling north-south.	client/src/buildguide.js:148	js
+Same lane and 12-beat rules as ↔. Maps only.	client/src/buildguide.js:149	js
+Same rule as a rock: solid, stops slides, gusts and glides.	client/src/buildguide.js:38	js
+schemaVersion must be {?} (one isle, "rows") or {?} (a map, "storeys")	core/src/isle/contrib.js:75	template
+Seed. Optional collectible.	client/src/buildguide.js:137	js
+Seeds never change the rules or par. The game also shows a seed par: the shortest clear that picks every seed.	client/src/buildguide.js:138	js
+Several goals are allowed, but one goal usually makes a cleaner puzzle. Raise it to make the climb part of the solution.	client/src/buildguide.js:62	js
+Shared! Link copied to clipboard	client/src/builder.js:284	js
+sheave:	client/src/game/pulley.js:33	js
+Sign in (top right) to share online	client/src/builder.js:279	js
+Sits on ground: the height digit is the floor under it.	client/src/buildguide.js:91	js
+Sits on ground: the height digit is the floor under it. At most 8 crates and buoys in all.	client/src/buildguide.js:67	js
+Sky Scales across isles {?} and {?}	client/src/builder.js:346	template
+Sky Scales need both pans - at least one a and one b	core/src/isle/format.js:105	js
+Sky Scales pan A. The heavier pan sinks a level.	client/src/buildguide.js:107	js
+Sky Scales pan B. The partner of pan A.	client/src/buildguide.js:111	js
+Sky Scales: pans A and B share one vine	client/src/builder.js:346	js
+Slab	core/src/components.js:29	js
+solution "{?}" does not reach a goal{?}	core/src/isle/contrib.js:106	template
+solution has extra moves after the goal is reached	core/src/isle/contrib.js:107	js
+solution is {?} moves but par is {?} - submit a shortest solution (e.g. "{?}")	core/src/isle/contrib.js:108	template
+solution must be a string of U D L R X	core/src/isle/contrib.js:87	js
+Sound	client/index.html:23	attr
+Spawn	core/src/components.js:50	js
+Stair	core/src/components.js:35	js
+stair connects to nothing - it only joins end to end	core/src/validate.js:75	js
+Stairs. Climb one level toward the arrow.	client/src/buildguide.js:49	js
+Start a shortcut sunk, so it only opens after the lever. A crate sunk into it early keeps it open whatever the lever does.	client/src/buildguide.js:88	js
+Start the player where they can see the goal and what stands between them. The first glance is the first clue.	client/src/buildguide.js:58	js
+status ok	client/src/builder.js:224	js
+Stepping into an arch moves Pip to the other arch with the same letter. Crates never ride arches.	client/src/buildguide.js:98	js
+Stepping onto a goal clears the isle.	client/src/buildguide.js:60	js
+Stepping onto ice keeps you moving in that direction until something stops you: a rock, a tree, a crate, a ledge up, or the end of the ice.	client/src/buildguide.js:46	js
+Stone pile	core/src/isle/format.js:69	js
+Stone pile. Space takes a stone, or puts yours back.	client/src/buildguide.js:125	js
+Stops at 0.	client/src/buildguide.js:29	js
+storeys must be a list of 1 to {?} isles, each { rows, at:[x, z, altitude] }	core/src/isle/format.js:101	template
+storeys that overlap on the map must float at least {?} levels apart	core/src/isle/format.js:103	template
+Subtracts one from the height digit of whatever you paint over.	client/src/buildguide.js:28	js
+Takes a height digit (the floor it stands on).	client/src/buildguide.js:35	js
+Takes a height digit (the walkable height when up).	client/src/buildguide.js:83	js
+Takes a height digit like ground.	client/src/buildguide.js:17	js
+Takes a height digit. Buoys and balloon-Pip don't press plates.	client/src/buildguide.js:71	js
+Takes a height digit. Crates slide too.	client/src/buildguide.js:47	js
+testing your isle	client/src/main.js:660	js
+The arch drops you on the wrong side of the spring. Make your own way home.	isles/community/TanmoyP/sundial-steps.json:0	json:hint
+The basic floor tile. Pip can walk onto floor at the same height and hop down one level, but never climb a ledge without a ramp.	client/src/buildguide.js:12	js
+The best route never steps away from the star - make the solution start by going the "wrong" way.	core/src/isle/difficulty.js:213	js
+The bush is solid. Its arm reaches two tiles straight out, pointing north, then east, south, west, one quarter per beat (repeats every 4). The diagonals are never touched.	client/src/buildguide.js:152	js
+The glowing star. Reach any goal to win.	client/src/buildguide.js:59	js
+The grid	client/src/buildguide.js:158	js
+The height digit is the water's surface; a sunk crate becomes floor at that height.	client/src/buildguide.js:43	js
+The lane is the straight run of same-height floor through its tile. A lane of n tiles repeats every 2·(n−1) beats. Lanes may not cross, crates may not enter them, and all hazards must repeat together within 12 beats. Maps only.	client/src/buildguide.js:145	js
+the neighbour's {?} edge has a walkway at cell {?}, level {?} - your puzzle has no matching walkway there	core/src/ports.js:46	template
+The only way up. A ramp sits at the lower height: walk onto it in the arrow's direction and step off onto floor one level higher. Walking it backwards takes you down. It can't be used sideways, and crates never use ramps.	client/src/buildguide.js:50	js
+The other side of the vine. See pan A.	client/src/buildguide.js:112	js
+the solution is plain flat walking - use at least one mechanic (ramps, ledges, crates, ice, plates, levers, keys, portals, gateways, scales, balloons, stones, buoys, gusts or hazards)	core/src/isle/contrib.js:110	js
+The upside-down crate: use it where a crate would fall the wrong way.	client/src/buildguide.js:132	js
+the world starts at (0,0)	core/src/lattice.js:12	js
+theme must be one of: {?}	core/src/isle/contrib.js:79	template
+Thorn sweeper	core/src/isle/format.js:79	js
+Thorn sweeper. Its arm turns a quarter each move.	client/src/buildguide.js:151	js
+three/examples/jsm/geometries/RoundedBoxGeometry.js	client/src/game/ground.js:8	js
+tier must be one of: {?}	core/src/isle/contrib.js:80	template
+Timing puzzles: make the player wait a beat (Space) or take a longer route to cross behind the boulder.	client/src/buildguide.js:146	js
+To ride a pan up, its partner has to end up heavier than you.	isles/daily/2026-10-20.json:0	json:hint
+Too big to prefill on GitHub, so it downloaded instead. Add it to <code>{?}</code> and open a pull request - {?}.	client/src/builder.js:310	template
+too large to verify - the solver gave up after {?} states; make it smaller	core/src/isle/contrib.js:99	template
+too many components	core/src/validate.js:74	js
+too short: the best solution is {?} moves - a puzzle needs at least {?}	core/src/isle/contrib.js:103	template
+tree:	client/src/game/trees.js:200	js
+Tree. Blocks like a rock.	client/src/buildguide.js:37	js
+Trees and rocks behave the same, so pick whichever fits the theme. Trees read well as soft walls along a path.	client/src/buildguide.js:40	js
+Turn the view (Q / E)	client/index.html:72	attr
+two boulder lanes cross or share a tile	core/src/isle/format.js:112	js
+Two boulders on crossing paths are not allowed, but parallel lanes with different lengths make nice rhythms.	client/src/buildguide.js:150	js
+Two doors, one key: the player must choose. Make one choice a dead end.	client/src/buildguide.js:96	js
+two gusts cross or overlap - each tile may be in at most one gust line	core/src/isle/format.js:109	js
+Two pairs let you build little loops. Make sure the player can tell the colours apart.	client/src/buildguide.js:104	js
+Two pans hang from one vine. After each move, add up the weight on each pan (Pip 1, crate 1, stone-Pip 2, buoy −1, balloon-Pip 0). The heavier pan sits one level below its base, the lighter one level above, equal = both at base. Pip and crates ride along. A move is judged with the pan heights at its start.	client/src/buildguide.js:108	js
+Two plates, one crate: the player must hold one with their feet and park the crate on the other, then work out how to leave.	client/src/buildguide.js:72	js
+two things in one cell	core/src/validate.js:71	js
+Undo (Z)	client/index.html:66	attr
+uniform vec3 top; uniform vec3 mid; uniform vec3 bot; varying vec3 vP; void main(){ float h = vP.y; vec3 c = h > 0.0 ? mix(mid, top, pow(h, 0.7)) : mix(mid, bot, pow(-h, 0.6)); gl_FragColor = vec4(c, 1.0); }	client/src/game/world.js:65	template
+unknown component type	core/src/validate.js:73	js
+unknown field "{?}" (allowed: {?})	core/src/isle/contrib.js:71	template
+unknown theme	core/src/isle/format.js:100	js
+unknown tile	core/src/isle/format.js:94	js
+Untitled isle	core/src/isle/format.js:270	js
+Use (Space) on the post to take its balloon. Holding it, Pip weighs 0: can't push or press plates, is blown by gusts, and stepping off an edge becomes a glide, one level down per tile, landing on the first floor at exactly that height. Space anywhere else lets the balloon go, forever.	client/src/buildguide.js:122	js
+Use (Space) while standing on a lever flips every bridge on the isle: up bridges sink, sunk bridges rise.	client/src/buildguide.js:78	js
+Use flowers to make an isle feel lived-in, or to quietly draw the eye along the real path.	client/src/buildguide.js:18	js
+varying vec3 vP; void main(){ vP = normalize(position); gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }	client/src/game/world.js:64	js
+Vent ←	core/src/isle/format.js:74	js
+Vent →	core/src/isle/format.js:72	js
+Vent ↑	core/src/isle/format.js:71	js
+Vent ↓	core/src/isle/format.js:73	js
+Walk into a crate to push it one tile, onto the same height or off a one-level ledge. It can't be pushed up a ledge, onto a ramp or through an arch. In water it sinks and becomes floor. On ice it slides. It presses plates.	client/src/buildguide.js:66	js
+walk:	core/src/isle/contrib.js:28	js
+Walking into a door while holding a key uses the key and opens the door for good.	client/src/buildguide.js:94	js
+Walking onto a key picks it up. Each key opens one door.	client/src/buildguide.js:90	js
+Watch the smart solution	client/index.html:71	attr
+Water. Blocks, until a crate sinks in.	client/src/buildguide.js:41	js
+Weight 2 on one pan beats a crate on the other. Scales plus stones make good "which is heavier" puzzles.	client/src/buildguide.js:128	js
+Where Pip starts. Exactly one.	client/src/buildguide.js:55	js
+Whole map (M)	client/index.html:76	attr
+With a thorn on the isle, boulder lanes must be 2, 3, 4, 5 or 7 tiles (12-beat cycle). Crates can't be in its reach, and Pip can't start there. Maps only.	client/src/buildguide.js:153	js
+Works like Arch A and B, paired only with the other <code>r</code>.	client/src/buildguide.js:116	js
+Works like Arch A, paired only with the other <code>q</code>.	client/src/buildguide.js:102	js
+Written as <code>-</code>. Right-click any cell to erase without switching tools.	client/src/buildguide.js:21	js
+You called it {?}, but the audit reads {?}. Players will settle it either way.	core/src/isle/difficulty.js:223	template
+You called it {?}, but the audit reads {?}{?}. Players will settle it either way.	core/src/isle/difficulty.js:222	template
+you do not own this cell	core/src/lattice.js:25	js
+your {?} edge has a walkway at cell {?}, level {?} - the neighbour has no matching walkway there	core/src/ports.js:44	template
+Your sky - every chapter is a constellation	client/index.html:41	attr

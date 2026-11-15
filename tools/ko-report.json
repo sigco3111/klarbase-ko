@@ -1,0 +1,8298 @@
+{
+ "generatedAt": "2026-11-15T02:42:24.064Z",
+ "files": [
+  "client/src/auth.js",
+  "client/src/builder.js",
+  "client/src/buildguide.js",
+  "client/src/game/audio.js",
+  "client/src/game/biome.js",
+  "client/src/game/fauna.js",
+  "client/src/game/ground.js",
+  "client/src/game/pip.js",
+  "client/src/game/props.js",
+  "client/src/game/pulley.js",
+  "client/src/game/session.js",
+  "client/src/game/softkit.js",
+  "client/src/game/themes.js",
+  "client/src/game/thumbs.js",
+  "client/src/game/trees.js",
+  "client/src/game/world.js",
+  "client/src/main.js",
+  "client/src/net.js",
+  "core/src/components.js",
+  "core/src/graph.js",
+  "core/src/index.js",
+  "core/src/isle/contrib.js",
+  "core/src/isle/daily.js",
+  "core/src/isle/difficulty.js",
+  "core/src/isle/format.js",
+  "core/src/isle/index.js",
+  "core/src/isle/isles.js",
+  "core/src/isle/official.js",
+  "core/src/isle/rules.js",
+  "core/src/isle/sky.js",
+  "core/src/isle/solve.js",
+  "core/src/lattice.js",
+  "core/src/ports.js",
+  "core/src/schema.js",
+  "core/src/solve.js",
+  "core/src/validate.js",
+  "isles/MAINTAINERS",
+  "isles/community/TanmoyP/sundial-steps.json",
+  "isles/daily/2026-10-20.json",
+  "isles/official/chapters.json",
+  "isles/official/confluence/drowned-gangway.json",
+  "isles/official/confluence/frost-mirage.json",
+  "isles/official/confluence/squall-line.json",
+  "isles/official/gardens/counterweight.json",
+  "isles/official/gardens/garden-lift.json",
+  "isles/official/gardens/high-arch.json",
+  "isles/official/gardens/own-weight.json",
+  "isles/official/gardens/sky-scales.json",
+  "isles/official/gardens/spend-a-crate.json",
+  "isles/official/gardens/the-crane.json",
+  "isles/official/gardens/three-storeys.json",
+  "isles/official/jungle/fern-gate.json",
+  "isles/official/jungle/first-steps.json",
+  "isles/official/jungle/ledge-drop.json",
+  "isles/official/jungle/mossy-crate.json",
+  "isles/official/jungle/root-bridge.json",
+  "isles/official/jungle/spring-lock.json",
+  "isles/official/mountain/first-frost.json",
+  "isles/official/mountain/frost-ferry.json",
+  "isles/official/mountain/frozen-gate.json",
+  "isles/official/mountain/glacier-maze.json",
+  "isles/official/mountain/glacier-stops.json",
+  "isles/official/mountain/snowball.json",
+  "isles/official/mountain/the-peak.json",
+  "isles/official/night/bramble-bridge.json",
+  "isles/official/night/in-its-wake.json",
+  "isles/official/night/lever-lane.json",
+  "isles/official/night/needles-eye.json",
+  "isles/official/night/sweeper.json",
+  "isles/official/night/wait-a-beat.json",
+  "isles/official/oasis/mirage.json",
+  "isles/official/oasis/palm-plates.json",
+  "isles/official/oasis/revolving-arch.json",
+  "isles/official/oasis/sunken-well.json",
+  "isles/official/oasis/twin-mirages.json",
+  "isles/official/tropical/coconut-key.json",
+  "isles/official/tropical/lagoon-locks.json",
+  "isles/official/tropical/low-tide.json",
+  "isles/official/tropical/sunken-step.json",
+  "isles/official/tropical/tide-lever.json",
+  "isles/official/urban/canal-lift.json",
+  "isles/official/urban/crosswalk.json",
+  "isles/official/urban/night-market.json",
+  "isles/official/urban/rooftops.json",
+  "isles/official/urban/street-drop.json",
+  "isles/official/urban/subway.json",
+  "isles/official/windward/ballast.json",
+  "isles/official/windward/brace.json",
+  "isles/official/windward/buoy-bay.json",
+  "isles/official/windward/drift.json",
+  "isles/official/windward/glide-or-push.json",
+  "isles/official/windward/heavy-heart.json",
+  "isles/official/windward/let-it-go.json",
+  "isles/official/windward/lift-off.json",
+  "isles/official/windward/tailwind.json",
+  "isles/official/windward/windward.json",
+  "client/index.html"
+ ],
+ "totals": {
+  "unique": 655,
+  "translated": 196,
+  "untranslated": 459
+ },
+ "entries": [
+  {
+   "s": "Ground",
+   "where": [
+    "client/src/builder.js:15",
+    "core/src/isle/format.js:42"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Flowers",
+   "where": [
+    "client/src/builder.js:15",
+    "client/src/builder.js:122",
+    "core/src/isle/format.js:43"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 3
+  },
+  {
+   "s": "Rock",
+   "where": [
+    "client/src/builder.js:15",
+    "client/src/builder.js:122",
+    "core/src/isle/format.js:46"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 3
+  },
+  {
+   "s": "Tree",
+   "where": [
+    "client/src/builder.js:15",
+    "client/src/builder.js:122",
+    "core/src/isle/format.js:47"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 3
+  },
+  {
+   "s": "Water",
+   "where": [
+    "client/src/builder.js:15",
+    "core/src/isle/format.js:48"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Ice",
+   "where": [
+    "client/src/builder.js:15",
+    "core/src/isle/format.js:49"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Ramp",
+   "where": [
+    "client/src/builder.js:16"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Crate",
+   "where": [
+    "client/src/builder.js:16",
+    "core/src/isle/format.js:54"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Plate",
+   "where": [
+    "client/src/builder.js:16",
+    "core/src/isle/format.js:55"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Gate",
+   "where": [
+    "client/src/builder.js:16",
+    "core/src/isle/format.js:56"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Lever",
+   "where": [
+    "client/src/builder.js:16",
+    "core/src/isle/format.js:57"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Bridge",
+   "where": [
+    "client/src/builder.js:16"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Sunk br.",
+   "where": [
+    "client/src/builder.js:17"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "Key",
+   "where": [
+    "client/src/builder.js:17",
+    "core/src/isle/format.js:60"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Door",
+   "where": [
+    "client/src/builder.js:17",
+    "core/src/isle/format.js:61"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Arch A",
+   "where": [
+    "client/src/builder.js:17"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "Arch B",
+   "where": [
+    "client/src/builder.js:17"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "Start",
+   "where": [
+    "client/src/builder.js:17",
+    "core/src/isle/format.js:44"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Goal",
+   "where": [
+    "client/src/builder.js:18",
+    "core/src/components.js:56",
+    "core/src/isle/format.js:45"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 3
+  },
+  {
+   "s": "Erase",
+   "where": [
+    "client/src/builder.js:18"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Raise",
+   "where": [
+    "client/src/builder.js:18"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Lower",
+   "where": [
+    "client/src/builder.js:18"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Pan A",
+   "where": [
+    "client/src/builder.js:19",
+    "core/src/isle/format.js:65"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 2
+  },
+  {
+   "s": "Pan B",
+   "where": [
+    "client/src/builder.js:19",
+    "core/src/isle/format.js:66"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 2
+  },
+  {
+   "s": "Arch C",
+   "where": [
+    "client/src/builder.js:19"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "Balloon",
+   "where": [
+    "client/src/builder.js:20"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Stones",
+   "where": [
+    "client/src/builder.js:20"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Buoy",
+   "where": [
+    "client/src/builder.js:20",
+    "core/src/isle/format.js:70"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Vent",
+   "where": [
+    "client/src/builder.js:20"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Seed",
+   "where": [
+    "client/src/builder.js:20",
+    "core/src/isle/format.js:75"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 2
+  },
+  {
+   "s": "Boulder ↔",
+   "where": [
+    "client/src/builder.js:21",
+    "core/src/isle/format.js:77"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 2
+  },
+  {
+   "s": "Boulder ↕",
+   "where": [
+    "client/src/builder.js:21",
+    "core/src/isle/format.js:78"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 2
+  },
+  {
+   "s": "Thorns",
+   "where": [
+    "client/src/builder.js:21"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "My isle",
+   "where": [
+    "client/src/builder.js:30",
+    "client/src/builder.js:200",
+    "client/src/builder.js:258"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 3
+  },
+  {
+   "s": "klarbase.v2.draft",
+   "where": [
+    "client/src/builder.js:41",
+    "client/src/builder.js:144",
+    "client/src/builder.js:203"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 3
+  },
+  {
+   "s": "klarbase.v2.ghuser",
+   "where": [
+    "client/src/builder.js:95",
+    "client/src/builder.js:289"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "<span class=\"ico\">{?}</span><small>{?}</small>",
+   "where": [
+    "client/src/builder.js:101"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "(click again or press R to turn)",
+   "where": [
+    "client/src/builder.js:101"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "(click again to turn the gust)",
+   "where": [
+    "client/src/builder.js:101"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[klarbase] \"{?}\" has no How to build entry (buildguide.js)",
+   "where": [
+    "client/src/builder.js:105"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "chip theme",
+   "where": [
+    "client/src/builder.js:113"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<i class=\"sw\" style=\"background:linear-gradient({?}, {?} 42%, {?} 58%, {?} 58%, {?} 76%, {?} 76%)\"></i>{?}",
+   "where": [
+    "client/src/builder.js:114"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"biome-row\">{?}</div><p>{?}</p>",
+   "where": [
+    "client/src/builder.js:136"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Not sure",
+   "where": [
+    "client/src/builder.js:142"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "800 {?}px Nunito",
+   "where": [
+    "client/src/builder.js:183",
+    "client/src/builder.js:188",
+    "client/src/builder.js:189"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 3
+  },
+  {
+   "s": "{?}px \"Segoe UI Emoji\",\"Apple Color Emoji\",sans-serif",
+   "where": [
+    "client/src/builder.js:187"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "status bad",
+   "where": [
+    "client/src/builder.js:221",
+    "client/src/builder.js:227",
+    "client/src/builder.js:268"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 3
+  },
+  {
+   "s": "status ok",
+   "where": [
+    "client/src/builder.js:224"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "✓ Solvable in {?} moves",
+   "where": [
+    "client/src/builder.js:224"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "· sign in to see the route",
+   "where": [
+    "client/src/builder.js:224"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "… big isle - press \"Deep check\" to verify",
+   "where": [
+    "client/src/builder.js:226"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "✗ Not solvable yet - no path reaches a goal",
+   "where": [
+    "client/src/builder.js:227"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div>Difficulty: too many positions to map live - press \"Deep check\".</div>",
+   "where": [
+    "client/src/builder.js:237"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div><span class=\"tier t-{?}\">{?} {?}</span> · {?} · settles as people play</div> <div style=\"font-weight:600\">Solver audit: {?} positions · {?} trap{?} · {?} shortest route{?} · walking straight at the star {?} → reads <b>{?}</b></div> {?} {?}",
+   "where": [
+    "client/src/builder.js:240"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[data-size]",
+   "where": [
+    "client/src/builder.js:249"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "checking…",
+   "where": [
+    "client/src/builder.js:272"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sign in (top right) to share online",
+   "where": [
+    "client/src/builder.js:279"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Already shared - link copied",
+   "where": [
+    "client/src/builder.js:284"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Shared! Link copied to clipboard",
+   "where": [
+    "client/src/builder.js:284"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Add your GitHub username - it becomes your credit on the isle.",
+   "where": [
+    "client/src/builder.js:293"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "official isle \"{?}\"",
+   "where": [
+    "client/src/builder.js:295"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<b>Not ready yet - the repo checks would reject it:</b><br>•",
+   "where": [
+    "client/src/builder.js:297"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<br>•",
+   "where": [
+    "client/src/builder.js:297"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "isles/community/{?}/{?}.json",
+   "where": [
+    "client/src/builder.js:298"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "✓ Passes every check (par {?}, uses {?}).<br>",
+   "where": [
+    "client/src/builder.js:299"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<a href=\"{?}/blob/main/CONTRIBUTING.md\" target=\"_blank\" rel=\"noopener\">how to contribute</a>",
+   "where": [
+    "client/src/builder.js:300"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?}/new/main/isles/community/{?}?filename={?}.json&value={?}",
+   "where": [
+    "client/src/builder.js:303"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<a class=\"btn small primary\" style=\"text-decoration:none\" href=\"{?}\" target=\"_blank\" rel=\"noopener\">⇪ Open the pull request on GitHub</a><br> It opens <code>{?}</code> prefilled - sign in, then \"Commit changes…\" → \"Propose changes\" → \"Create pull request\" ({?}).",
+   "where": [
+    "client/src/builder.js:305"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?}.json",
+   "where": [
+    "client/src/builder.js:309",
+    "client/src/builder.js:314"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Too big to prefill on GitHub, so it downloaded instead. Add it to <code>{?}</code> and open a pull request - {?}.",
+   "where": [
+    "client/src/builder.js:310"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Imported isle",
+   "where": [
+    "client/src/builder.js:323"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Isle imported",
+   "where": [
+    "client/src/builder.js:324"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Could not import:",
+   "where": [
+    "client/src/builder.js:325"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "application/json",
+   "where": [
+    "client/src/builder.js:330",
+    "client/src/main.js:100"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '",
+   "where": [
+    "client/src/builder.js:331",
+    "client/src/main.js:20"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "<button class=\"chip{?}\" data-storey=\"{?}\">Isle {?}</button>",
+   "where": [
+    "client/src/builder.js:337"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<button class=\"chip\" data-storey=\"add\">＋ Isle</button>",
+   "where": [
+    "client/src/builder.js:338"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<button class=\"chip\" data-storey=\"del\">✕ Remove isle {?}</button>",
+   "where": [
+    "client/src/builder.js:339"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[data-at]",
+   "where": [
+    "client/src/builder.js:341",
+    "client/src/builder.js:360"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Arch {?} is a gateway: isle {?} ↔ isle {?}",
+   "where": [
+    "client/src/builder.js:345"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sky Scales: pans A and B share one vine",
+   "where": [
+    "client/src/builder.js:346"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sky Scales across isles {?} and {?}",
+   "where": [
+    "client/src/builder.js:346"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[data-storey]",
+   "where": [
+    "client/src/builder.js:350"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": ".screen",
+   "where": [
+    "client/src/builder.js:366",
+    "client/src/main.js:199"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Plain floor. Pip walks on it at its height.",
+   "where": [
+    "client/src/buildguide.js:11"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The basic floor tile. Pip can walk onto floor at the same height and hop down one level, but never climb a ledge without a ramp.",
+   "where": [
+    "client/src/buildguide.js:12"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Height digit 0-5 after the character (<code>.2</code> = ground two levels up). No digit = height 0.",
+   "where": [
+    "client/src/buildguide.js:13"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Build the shape first in ground, then raise tiles to make ledges. Height is where most puzzles come from.",
+   "where": [
+    "client/src/buildguide.js:14"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Ground with flowers. Decoration only.",
+   "where": [
+    "client/src/buildguide.js:15"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Exactly like ground: walkable, pushable onto, same rules. It only looks different.",
+   "where": [
+    "client/src/buildguide.js:16"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Takes a height digit like ground.",
+   "where": [
+    "client/src/buildguide.js:17"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Use flowers to make an isle feel lived-in, or to quietly draw the eye along the real path.",
+   "where": [
+    "client/src/buildguide.js:18"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Erase: empty sky, no tile.",
+   "where": [
+    "client/src/buildguide.js:19"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Removes the tile. Pip can't step into the sky, and a crate pushed toward it stops.",
+   "where": [
+    "client/src/buildguide.js:20"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Written as <code>-</code>. Right-click any cell to erase without switching tools.",
+   "where": [
+    "client/src/buildguide.js:21"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Cut corners and holes out of the rectangle so the isle has a shape. The sky is a wall that reads as an edge.",
+   "where": [
+    "client/src/buildguide.js:22"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Raise a tile one level (max 5).",
+   "where": [
+    "client/src/buildguide.js:23"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Adds one to the height digit of whatever you paint over. Empty sky can't be raised.",
+   "where": [
+    "client/src/buildguide.js:24"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Heights run 0-5. A pan's base must be 1-4.",
+   "where": [
+    "client/src/buildguide.js:25"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "One-level steps make one-way drops (Pip hops down but can't climb back), the simplest way to make order matter.",
+   "where": [
+    "client/src/buildguide.js:26"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Lower a tile one level (min 0).",
+   "where": [
+    "client/src/buildguide.js:27"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Subtracts one from the height digit of whatever you paint over.",
+   "where": [
+    "client/src/buildguide.js:28"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Stops at 0.",
+   "where": [
+    "client/src/buildguide.js:29"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Drag across a whole row to sink a channel, then bridge it with a ramp or a pushed crate.",
+   "where": [
+    "client/src/buildguide.js:30"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Rock. Blocks Pip and crates.",
+   "where": [
+    "client/src/buildguide.js:33"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "A solid block. Nothing walks or slides through it. It stops ice slides, gust lines and glides.",
+   "where": [
+    "client/src/buildguide.js:34"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Takes a height digit (the floor it stands on).",
+   "where": [
+    "client/src/buildguide.js:35"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Put rocks where a slide or a push should stop, so ice has a landing spot and crates can't be shoved off the edge.",
+   "where": [
+    "client/src/buildguide.js:36"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Tree. Blocks like a rock.",
+   "where": [
+    "client/src/buildguide.js:37"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Same rule as a rock: solid, stops slides, gusts and glides.",
+   "where": [
+    "client/src/buildguide.js:38"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Takes a height digit.",
+   "where": [
+    "client/src/buildguide.js:39",
+    "client/src/buildguide.js:87"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Trees and rocks behave the same, so pick whichever fits the theme. Trees read well as soft walls along a path.",
+   "where": [
+    "client/src/buildguide.js:40"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Water. Blocks, until a crate sinks in.",
+   "where": [
+    "client/src/buildguide.js:41"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Pip can't enter water. A crate pushed into water sinks and becomes floor at that spot. A buoy pushed in floats as a stepping stone.",
+   "where": [
+    "client/src/buildguide.js:42"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The height digit is the water's surface; a sunk crate becomes floor at that height.",
+   "where": [
+    "client/src/buildguide.js:43"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Classic idea: one crate, one gap. Give the player exactly as many crates as gaps, so a wasted push means a restart.",
+   "where": [
+    "client/src/buildguide.js:44"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Ice. Pip and crates slide until stopped.",
+   "where": [
+    "client/src/buildguide.js:45"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Stepping onto ice keeps you moving in that direction until something stops you: a rock, a tree, a crate, a ledge up, or the end of the ice.",
+   "where": [
+    "client/src/buildguide.js:46"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Takes a height digit. Crates slide too.",
+   "where": [
+    "client/src/buildguide.js:47"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Make the player plan where a slide stops. A crate or rock placed as a \"stopper\" turns open ice into a precise puzzle.",
+   "where": [
+    "client/src/buildguide.js:48"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Stairs. Climb one level toward the arrow.",
+   "where": [
+    "client/src/buildguide.js:49"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The only way up. A ramp sits at the lower height: walk onto it in the arrow's direction and step off onto floor one level higher. Walking it backwards takes you down. It can't be used sideways, and crates never use ramps.",
+   "where": [
+    "client/src/buildguide.js:50"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<code>^</code> north · <code>v</code> south · <code>&lt;</code> west · <code>&gt;</code> east, plus the height digit of its low end. Click the Ramp tool again (or press R) to turn it.",
+   "where": [
+    "client/src/buildguide.js:51"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "A single ramp to a high goal is a natural \"last step\". Hide it behind a gate or a crate puzzle.",
+   "where": [
+    "client/src/buildguide.js:52"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Where Pip starts. Exactly one.",
+   "where": [
+    "client/src/buildguide.js:55"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Pip's starting tile. It's ordinary ground afterwards.",
+   "where": [
+    "client/src/buildguide.js:56"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Exactly one start per isle or map. Painting a new one moves it. Pip may not start where a hazard can reach.",
+   "where": [
+    "client/src/buildguide.js:57"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Start the player where they can see the goal and what stands between them. The first glance is the first clue.",
+   "where": [
+    "client/src/buildguide.js:58"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The glowing star. Reach any goal to win.",
+   "where": [
+    "client/src/buildguide.js:59"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Stepping onto a goal clears the isle.",
+   "where": [
+    "client/src/buildguide.js:60"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "At least one. Takes a height digit, so a raised goal needs a way up.",
+   "where": [
+    "client/src/buildguide.js:61"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Several goals are allowed, but one goal usually makes a cleaner puzzle. Raise it to make the climb part of the solution.",
+   "where": [
+    "client/src/buildguide.js:62"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Crate. Pushed by walking into it.",
+   "where": [
+    "client/src/buildguide.js:65"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Walk into a crate to push it one tile, onto the same height or off a one-level ledge. It can't be pushed up a ledge, onto a ramp or through an arch. In water it sinks and becomes floor. On ice it slides. It presses plates.",
+   "where": [
+    "client/src/buildguide.js:66"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sits on ground: the height digit is the floor under it. At most 8 crates and buoys in all.",
+   "where": [
+    "client/src/buildguide.js:67"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Corners are traps: a crate pushed into a corner is stuck. Use that so a careless push costs the run.",
+   "where": [
+    "client/src/buildguide.js:68"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Pressure plate. Pressed by Pip or a crate.",
+   "where": [
+    "client/src/buildguide.js:69"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "A plate is pressed while Pip (on foot or holding a stone) or a crate stands on it. Gates open only while every plate on the isle is pressed.",
+   "where": [
+    "client/src/buildguide.js:70"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Takes a height digit. Buoys and balloon-Pip don't press plates.",
+   "where": [
+    "client/src/buildguide.js:71"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Two plates, one crate: the player must hold one with their feet and park the crate on the other, then work out how to leave.",
+   "where": [
+    "client/src/buildguide.js:72"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Gate. Open while every plate is pressed.",
+   "where": [
+    "client/src/buildguide.js:73"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Closed, it blocks like a rock. Open, it is floor. It reads the plates at the start of each move.",
+   "where": [
+    "client/src/buildguide.js:74"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "An isle with a gate needs at least one plate.",
+   "where": [
+    "client/src/buildguide.js:75"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Put the gate where Pip must walk off the plate to pass. The player then needs a crate to hold it.",
+   "where": [
+    "client/src/buildguide.js:76"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Lever. Stand on it and press Space to flip every bridge.",
+   "where": [
+    "client/src/buildguide.js:77"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Use (Space) while standing on a lever flips every bridge on the isle: up bridges sink, sunk bridges rise.",
+   "where": [
+    "client/src/buildguide.js:78"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "All levers flip all bridges. There are no channels.",
+   "where": [
+    "client/src/buildguide.js:79"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Make the lever and the bridge far apart, so the player has to think about which side they'll be on after the flip.",
+   "where": [
+    "client/src/buildguide.js:80"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Bridge, starts up (walkable).",
+   "where": [
+    "client/src/buildguide.js:81"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "A raised bridge is floor. When a lever flips, it sinks and can't be walked. A crate standing on a sinking bridge drops in and stays as a block.",
+   "where": [
+    "client/src/buildguide.js:82"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Takes a height digit (the walkable height when up).",
+   "where": [
+    "client/src/buildguide.js:83"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Pair one up bridge with one sunk bridge: every flip opens one way and closes another.",
+   "where": [
+    "client/src/buildguide.js:84"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Bridge, starts sunk (closed).",
+   "where": [
+    "client/src/buildguide.js:85"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "A sunk bridge is like water: Pip can't walk it until a lever raises it, and a crate pushed onto it sinks in and fills it for good.",
+   "where": [
+    "client/src/buildguide.js:86"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Start a shortcut sunk, so it only opens after the lever. A crate sunk into it early keeps it open whatever the lever does.",
+   "where": [
+    "client/src/buildguide.js:88"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Key. Picked up by walking over it.",
+   "where": [
+    "client/src/buildguide.js:89"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Walking onto a key picks it up. Each key opens one door.",
+   "where": [
+    "client/src/buildguide.js:90"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sits on ground: the height digit is the floor under it.",
+   "where": [
+    "client/src/buildguide.js:91"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Put the key behind the trickier half of the isle, so the door is a promise the player has to earn.",
+   "where": [
+    "client/src/buildguide.js:92"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Door. Uses one key.",
+   "where": [
+    "client/src/buildguide.js:93"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Walking into a door while holding a key uses the key and opens the door for good.",
+   "where": [
+    "client/src/buildguide.js:94"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Keys and doors needn't match in number; extra keys are fine.",
+   "where": [
+    "client/src/buildguide.js:95"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Two doors, one key: the player must choose. Make one choice a dead end.",
+   "where": [
+    "client/src/buildguide.js:96"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Arch A. Step in to appear at its twin.",
+   "where": [
+    "client/src/buildguide.js:97"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Stepping into an arch moves Pip to the other arch with the same letter. Crates never ride arches.",
+   "where": [
+    "client/src/buildguide.js:98"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Exactly two <code>p</code> arches, or none. On a map, a pair on two different storeys is a gateway between isles.",
+   "where": [
+    "client/src/buildguide.js:99"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Arches are great for \"the goal is right there, but not from here\". Hide the twin somewhere surprising.",
+   "where": [
+    "client/src/buildguide.js:100"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Arch B. A second, separate pair.",
+   "where": [
+    "client/src/buildguide.js:101"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Works like Arch A, paired only with the other <code>q</code>.",
+   "where": [
+    "client/src/buildguide.js:102"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Exactly two, or none.",
+   "where": [
+    "client/src/buildguide.js:103"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Two pairs let you build little loops. Make sure the player can tell the colours apart.",
+   "where": [
+    "client/src/buildguide.js:104"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sky Scales pan A. The heavier pan sinks a level.",
+   "where": [
+    "client/src/buildguide.js:107"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Two pans hang from one vine. After each move, add up the weight on each pan (Pip 1, crate 1, stone-Pip 2, buoy −1, balloon-Pip 0). The heavier pan sits one level below its base, the lighter one level above, equal = both at base. Pip and crates ride along. A move is judged with the pan heights at its start.",
+   "where": [
+    "client/src/buildguide.js:108"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Its height digit is the base, 1-4. If pan A exists, pan B must too. A pan can span several tiles, and the two pans can be on different storeys.",
+   "where": [
+    "client/src/buildguide.js:109"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Park a crate on one pan to lift the other to a ledge you couldn't reach, then work out how to get the crate back.",
+   "where": [
+    "client/src/buildguide.js:110"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sky Scales pan B. The partner of pan A.",
+   "where": [
+    "client/src/buildguide.js:111"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The other side of the vine. See pan A.",
+   "where": [
+    "client/src/buildguide.js:112"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Base height 1-4. Can't be combined with water, ice, a plate, a crate, start, goal or key on the same tile.",
+   "where": [
+    "client/src/buildguide.js:113"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Put the pans far apart so the player has to remember what's weighing the other side down.",
+   "where": [
+    "client/src/buildguide.js:114"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Arch C. A third arch pair (maps only).",
+   "where": [
+    "client/src/buildguide.js:115"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Works like Arch A and B, paired only with the other <code>r</code>.",
+   "where": [
+    "client/src/buildguide.js:116"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Exactly two, or none. Maps only.",
+   "where": [
+    "client/src/buildguide.js:117"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "On a three-isle map, give each link its own colour so the player builds a mental map.",
+   "where": [
+    "client/src/buildguide.js:118"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Balloon post. Space takes its one balloon.",
+   "where": [
+    "client/src/buildguide.js:121"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Use (Space) on the post to take its balloon. Holding it, Pip weighs 0: can't push or press plates, is blown by gusts, and stepping off an edge becomes a glide, one level down per tile, landing on the first floor at exactly that height. Space anywhere else lets the balloon go, forever.",
+   "where": [
+    "client/src/buildguide.js:122"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "One balloon per post. Pip holds one thing at a time. Maps only.",
+   "where": [
+    "client/src/buildguide.js:123"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "A glide crosses gaps no crate can fill. Make the landing spot exact so the player has to count levels.",
+   "where": [
+    "client/src/buildguide.js:124"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Stone pile. Space takes a stone, or puts yours back.",
+   "where": [
+    "client/src/buildguide.js:125"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Holding a stone, Pip weighs 2: presses plates, sinks a pan, and can push a crate or buoy into the wind. A stone can only go back on a pile.",
+   "where": [
+    "client/src/buildguide.js:126"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Maps only. Pip holds one thing at a time, so no stone and balloon together.",
+   "where": [
+    "client/src/buildguide.js:127"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Weight 2 on one pan beats a crate on the other. Scales plus stones make good \"which is heavier\" puzzles.",
+   "where": [
+    "client/src/buildguide.js:128"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Buoy. A crate on a balloon, weight −1.",
+   "where": [
+    "client/src/buildguide.js:129"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Pushed like a crate, but it floats up a one-level ledge and never drops down one. Pushed into water it floats as a stepping stone that never fills the water and only the wind can move. It presses no plates and lifts a pan.",
+   "where": [
+    "client/src/buildguide.js:130"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Counts toward the 8 crates-and-buoys limit. Maps only.",
+   "where": [
+    "client/src/buildguide.js:131"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The upside-down crate: use it where a crate would fall the wrong way.",
+   "where": [
+    "client/src/buildguide.js:132"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Gust vent. Blows light things one tile per move.",
+   "where": [
+    "client/src/buildguide.js:133"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Blows along a straight line over floor no higher than the vent, until a rock, tree, gate, door, ramp, the sky or the edge. After each move every light thing in the wind (balloon-Pip, and buoys Pip isn't standing on) moves one tile downwind. A crate in the line shelters everything behind it.",
+   "where": [
+    "client/src/buildguide.js:134"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<code>n</code> north · <code>e</code> east · <code>s</code> south · <code>w</code> west. Click the Vent tool again to turn it. Two gust lines may not cross. Pushing a crate or buoy into the wind needs a stone. Maps only.",
+   "where": [
+    "client/src/buildguide.js:135"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "A vent plus a balloon is a conveyor belt. A crate dropped into the line switches it off for everything behind.",
+   "where": [
+    "client/src/buildguide.js:136"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Seed. Optional collectible.",
+   "where": [
+    "client/src/buildguide.js:137"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Seeds never change the rules or par. The game also shows a seed par: the shortest clear that picks every seed.",
+   "where": [
+    "client/src/buildguide.js:138"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "At most 3. Maps only.",
+   "where": [
+    "client/src/buildguide.js:139"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Put seeds just off the short route, so collecting them is its own little puzzle.",
+   "where": [
+    "client/src/buildguide.js:140"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Boulder ↔. Rolls east first, back and forth.",
+   "where": [
+    "client/src/buildguide.js:143"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Every move is one beat, and on each beat the boulder rolls one tile along its lane, bouncing at the ends. If it covers Pip's tile (or swaps with Pip), Pip bonks and the move is undone. The game rings where hazards will be next. Space with nothing to use waits a beat.",
+   "where": [
+    "client/src/buildguide.js:144"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The lane is the straight run of same-height floor through its tile. A lane of n tiles repeats every 2·(n−1) beats. Lanes may not cross, crates may not enter them, and all hazards must repeat together within 12 beats. Maps only.",
+   "where": [
+    "client/src/buildguide.js:145"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Timing puzzles: make the player wait a beat (Space) or take a longer route to cross behind the boulder.",
+   "where": [
+    "client/src/buildguide.js:146"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Boulder ↕. Rolls south first, back and forth.",
+   "where": [
+    "client/src/buildguide.js:147"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Same as the ↔ boulder, rolling north-south.",
+   "where": [
+    "client/src/buildguide.js:148"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Same lane and 12-beat rules as ↔. Maps only.",
+   "where": [
+    "client/src/buildguide.js:149"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Two boulders on crossing paths are not allowed, but parallel lanes with different lengths make nice rhythms.",
+   "where": [
+    "client/src/buildguide.js:150"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Thorn sweeper. Its arm turns a quarter each move.",
+   "where": [
+    "client/src/buildguide.js:151"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The bush is solid. Its arm reaches two tiles straight out, pointing north, then east, south, west, one quarter per beat (repeats every 4). The diagonals are never touched.",
+   "where": [
+    "client/src/buildguide.js:152"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "With a thorn on the isle, boulder lanes must be 2, 3, 4, 5 or 7 tiles (12-beat cycle). Crates can't be in its reach, and Pip can't start there. Maps only.",
+   "where": [
+    "client/src/buildguide.js:153"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Put a thorn at a crossroads: the safe direction changes every move.",
+   "where": [
+    "client/src/buildguide.js:154"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The grid",
+   "where": [
+    "client/src/buildguide.js:158"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Terrain",
+   "where": [
+    "client/src/buildguide.js:159"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-guide.js",
+   "n": 1
+  },
+  {
+   "s": "Start & goal",
+   "where": [
+    "client/src/buildguide.js:160"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-guide.js",
+   "n": 1
+  },
+  {
+   "s": "Pieces & switches",
+   "where": [
+    "client/src/buildguide.js:161"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-guide.js",
+   "n": 1
+  },
+  {
+   "s": "Maps only: Sky Scales",
+   "where": [
+    "client/src/buildguide.js:162"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-guide.js",
+   "n": 1
+  },
+  {
+   "s": "Maps only: Weight II",
+   "where": [
+    "client/src/buildguide.js:163"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-guide.js",
+   "n": 1
+  },
+  {
+   "s": "Maps only: cozy hazards",
+   "where": [
+    "client/src/buildguide.js:164"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-guide.js",
+   "n": 1
+  },
+  {
+   "s": "Space",
+   "where": [
+    "client/src/buildguide.js:166",
+    "client/index.html:79"
+   ],
+   "kinds": [
+    "js",
+    "htmltext"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "maps only",
+   "where": [
+    "client/src/buildguide.js:166"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"g-el\" id=\"g-{?}\"> <div class=\"g-head\"><span class=\"ico\">{?}</span><b>{?}</b><code>{?}</code>{?}</div> <p>{?}</p><p class=\"g-meta\"><b>In the file:</b> {?}</p><p class=\"g-tip\"><b>Try:</b> {?}</p></div>",
+   "where": [
+    "client/src/buildguide.js:170"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<details class=\"g-sec\"{?}><summary>{?}</summary>{?}</details>",
+   "where": [
+    "client/src/buildguide.js:174"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"guide\"> {?} {?} {?} {?} {?} {?} {?} {?} </div>",
+   "where": [
+    "client/src/buildguide.js:180"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "YXZ",
+   "where": [
+    "client/src/game/fauna.js:23",
+    "client/src/game/fauna.js:210"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "fauna:{?}:{?}",
+   "where": [
+    "client/src/game/fauna.js:96"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:",
+   "where": [
+    "client/src/game/fauna.js:210"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:fish:",
+   "where": [
+    "client/src/game/fauna.js:219"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:frog",
+   "where": [
+    "client/src/game/fauna.js:271"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:pad",
+   "where": [
+    "client/src/game/fauna.js:278"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:lizard",
+   "where": [
+    "client/src/game/fauna.js:298"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:crab",
+   "where": [
+    "client/src/game/fauna.js:337"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:pigeon-perched",
+   "where": [
+    "client/src/game/fauna.js:376"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:pigeons",
+   "where": [
+    "client/src/game/fauna.js:389"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:owl",
+   "where": [
+    "client/src/game/fauna.js:410"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "fauna:owl-eyes",
+   "where": [
+    "client/src/game/fauna.js:415"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "three/examples/jsm/geometries/RoundedBoxGeometry.js",
+   "where": [
+    "client/src/game/ground.js:8"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?}:rock:{?}",
+   "where": [
+    "client/src/game/ground.js:248"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?}:flora:{?}",
+   "where": [
+    "client/src/game/ground.js:372"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?}:scatter:{?}",
+   "where": [
+    "client/src/game/ground.js:434"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "three/examples/jsm/utils/BufferGeometryUtils.js",
+   "where": [
+    "client/src/game/props.js:4",
+    "client/src/game/softkit.js:7"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "pan:",
+   "where": [
+    "client/src/game/props.js:409"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "cloud:",
+   "where": [
+    "client/src/game/props.js:485"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "sheave:",
+   "where": [
+    "client/src/game/pulley.js:33"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Jungle",
+   "where": [
+    "client/src/game/themes.js:6"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Canopy",
+   "where": [
+    "client/src/game/themes.js:6",
+    "core/src/isle/official.js:6",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 3
+  },
+  {
+   "s": "Mossy roots, fireflies and slow green light.",
+   "where": [
+    "client/src/game/themes.js:6"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Oasis",
+   "where": [
+    "client/src/game/themes.js:19"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Mirage",
+   "where": [
+    "client/src/game/themes.js:19",
+    "core/src/isle/official.js:10",
+    "core/src/isle/official.js:158",
+    "isles/official/chapters.json:0",
+    "isles/official/oasis/mirage.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 5
+  },
+  {
+   "s": "Warm sand, turquoise springs and shimmering arches.",
+   "where": [
+    "client/src/game/themes.js:19"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Tropical",
+   "where": [
+    "client/src/game/themes.js:32"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Lagoon",
+   "where": [
+    "client/src/game/themes.js:32",
+    "core/src/isle/official.js:14",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 3
+  },
+  {
+   "s": "Bright reefs, tidal bridges and drifting petals.",
+   "where": [
+    "client/src/game/themes.js:32"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Urban",
+   "where": [
+    "client/src/game/themes.js:45"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Rooftops",
+   "where": [
+    "client/src/game/themes.js:45",
+    "core/src/isle/official.js:18",
+    "core/src/isle/official.js:331",
+    "isles/official/chapters.json:0",
+    "isles/official/urban/rooftops.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 5
+  },
+  {
+   "s": "Dusky rooftops, canal locks and warm window light.",
+   "where": [
+    "client/src/game/themes.js:45"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Mountain",
+   "where": [
+    "client/src/game/themes.js:58"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Summit",
+   "where": [
+    "client/src/game/themes.js:58",
+    "core/src/isle/official.js:22",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 3
+  },
+  {
+   "s": "Crisp snow, glassy ice and pine-scented wind.",
+   "where": [
+    "client/src/game/themes.js:58"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Night",
+   "where": [
+    "client/src/game/themes.js:72"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Nightfall",
+   "where": [
+    "client/src/game/themes.js:72",
+    "core/src/isle/official.js:39",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 3
+  },
+  {
+   "s": "Moonlit isles, rolling boulders and thorny sweepers - cozy, never cruel.",
+   "where": [
+    "client/src/game/themes.js:72"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[klarbase] thumb failed",
+   "where": [
+    "client/src/game/thumbs.js:53"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "image/png",
+   "where": [
+    "client/src/game/thumbs.js:119"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "tree:",
+   "where": [
+    "client/src/game/trees.js:200"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "varying vec3 vP; void main(){ vP = normalize(position); gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }",
+   "where": [
+    "client/src/game/world.js:64"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "uniform vec3 top; uniform vec3 mid; uniform vec3 bot; varying vec3 vP; void main(){ float h = vP.y; vec3 c = h > 0.0 ? mix(mid, top, pow(h, 0.7)) : mix(mid, bot, pow(-h, 0.6)); gl_FragColor = vec4(c, 1.0); }",
+   "where": [
+    "client/src/game/world.js:65"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "by @{?}",
+   "where": [
+    "client/src/main.js:43",
+    "client/src/main.js:48"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "today's hand-made isle",
+   "where": [
+    "client/src/main.js:48"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "community isle \"{?}\" by @{?}",
+   "where": [
+    "client/src/main.js:51"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[data-stats]",
+   "where": [
+    "client/src/main.js:62"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[data-score]",
+   "where": [
+    "client/src/main.js:63"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "early estimate - {?} of 20 plays so far; starts from {?}",
+   "where": [
+    "client/src/main.js:79"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "from {?} plays",
+   "where": [
+    "client/src/main.js:79"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<span class=\"tier t-{?}\" data-score=\"{?}\" title=\"Difficulty {?}/100 · {?}\">{?} {?}</span>",
+   "where": [
+    "client/src/main.js:80"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "✦ new - no plays yet",
+   "where": [
+    "client/src/main.js:86"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "▶ {?} play{?}",
+   "where": [
+    "client/src/main.js:87"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?}% clear",
+   "where": [
+    "client/src/main.js:87"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?}% at par",
+   "where": [
+    "client/src/main.js:87"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "- you're among the {?}% who hit par",
+   "where": [
+    "client/src/main.js:93"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"crowd\">Played {?} times · {?}% clear it{?}{?}</div>",
+   "where": [
+    "client/src/main.js:94"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Daily Isle #{?} · {?}",
+   "where": [
+    "client/src/main.js:118"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "klarbase.v2.settings",
+   "where": [
+    "client/src/main.js:124",
+    "client/src/main.js:217",
+    "client/src/main.js:218"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 3
+  },
+  {
+   "s": "klarbase.v2.progress",
+   "where": [
+    "client/src/main.js:125",
+    "client/src/main.js:469"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "klarbase.v2.dailies",
+   "where": [
+    "client/src/main.js:133",
+    "client/src/main.js:471"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Light",
+   "where": [
+    "client/src/main.js:137"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<line x1=\"{?}\" y1=\"{?}\" x2=\"{?}\" y2=\"{?}\" stroke=\"{?}\" stroke-opacity=\"{?}\" stroke-width=\"{?}\"/>",
+   "where": [
+    "client/src/main.js:146"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<circle cx=\"{?}\" cy=\"{?}\" r=\"{?}\" fill=\"{?}\" fill-opacity=\"{?}\"{?}/>",
+   "where": [
+    "client/src/main.js:148"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<text x=\"{?}\" y=\"{?}\" text-anchor=\"middle\" class=\"sky-lbl\">{?} {?}</text>",
+   "where": [
+    "client/src/main.js:149"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<svg viewBox=\"0 0 {?} {?}\" role=\"img\" aria-label=\"Your sky: {?} of {?} constellations lit\">{?}</svg>",
+   "where": [
+    "client/src/main.js:152"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"sky-empty\">Clear a Daily Isle to place your first star here.</div>",
+   "where": [
+    "client/src/main.js:156"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<circle cx=\"{?}\" cy=\"{?}\" r=\"{?}\" fill=\"#ffe7a3\"><title>{?} {?}</title></circle>",
+   "where": [
+    "client/src/main.js:159"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<svg viewBox=\"0 0 {?} {?}\" style=\"width:{?}px\">{?}</svg>",
+   "where": [
+    "client/src/main.js:160"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?}<span>Your sky · {?} / {?} ★ · {?} lit</span>",
+   "where": [
+    "client/src/main.js:164"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<h2>Your sky</h2> <div class=\"sky-big\">{?}</div> <p class=\"note\" style=\"margin-top:10px\">Clear {?} isles of a chapter to light its constellation. Light two, and the Confluence isle where they meet opens.</p> {?} <div class=\"hist-cap\">Daily stars · {?} day{?}</div> <div class=\"sky-big\">{?}</div> <div class=\"row\"><button class=\"btn\" id=\"skyClose\">Close</button></div>",
+   "where": [
+    "client/src/main.js:169"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[data-sky]",
+   "where": [
+    "client/src/main.js:178"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"sky-news\">✦ {?}{?}</div>",
+   "where": [
+    "client/src/main.js:186"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "glass on",
+   "where": [
+    "client/src/main.js:192"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "--accent",
+   "where": [
+    "client/src/main.js:197"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Timer on - click to turn off",
+   "where": [
+    "client/src/main.js:214"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Time my attempts",
+   "where": [
+    "client/src/main.js:214",
+    "client/index.html:23"
+   ],
+   "kinds": [
+    "js",
+    "attr"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 2
+  },
+  {
+   "s": "Timer on - your times are saved",
+   "where": [
+    "client/src/main.js:218"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Timer off - take it easy",
+   "where": [
+    "client/src/main.js:218"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "glass who",
+   "where": [
+    "client/src/main.js:224"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "btn small ghost",
+   "where": [
+    "client/src/main.js:225"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sign out",
+   "where": [
+    "client/src/main.js:225"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "btn small",
+   "where": [
+    "client/src/main.js:229"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sign in",
+   "where": [
+    "client/src/main.js:229"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "<h2>Sign in</h2><p class=\"facts\">Only needed to share isles online. Playing and building are free for everyone.</p> <div class=\"row\"><button class=\"btn primary\" id=\"siGh\">GitHub</button><button class=\"btn\" id=\"siGo\">Google</button></div>",
+   "where": [
+    "client/src/main.js:230"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[data-go]",
+   "where": [
+    "client/src/main.js:237"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "[data-help]",
+   "where": [
+    "client/src/main.js:238"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": ".feedback-open",
+   "where": [
+    "client/src/main.js:239"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"help-tabs\"><button class=\"{?}\" data-help=\"play\">How to play</button><button class=\"{?}\" data-help=\"build\">How to build</button></div>",
+   "where": [
+    "client/src/main.js:244"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "klarbase.v2.guideSeen",
+   "where": [
+    "client/src/main.js:247",
+    "client/src/main.js:691"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "{?}<h2>How to build</h2> <p class=\"facts\">Every tile in the palette, what it does, how it's stored and how to use it. The full file format is in <a href=\"{?}/blob/main/isles/README.md\" target=\"_blank\" rel=\"noopener\">isles/README.md</a>.</p> {?} <div class=\"row\"><button class=\"btn primary\" onclick=\"document.getElementById('modal').classList.remove('on')\">Start building</button></div>",
+   "where": [
+    "client/src/main.js:248"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Write a message first",
+   "where": [
+    "client/src/main.js:293"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Thank you - feedback sent",
+   "where": [
+    "client/src/main.js:297"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "[klarbase] showcase isle not found:",
+   "where": [
+    "client/src/main.js:308"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "☀ Daily #{?}",
+   "where": [
+    "client/src/main.js:312"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "☀ Daily",
+   "where": [
+    "client/src/main.js:312",
+    "client/index.html:35"
+   ],
+   "kinds": [
+    "js",
+    "htmltext"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "<span class=\"stars\">{?}{?}</span>",
+   "where": [
+    "client/src/main.js:316"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<button class=\"card{?}\" data-key=\"{?}\"{?}> <div class=\"sky\" style=\"{?}\"> {?}{?}</div> <div class=\"body\"><div class=\"name\">{?}</div> {?} <div class=\"meta\"><span>{?}{?}</span>{?}</div> {?}</div></button>",
+   "where": [
+    "client/src/main.js:357"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": ".tabs button",
+   "where": [
+    "client/src/main.js:367",
+    "client/src/main.js:408"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "<div class=\"chapter\"><div class=\"chapter-head\"><h3>{?}</h3><span>{?} · {?} · {?}/{?} ★</span></div> <div class=\"grid\">{?}</div></div>",
+   "where": [
+    "client/src/main.js:373"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "shared by",
+   "where": [
+    "client/src/main.js:394",
+    "client/src/main.js:700"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "<div class=\"empty\">Nothing shared online yet.</div>",
+   "where": [
+    "client/src/main.js:395"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"empty\">Online isles are unavailable right now.</div>",
+   "where": [
+    "client/src/main.js:396"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": ".card",
+   "where": [
+    "client/src/main.js:399"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Not yet - {?} (clear {?} isles in each chapter)",
+   "where": [
+    "client/src/main.js:401"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "This isle is broken:",
+   "where": [
+    "client/src/main.js:415"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Bonk! Something comes through there on the next beat - the glowing rings show where. Space waits a beat.",
+   "where": [
+    "client/src/main.js:425"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "by <a href=\"https://github.com/{?}\" target=\"_blank\" rel=\"noopener\" style=\"color:inherit\">@{?}</a>",
+   "where": [
+    "client/src/main.js:428"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "■<span class=\"lbl\"> Stop</span>",
+   "where": [
+    "client/src/main.js:456"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "▶<span class=\"lbl\"> Solution</span>",
+   "where": [
+    "client/src/main.js:456"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "🔒<span class=\"lbl\"> Solution</span>",
+   "where": [
+    "client/src/main.js:456"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<h2>{?}</h2> <div class=\"big-stars\">{?}</div> <div class=\"facts\">{?} moves · par {?}{?}{?}</div> {?} {?} {?} {?} {?} {?} {?} <div class=\"row\"> {?} {?} {?} {?} <button class=\"btn\" id=\"wAgain\">⟲ Again</button> {?} {?} {?} </div>",
+   "where": [
+    "client/src/main.js:478"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Result copied - no spoilers inside",
+   "where": [
+    "client/src/main.js:500"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Copy failed - select the text above",
+   "where": [
+    "client/src/main.js:500"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Link copied",
+   "where": [
+    "client/src/main.js:507"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "<div class=\"facts\" style=\"margin-top:4px\">🌱 {?} of {?} seed{?}{?}</div>",
+   "where": [
+    "client/src/main.js:516"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<div class=\"hist-cap\">How players cleared it · {?} clear{?}</div> <div class=\"hist\">{?}</div> <div class=\"hist-axis\"><span>par {?}</span><span>{?}+</span></div>",
+   "where": [
+    "client/src/main.js:528"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "klarbase.v2.effort",
+   "where": [
+    "client/src/main.js:547",
+    "client/src/main.js:559"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "🔓 You've earned the solution for this isle",
+   "where": [
+    "client/src/main.js:560"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "<div style=\"height:8px;border-radius:99px;background:rgba(42,34,56,.08);overflow:hidden;margin:4px 0 10px\"><div style=\"height:100%;width:{?}%;background:var(--accent)\"></div></div>",
+   "where": [
+    "client/src/main.js:564"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<span class=\"k\">{?}</span>",
+   "where": [
+    "client/src/main.js:584"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "💡<span class=\"lbl\"> Tip</span>",
+   "where": [
+    "client/src/main.js:602"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "🧭<span class=\"lbl\"> Next move</span>",
+   "where": [
+    "client/src/main.js:602"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "<span class=\"kbd\">H</span>",
+   "where": [
+    "client/src/main.js:602"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Show this isle's tip (H)",
+   "where": [
+    "client/src/main.js:603"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Best next move from here (H)",
+   "where": [
+    "client/src/main.js:603"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Hmm - this spot can't reach the goal any more. Undo or restart.",
+   "where": [
+    "client/src/main.js:613"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Best next move: {?} (Space) · {?} to go",
+   "where": [
+    "client/src/main.js:614"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Best next move: {?} · {?} to go",
+   "where": [
+    "client/src/main.js:614"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "· that was your free hint",
+   "where": [
+    "client/src/main.js:614"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Escape",
+   "where": [
+    "client/src/main.js:632"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Enter",
+   "where": [
+    "client/src/main.js:636"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Backspace",
+   "where": [
+    "client/src/main.js:637"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": ".dpad [data-arrow]",
+   "where": [
+    "client/src/main.js:645"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "testing your isle",
+   "where": [
+    "client/src/main.js:660"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "New here? Press ? for How to build",
+   "where": [
+    "client/src/main.js:691"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "That link is from an older version of Klarbase",
+   "where": [
+    "client/src/main.js:699"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "That isle could not be found",
+   "where": [
+    "client/src/main.js:701"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Block",
+   "where": [
+    "core/src/components.js:22"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Slab",
+   "where": [
+    "core/src/components.js:29"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Stair",
+   "where": [
+    "core/src/components.js:35"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Column",
+   "where": [
+    "core/src/components.js:41"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Spawn",
+   "where": [
+    "core/src/components.js:50"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "walk:ramp",
+   "where": [
+    "core/src/isle/contrib.js:22",
+    "core/src/isle/official.js:57",
+    "core/src/isle/official.js:73",
+    "core/src/isle/official.js:335",
+    "core/src/isle/official.js:422",
+    "core/src/isle/official.js:532",
+    "core/src/isle/sky.js:13"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 7
+  },
+  {
+   "s": "walk:down",
+   "where": [
+    "core/src/isle/contrib.js:22",
+    "core/src/isle/official.js:73",
+    "core/src/isle/official.js:107",
+    "core/src/isle/official.js:422",
+    "core/src/isle/official.js:1094",
+    "core/src/isle/sky.js:13"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 6
+  },
+  {
+   "s": "walk:",
+   "where": [
+    "core/src/isle/contrib.js:28"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "daily isle files are named isles/daily/YYYY-MM-DD.json (a real UTC date)",
+   "where": [
+    "core/src/isle/contrib.js:59"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "daily-{?}",
+   "where": [
+    "core/src/isle/contrib.js:60"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "id must be \"daily-{?}\" to match the file name",
+   "where": [
+    "core/src/isle/contrib.js:60"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "file must be a JSON object",
+   "where": [
+    "core/src/isle/contrib.js:67"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "file is {?} bytes - keep isles under {?}",
+   "where": [
+    "core/src/isle/contrib.js:68"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "missing required field \"{?}\"",
+   "where": [
+    "core/src/isle/contrib.js:70"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "unknown field \"{?}\" (allowed: {?})",
+   "where": [
+    "core/src/isle/contrib.js:71"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "schemaVersion must be {?} (one isle, \"rows\") or {?} (a map, \"storeys\")",
+   "where": [
+    "core/src/isle/contrib.js:75"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "id must be lowercase-words-with-dashes, up to 40 chars",
+   "where": [
+    "core/src/isle/contrib.js:76"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "name must be 3-40 letters, numbers, spaces or simple punctuation",
+   "where": [
+    "core/src/isle/contrib.js:77"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "author must be your GitHub username",
+   "where": [
+    "core/src/isle/contrib.js:78"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "theme must be one of: {?}",
+   "where": [
+    "core/src/isle/contrib.js:79"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "tier must be one of: {?}",
+   "where": [
+    "core/src/isle/contrib.js:80"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "hint must be plain text, up to 140 chars, no links",
+   "where": [
+    "core/src/isle/contrib.js:81"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "description must be plain text, up to 240 chars, no links",
+   "where": [
+    "core/src/isle/contrib.js:82"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "credit must be plain text, up to 40 chars, no links",
+   "where": [
+    "core/src/isle/contrib.js:83"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "catch must be plain text, up to 200 chars, no links",
+   "where": [
+    "core/src/isle/contrib.js:84"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "par must be an integer",
+   "where": [
+    "core/src/isle/contrib.js:86"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "solution must be a string of U D L R X",
+   "where": [
+    "core/src/isle/contrib.js:87"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "identical to an existing isle: {?}",
+   "where": [
+    "core/src/isle/contrib.js:94"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "too large to verify - the solver gave up after {?} states; make it smaller",
+   "where": [
+    "core/src/isle/contrib.js:99"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "not solvable - no sequence of moves reaches a goal",
+   "where": [
+    "core/src/isle/contrib.js:99"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "too short: the best solution is {?} moves - a puzzle needs at least {?}",
+   "where": [
+    "core/src/isle/contrib.js:103"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "par is {?} but the shortest solution is {?} moves (e.g. \"{?}\")",
+   "where": [
+    "core/src/isle/contrib.js:104"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "solution \"{?}\" does not reach a goal{?}",
+   "where": [
+    "core/src/isle/contrib.js:106"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "solution has extra moves after the goal is reached",
+   "where": [
+    "core/src/isle/contrib.js:107"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "solution is {?} moves but par is {?} - submit a shortest solution (e.g. \"{?}\")",
+   "where": [
+    "core/src/isle/contrib.js:108"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "the solution is plain flat walking - use at least one mechanic (ramps, ledges, crates, ice, plates, levers, keys, portals, gateways, scales, balloons, stones, buoys, gusts or hazards)",
+   "where": [
+    "core/src/isle/contrib.js:110"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Klarbase Daily #{?} · {?} moves{?} · {?}{?}",
+   "where": [
+    "core/src/isle/daily.js:34"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Breeze",
+   "where": [
+    "core/src/isle/difficulty.js:13"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Easy",
+   "where": [
+    "core/src/isle/difficulty.js:14"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Tricky",
+   "where": [
+    "core/src/isle/difficulty.js:15"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Hard",
+   "where": [
+    "core/src/isle/difficulty.js:16"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Fiendish",
+   "where": [
+    "core/src/isle/difficulty.js:17"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Mythic",
+   "where": [
+    "core/src/isle/difficulty.js:18"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "Walking straight toward the star wins - block the direct line so the way round is the way in.",
+   "where": [
+    "core/src/isle/difficulty.js:209"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "No move can go wrong - put a crate near water or a ledge, where one careless push ruins the run.",
+   "where": [
+    "core/src/isle/difficulty.js:210"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "Only {?} risky step{?} on the best route - add another place where the order matters.",
+   "where": [
+    "core/src/isle/difficulty.js:211"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "{?} shortest routes - narrow it to one, so there's a single clever answer.",
+   "where": [
+    "core/src/isle/difficulty.js:212"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "The best route never steps away from the star - make the solution start by going the \"wrong\" way.",
+   "where": [
+    "core/src/isle/difficulty.js:213"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Few positions to explore - a second crate or a lever multiplies the possibilities.",
+   "where": [
+    "core/src/isle/difficulty.js:214"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "You called it {?}, but the audit reads {?}{?}. Players will settle it either way.",
+   "where": [
+    "core/src/isle/difficulty.js:222"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "You called it {?}, but the audit reads {?}. Players will settle it either way.",
+   "where": [
+    "core/src/isle/difficulty.js:223"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Ramp ↑",
+   "where": [
+    "core/src/isle/format.js:50"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Ramp ↓",
+   "where": [
+    "core/src/isle/format.js:51"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Ramp ←",
+   "where": [
+    "core/src/isle/format.js:52"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Ramp →",
+   "where": [
+    "core/src/isle/format.js:53"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Bridge (up)",
+   "where": [
+    "core/src/isle/format.js:58"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Bridge (down)",
+   "where": [
+    "core/src/isle/format.js:59"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Portal A",
+   "where": [
+    "core/src/isle/format.js:62"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Portal B",
+   "where": [
+    "core/src/isle/format.js:63"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Portal C",
+   "where": [
+    "core/src/isle/format.js:64"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Balloon post",
+   "where": [
+    "core/src/isle/format.js:68"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Stone pile",
+   "where": [
+    "core/src/isle/format.js:69"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Vent ↑",
+   "where": [
+    "core/src/isle/format.js:71"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Vent →",
+   "where": [
+    "core/src/isle/format.js:72"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Vent ↓",
+   "where": [
+    "core/src/isle/format.js:73"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Vent ←",
+   "where": [
+    "core/src/isle/format.js:74"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Thorn sweeper",
+   "where": [
+    "core/src/isle/format.js:79"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Empty",
+   "where": [
+    "core/src/isle/format.js:80"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "rows must be a non-empty list of strings",
+   "where": [
+    "core/src/isle/format.js:91"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "isle must be at most {?} wide and {?} tall",
+   "where": [
+    "core/src/isle/format.js:92"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "every row needs the same number of tiles",
+   "where": [
+    "core/src/isle/format.js:93"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "unknown tile",
+   "where": [
+    "core/src/isle/format.js:94"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "needs exactly one start (S)",
+   "where": [
+    "core/src/isle/format.js:95"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "needs at least one goal (G)",
+   "where": [
+    "core/src/isle/format.js:96"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "arches come in pairs - each of p / q / r appears 0 or 2 times",
+   "where": [
+    "core/src/isle/format.js:97"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "a gate (D) needs at least one plate (o) to open it",
+   "where": [
+    "core/src/isle/format.js:98"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "at most {?} crates and buoys in all",
+   "where": [
+    "core/src/isle/format.js:99"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "unknown theme",
+   "where": [
+    "core/src/isle/format.js:100"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "storeys must be a list of 1 to {?} isles, each { rows, at:[x, z, altitude] }",
+   "where": [
+    "core/src/isle/format.js:101"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "each storey needs \"at\": [x, z, altitude] - whole numbers, x and z 0-{?}, altitude 0-{?}",
+   "where": [
+    "core/src/isle/format.js:102"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "storeys that overlap on the map must float at least {?} levels apart",
+   "where": [
+    "core/src/isle/format.js:103"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "pans (a, b), arch C (r), balloon posts (B), stone piles (P), buoys (u), vents (n e s w) and seeds (+) need an archipelago map (schemaVersion 6 with \"storeys\")",
+   "where": [
+    "core/src/isle/format.js:104"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sky Scales need both pans - at least one a and one b",
+   "where": [
+    "core/src/isle/format.js:105"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "a pan needs a base height from 1 to 4 (it moves one level down and up)",
+   "where": [
+    "core/src/isle/format.js:106"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "a pan is plain ground - it cannot also be water, ice, a plate, a crate, a start, a goal or a key",
+   "where": [
+    "core/src/isle/format.js:107"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "at most {?} seeds",
+   "where": [
+    "core/src/isle/format.js:108"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "two gusts cross or overlap - each tile may be in at most one gust line",
+   "where": [
+    "core/src/isle/format.js:109"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "hazards must repeat within {?} moves together - shorten a boulder lane (at most 7 tiles) or use fewer kinds",
+   "where": [
+    "core/src/isle/format.js:110"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Pip would start inside a hazard",
+   "where": [
+    "core/src/isle/format.js:111"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "two boulder lanes cross or share a tile",
+   "where": [
+    "core/src/isle/format.js:112"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "a crate or buoy starts in a hazard's path - move it off the boulder lane or thorn arm",
+   "where": [
+    "core/src/isle/format.js:113"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Untitled isle",
+   "where": [
+    "core/src/isle/format.js:270"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Hanging Gardens",
+   "where": [
+    "core/src/isle/official.js:27",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Sky Scales and gateways: isles on vines, weighed against each other.",
+   "where": [
+    "core/src/isle/official.js:28",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:blurb"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Windward",
+   "where": [
+    "core/src/isle/official.js:33",
+    "core/src/isle/official.js:1012",
+    "isles/official/chapters.json:0",
+    "isles/official/windward/windward.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 4
+  },
+  {
+   "s": "Balloons, stones, buoys and gusts: what Pip carries decides where Pip can go.",
+   "where": [
+    "core/src/isle/official.js:34",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:blurb"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Rolling boulders and thorn sweepers move one beat per move. Read the rings, wait a beat, never get bonked.",
+   "where": [
+    "core/src/isle/official.js:40",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:blurb"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Confluence",
+   "where": [
+    "core/src/isle/official.js:45",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:title"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Where two chapters meet: light both constellations to open each isle.",
+   "where": [
+    "core/src/isle/official.js:46",
+    "isles/official/chapters.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:blurb"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "First Steps",
+   "where": [
+    "core/src/isle/official.js:53",
+    "isles/official/jungle/first-steps.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Ramps only work along their slope. Find the one facing the goal.",
+   "where": [
+    "core/src/isle/official.js:59",
+    "isles/official/jungle/first-steps.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Ledge Drop",
+   "where": [
+    "core/src/isle/official.js:69",
+    "isles/official/jungle/ledge-drop.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "You can hop down a ledge, but never climb one. Take the high road.",
+   "where": [
+    "core/src/isle/official.js:75",
+    "isles/official/jungle/ledge-drop.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Mossy Crate",
+   "where": [
+    "core/src/isle/official.js:86",
+    "isles/official/jungle/mossy-crate.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "A crate pushed into water sinks and becomes a stepping stone. Line it up first.",
+   "where": [
+    "core/src/isle/official.js:92",
+    "isles/official/jungle/mossy-crate.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Root Bridge",
+   "where": [
+    "core/src/isle/official.js:103",
+    "isles/official/jungle/root-bridge.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Crates can be pushed off a ledge too. Choose where it lands.",
+   "where": [
+    "core/src/isle/official.js:109",
+    "isles/official/jungle/root-bridge.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Fern Gate",
+   "where": [
+    "core/src/isle/official.js:121",
+    "isles/official/jungle/fern-gate.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Gates open while every plate is pressed - and you can only stand in one place.",
+   "where": [
+    "core/src/isle/official.js:127",
+    "isles/official/jungle/fern-gate.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Spring Lock",
+   "where": [
+    "core/src/isle/official.js:138",
+    "isles/official/jungle/spring-lock.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Two plates, three crates. Not every crate gets to keep its place.",
+   "where": [
+    "core/src/isle/official.js:145",
+    "isles/official/jungle/spring-lock.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "RRU",
+   "where": [
+    "core/src/isle/official.js:161"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Step into an arch to appear at its twin.",
+   "where": [
+    "core/src/isle/official.js:164",
+    "isles/official/oasis/mirage.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Twin Mirages",
+   "where": [
+    "core/src/isle/official.js:175",
+    "isles/official/oasis/twin-mirages.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Two pairs of arches. Ride them in the right order.",
+   "where": [
+    "core/src/isle/official.js:181",
+    "isles/official/oasis/twin-mirages.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Sunken Well",
+   "where": [
+    "core/src/isle/official.js:192",
+    "isles/official/oasis/sunken-well.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Arrive through the arch, then build your own way across.",
+   "where": [
+    "core/src/isle/official.js:198",
+    "isles/official/oasis/sunken-well.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Palm Plates",
+   "where": [
+    "core/src/isle/official.js:209",
+    "isles/official/oasis/palm-plates.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "One plate for the crate, one for you - so stand where the gate is close.",
+   "where": [
+    "core/src/isle/official.js:215",
+    "isles/official/oasis/palm-plates.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Revolving Arch",
+   "where": [
+    "core/src/isle/official.js:226",
+    "isles/official/oasis/revolving-arch.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Standing on a plate only helps if you can stay there.",
+   "where": [
+    "core/src/isle/official.js:233",
+    "isles/official/oasis/revolving-arch.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Tide Lever",
+   "where": [
+    "core/src/isle/official.js:244",
+    "isles/official/tropical/tide-lever.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Stand on the lever and press Use. Every bridge flips.",
+   "where": [
+    "core/src/isle/official.js:250",
+    "isles/official/tropical/tide-lever.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Low Tide",
+   "where": [
+    "core/src/isle/official.js:261",
+    "isles/official/tropical/low-tide.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Each flip raises one bridge and sinks another. Think two flips ahead.",
+   "where": [
+    "core/src/isle/official.js:267",
+    "isles/official/tropical/low-tide.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Coconut Key",
+   "where": [
+    "core/src/isle/official.js:278",
+    "isles/official/tropical/coconut-key.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Every door wants a key. Some keys want a bridge first.",
+   "where": [
+    "core/src/isle/official.js:284",
+    "isles/official/tropical/coconut-key.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Lagoon Locks",
+   "where": [
+    "core/src/isle/official.js:295",
+    "isles/official/tropical/lagoon-locks.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Two keys, three doors. One door is a trap.",
+   "where": [
+    "core/src/isle/official.js:301",
+    "isles/official/tropical/lagoon-locks.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Sunken Step",
+   "where": [
+    "core/src/isle/official.js:312",
+    "isles/official/tropical/sunken-step.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "A bridge that sinks with a crate on it keeps the crate.",
+   "where": [
+    "core/src/isle/official.js:319",
+    "isles/official/tropical/sunken-step.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Clear the walkway - but never push the crate where you still need to walk.",
+   "where": [
+    "core/src/isle/official.js:337",
+    "isles/official/urban/rooftops.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Canal Lift",
+   "where": [
+    "core/src/isle/official.js:348",
+    "isles/official/urban/canal-lift.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Both bridges must be up at once. A crate on a sinking bridge stays behind as a block.",
+   "where": [
+    "core/src/isle/official.js:354",
+    "isles/official/urban/canal-lift.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Subway",
+   "where": [
+    "core/src/isle/official.js:366",
+    "isles/official/urban/subway.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Ride the arches out for the key, then ride them home.",
+   "where": [
+    "core/src/isle/official.js:372",
+    "isles/official/urban/subway.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Night Market",
+   "where": [
+    "core/src/isle/official.js:383",
+    "isles/official/urban/night-market.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "One plate here, one across the arches. The crate cannot travel - you can.",
+   "where": [
+    "core/src/isle/official.js:389",
+    "isles/official/urban/night-market.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Crosswalk",
+   "where": [
+    "core/src/isle/official.js:400",
+    "isles/official/urban/crosswalk.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Two crates, two plates, and many ways to wedge a crate in a corner.",
+   "where": [
+    "core/src/isle/official.js:406",
+    "isles/official/urban/crosswalk.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Street Drop",
+   "where": [
+    "core/src/isle/official.js:417",
+    "isles/official/urban/street-drop.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Crates can drop off a roof, but they never come back up.",
+   "where": [
+    "core/src/isle/official.js:424",
+    "isles/official/urban/street-drop.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "First Frost",
+   "where": [
+    "core/src/isle/official.js:436",
+    "isles/official/mountain/first-frost.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Ice keeps you sliding. Rocks are your brakes.",
+   "where": [
+    "core/src/isle/official.js:442",
+    "isles/official/mountain/first-frost.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Glacier Stops",
+   "where": [
+    "core/src/isle/official.js:453",
+    "isles/official/mountain/glacier-stops.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Every slide ends at a rock. Choose your stops.",
+   "where": [
+    "core/src/isle/official.js:459",
+    "isles/official/mountain/glacier-stops.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Snowball",
+   "where": [
+    "core/src/isle/official.js:473",
+    "isles/official/mountain/snowball.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "No rock where you need one? Bring a crate.",
+   "where": [
+    "core/src/isle/official.js:479",
+    "isles/official/mountain/snowball.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Glacier Maze",
+   "where": [
+    "core/src/isle/official.js:490",
+    "isles/official/mountain/glacier-maze.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Count your stops - the shortest route zig-zags.",
+   "where": [
+    "core/src/isle/official.js:496",
+    "isles/official/mountain/glacier-maze.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Frozen Gate",
+   "where": [
+    "core/src/isle/official.js:510",
+    "isles/official/mountain/frozen-gate.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Slide the crate onto the plate - the ice will carry it.",
+   "where": [
+    "core/src/isle/official.js:516",
+    "isles/official/mountain/frozen-gate.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "The Peak",
+   "where": [
+    "core/src/isle/official.js:528",
+    "isles/official/mountain/the-peak.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Everything you have learned, on one mountain.",
+   "where": [
+    "core/src/isle/official.js:534",
+    "isles/official/mountain/the-peak.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Frost Ferry",
+   "where": [
+    "core/src/isle/official.js:549",
+    "isles/official/mountain/frost-ferry.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "On ice, a push is a promise: the crate goes until something stops it.",
+   "where": [
+    "core/src/isle/official.js:556",
+    "isles/official/mountain/frost-ferry.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Counterweight",
+   "where": [
+    "core/src/isle/official.js:568",
+    "isles/official/gardens/counterweight.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "The near pan sinks under you alone. Weigh down the other one first.",
+   "where": [
+    "core/src/isle/official.js:575",
+    "isles/official/gardens/counterweight.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "High Arch",
+   "where": [
+    "core/src/isle/official.js:591",
+    "isles/official/gardens/high-arch.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Crates can't take the arch. Whatever weighs the far pan must be set before you leave.",
+   "where": [
+    "core/src/isle/official.js:598",
+    "isles/official/gardens/high-arch.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Three Storeys",
+   "where": [
+    "core/src/isle/official.js:622",
+    "isles/official/gardens/three-storeys.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "The pan at the top answers to the pan at the bottom.",
+   "where": [
+    "core/src/isle/official.js:629",
+    "isles/official/gardens/three-storeys.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Own Weight",
+   "where": [
+    "core/src/isle/official.js:661",
+    "isles/official/gardens/own-weight.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "One crate lifts the bridge - until you step on it. You weigh as much as a crate.",
+   "where": [
+    "core/src/isle/official.js:668",
+    "isles/official/gardens/own-weight.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "The Crane",
+   "where": [
+    "core/src/isle/official.js:685",
+    "isles/official/gardens/the-crane.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "No push can lift a crate. A pan can - if it's loaded before the other side is.",
+   "where": [
+    "core/src/isle/official.js:692",
+    "isles/official/gardens/the-crane.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Spend a Crate",
+   "where": [
+    "core/src/isle/official.js:718",
+    "isles/official/gardens/spend-a-crate.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "The spring keeps the first crate it gets. Make it worth it.",
+   "where": [
+    "core/src/isle/official.js:725",
+    "isles/official/gardens/spend-a-crate.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Garden Lift",
+   "where": [
+    "core/src/isle/official.js:742",
+    "isles/official/gardens/garden-lift.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Only one crate downstairs can reach the pan. Which one, and from where?",
+   "where": [
+    "core/src/isle/official.js:749",
+    "isles/official/gardens/garden-lift.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Sky Scales",
+   "where": [
+    "core/src/isle/official.js:774",
+    "isles/official/gardens/sky-scales.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Load the lower isle to lift the upper one.",
+   "where": [
+    "core/src/isle/official.js:781",
+    "isles/official/gardens/sky-scales.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Lift Off",
+   "where": [
+    "core/src/isle/official.js:806",
+    "isles/official/windward/lift-off.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Stand on the post and press Use to take its balloon. Then step off the edge.",
+   "where": [
+    "core/src/isle/official.js:814",
+    "isles/official/windward/lift-off.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Let It Go",
+   "where": [
+    "core/src/isle/official.js:828",
+    "isles/official/windward/let-it-go.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "A balloon weighs nothing - not even enough to press a plate.",
+   "where": [
+    "core/src/isle/official.js:835",
+    "isles/official/windward/let-it-go.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Heavy Heart",
+   "where": [
+    "core/src/isle/official.js:849",
+    "isles/official/windward/heavy-heart.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "A stone weighs two. Take one from the pile before you ride the scales.",
+   "where": [
+    "core/src/isle/official.js:856",
+    "isles/official/windward/heavy-heart.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Buoy Bay",
+   "where": [
+    "core/src/isle/official.js:870",
+    "isles/official/windward/buoy-bay.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Buoys float up a step that crates can't climb - and they float on water.",
+   "where": [
+    "core/src/isle/official.js:878",
+    "isles/official/windward/buoy-bay.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Glide or Push",
+   "where": [
+    "core/src/isle/official.js:893",
+    "isles/official/windward/glide-or-push.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Holding a balloon, Pip is too light to push anything.",
+   "where": [
+    "core/src/isle/official.js:900",
+    "isles/official/windward/glide-or-push.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Tailwind",
+   "where": [
+    "core/src/isle/official.js:915",
+    "isles/official/windward/tailwind.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "With a balloon you can't walk into the wind. Quiet the vent first.",
+   "where": [
+    "core/src/isle/official.js:922",
+    "isles/official/windward/tailwind.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Ballast",
+   "where": [
+    "core/src/isle/official.js:940",
+    "isles/official/windward/ballast.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "A buoy on a pan lifts it. Pip and a buoy together weigh nothing.",
+   "where": [
+    "core/src/isle/official.js:947",
+    "isles/official/windward/ballast.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Drift",
+   "where": [
+    "core/src/isle/official.js:963",
+    "isles/official/windward/drift.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "The wind carries the buoy. A crate in the gust stills the wind behind it.",
+   "where": [
+    "core/src/isle/official.js:971",
+    "isles/official/windward/drift.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Brace",
+   "where": [
+    "core/src/isle/official.js:987",
+    "isles/official/windward/brace.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Only a stone is heavy enough to push into the wind. Hands full? A pile takes it back.",
+   "where": [
+    "core/src/isle/official.js:994",
+    "isles/official/windward/brace.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Height is range: the higher the pan, the farther the glide.",
+   "where": [
+    "core/src/isle/official.js:1019",
+    "isles/official/windward/windward.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Wait a Beat",
+   "where": [
+    "core/src/isle/official.js:1038",
+    "isles/official/night/wait-a-beat.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "The glowing ring shows where the boulder will be next. Press Space to wait a beat.",
+   "where": [
+    "core/src/isle/official.js:1046",
+    "isles/official/night/wait-a-beat.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Sweeper",
+   "where": [
+    "core/src/isle/official.js:1063",
+    "isles/official/night/sweeper.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "A thorn arm reaches two tiles straight out. The tiles between its arms are always safe.",
+   "where": [
+    "core/src/isle/official.js:1071",
+    "isles/official/night/sweeper.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "In Its Wake",
+   "where": [
+    "core/src/isle/official.js:1088",
+    "isles/official/night/in-its-wake.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Follow the boulder closely - and find a nook before it comes back.",
+   "where": [
+    "core/src/isle/official.js:1095",
+    "isles/official/night/in-its-wake.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Lever Lane",
+   "where": [
+    "core/src/isle/official.js:1110",
+    "isles/official/night/lever-lane.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Pulling a lever takes a beat - and the boulder doesn't wait.",
+   "where": [
+    "core/src/isle/official.js:1117",
+    "isles/official/night/lever-lane.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Bramble Bridge",
+   "where": [
+    "core/src/isle/official.js:1133",
+    "isles/official/night/bramble-bridge.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "A crate can't go anywhere a thorn arm can reach - not even into water.",
+   "where": [
+    "core/src/isle/official.js:1140",
+    "isles/official/night/bramble-bridge.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Needle's Eye",
+   "where": [
+    "core/src/isle/official.js:1158",
+    "isles/official/night/needles-eye.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Neither the boulder's lane nor the thorn's reach will take a crate. Find the one gap between them.",
+   "where": [
+    "core/src/isle/official.js:1165",
+    "isles/official/night/needles-eye.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Frost Mirage",
+   "where": [
+    "core/src/isle/official.js:1184",
+    "isles/official/confluence/frost-mirage.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "An arch catches whatever the ice carries, but only you go through.",
+   "where": [
+    "core/src/isle/official.js:1192",
+    "isles/official/confluence/frost-mirage.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Drowned Gangway",
+   "where": [
+    "core/src/isle/official.js:1204",
+    "isles/official/confluence/drowned-gangway.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "Two crates, two jobs: one to weigh, one to stand on.",
+   "where": [
+    "core/src/isle/official.js:1212",
+    "isles/official/confluence/drowned-gangway.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Squall Line",
+   "where": [
+    "core/src/isle/official.js:1227",
+    "isles/official/confluence/squall-line.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 2
+  },
+  {
+   "s": "On ice you never stop where you'd like, but the wind always gets the last word.",
+   "where": [
+    "core/src/isle/official.js:1235",
+    "isles/official/confluence/squall-line.json:0"
+   ],
+   "kinds": [
+    "js",
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "the world starts at (0,0)",
+   "where": [
+    "core/src/lattice.js:12"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "cell already claimed",
+   "where": [
+    "core/src/lattice.js:13"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "must touch an existing plot",
+   "where": [
+    "core/src/lattice.js:16"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "you do not own this cell",
+   "where": [
+    "core/src/lattice.js:25"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "plot already holds a puzzle - placements are immutable",
+   "where": [
+    "core/src/lattice.js:26"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "your {?} edge has a walkway at cell {?}, level {?} - the neighbour has no matching walkway there",
+   "where": [
+    "core/src/ports.js:44"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "the neighbour's {?} edge has a walkway at cell {?}, level {?} - your puzzle has no matching walkway there",
+   "where": [
+    "core/src/ports.js:46"
+   ],
+   "kinds": [
+    "template"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "outside the plot",
+   "where": [
+    "core/src/validate.js:71"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "two things in one cell",
+   "where": [
+    "core/src/validate.js:71"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "floating - nothing holds it up",
+   "where": [
+    "core/src/validate.js:72"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "needs exactly one spawn",
+   "where": [
+    "core/src/validate.js:72"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "needs at least one goal",
+   "where": [
+    "core/src/validate.js:73"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "unknown component type",
+   "where": [
+    "core/src/validate.js:73"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "malformed component",
+   "where": [
+    "core/src/validate.js:74"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "too many components",
+   "where": [
+    "core/src/validate.js:74"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "stair connects to nothing - it only joins end to end",
+   "where": [
+    "core/src/validate.js:75"
+   ],
+   "kinds": [
+    "js"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sundial Steps",
+   "where": [
+    "isles/community/TanmoyP/sundial-steps.json:0"
+   ],
+   "kinds": [
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "The arch drops you on the wrong side of the spring. Make your own way home.",
+   "where": [
+    "isles/community/TanmoyP/sundial-steps.json:0"
+   ],
+   "kinds": [
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Tipping Pass",
+   "where": [
+    "isles/daily/2026-10-20.json:0"
+   ],
+   "kinds": [
+    "json:name"
+   ],
+   "inDict": true,
+   "dictFile": "dict-isles.js",
+   "n": 1
+  },
+  {
+   "s": "To ride a pan up, its partner has to end up heavier than you.",
+   "where": [
+    "isles/daily/2026-10-20.json:0"
+   ],
+   "kinds": [
+    "json:hint"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Sound",
+   "where": [
+    "client/index.html:23"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "How to play",
+   "where": [
+    "client/index.html:26"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "One isle a day, the same for everyone",
+   "where": [
+    "client/index.html:33"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Your sky - every chapter is a constellation",
+   "where": [
+    "client/index.html:41"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Home",
+   "where": [
+    "client/index.html:48",
+    "client/index.html:128"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 2
+  },
+  {
+   "s": "Back (Esc)",
+   "where": [
+    "client/index.html:55"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Undo (Z)",
+   "where": [
+    "client/index.html:66"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Restart (R)",
+   "where": [
+    "client/index.html:67"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Hint (H)",
+   "where": [
+    "client/index.html:69"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Watch the smart solution",
+   "where": [
+    "client/index.html:71"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Turn the view (Q / E)",
+   "where": [
+    "client/index.html:72"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Whole map (M)",
+   "where": [
+    "client/index.html:76"
+   ],
+   "kinds": [
+    "attr"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Klarbase - tiny isles, clever paths",
+   "where": [
+    "client/index.html:6"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Klarbase",
+   "where": [
+    "client/index.html:30"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Tiny floating isles · clever little paths",
+   "where": [
+    "client/index.html:31"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "▶ Play",
+   "where": [
+    "client/index.html:31"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "✎ Create",
+   "where": [
+    "client/index.html:31"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "☁ Community",
+   "where": [
+    "client/index.html:32"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "No account needed to play or build. Sign in only to share online.",
+   "where": [
+    "client/index.html:37"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Send feedback",
+   "where": [
+    "client/index.html:39",
+    "client/index.html:125"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 2
+  },
+  {
+   "s": "Privacy",
+   "where": [
+    "client/index.html:41",
+    "client/index.html:86"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 2
+  },
+  {
+   "s": "Choose an isle",
+   "where": [
+    "client/index.html:49"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Continue ▶",
+   "where": [
+    "client/index.html:50"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Official",
+   "where": [
+    "client/index.html:52"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Community",
+   "where": [
+    "client/index.html:53"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Undo",
+   "where": [
+    "client/index.html:66"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Restart",
+   "where": [
+    "client/index.html:67"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Hint",
+   "where": [
+    "client/index.html:69"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Solution",
+   "where": [
+    "client/index.html:71"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Turn",
+   "where": [
+    "client/index.html:73"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Map",
+   "where": [
+    "client/index.html:76"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "USE",
+   "where": [
+    "client/index.html:82"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Klarbase is a small open-source game made by one person. It collects as little as it can, sells nothing and shows no ads. This page lists everything that is stored.",
+   "where": [
+    "client/index.html:87"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": false,
+   "dictFile": null,
+   "n": 1
+  },
+  {
+   "s": "Last updated 25 October 2026.",
+   "where": [
+    "client/index.html:88"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "On your device",
+   "where": [
+    "client/index.html:88"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Your progress (stars, best moves and times), settings, the isle you're building, your Daily stars and the GitHub name you type for exports are kept in your browser's local storage. They never leave your device. Clearing this site's data in your browser removes them.",
+   "where": [
+    "client/index.html:88"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Anonymous play totals",
+   "where": [
+    "client/index.html:91"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "To rate how hard each isle is, the game sends small events when you start, clear, restart or ask for a hint on an isle, with your moves and a rough time for a clear. The server only adds them to running totals per isle. They are sent without cookies and carry no account, device id or IP address, so they can't be traced back to you.",
+   "where": [
+    "client/index.html:91"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "If you sign in",
+   "where": [
+    "client/index.html:95"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Signing in is only needed to share isles online. When you sign in with GitHub or Google we receive and keep:",
+   "where": [
+    "client/index.html:95"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "name, email address and profile picture",
+   "where": [
+    "client/index.html:97"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "from that account, and the link to it (including the sign-in tokens it hands us);",
+   "where": [
+    "client/index.html:98"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "session cookie",
+   "where": [
+    "client/index.html:101"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "that keeps you signed in - the only cookie Klarbase sets;",
+   "where": [
+    "client/index.html:101"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "for each session, the",
+   "where": [
+    "client/index.html:101"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "IP address and browser (user agent)",
+   "where": [
+    "client/index.html:102"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "it was started from, used to keep accounts secure. Signing out ends the session.",
+   "where": [
+    "client/index.html:102"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Isles you share online are public, with your name as their maker. Reports you file on isles are kept with your account.",
+   "where": [
+    "client/index.html:103"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Feedback",
+   "where": [
+    "client/index.html:105"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "When you send feedback we store your message, the page you sent it from, the reply email if you give one, and your account if you're signed in. No IP address is stored.",
+   "where": [
+    "client/index.html:106"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Page views",
+   "where": [
+    "client/index.html:111"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Visits are counted with Cloudflare Web Analytics, which uses no cookies and doesn't track you across sites.",
+   "where": [
+    "client/index.html:111"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "Who handles the data",
+   "where": [
+    "client/index.html:112"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "The game runs on Railway, the database on Neon, and all traffic passes through Cloudflare. GitHub and Google handle sign-in. To protect the server from abuse, it remembers IP addresses in memory for up to an hour to limit how often one address can send requests; they are never written down.",
+   "where": [
+    "client/index.html:112"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Why there's no cookie banner",
+   "where": [
+    "client/index.html:116"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "The only cookie is the sign-in one, and local storage only holds your own game. Both are strictly necessary for what you asked the game to do, so there's nothing to consent to.",
+   "where": [
+    "client/index.html:116"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Getting your data deleted",
+   "where": [
+    "client/index.html:119"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-ui.js",
+   "n": 1
+  },
+  {
+   "s": "To delete your account, sign in and send feedback asking for it - that tells us the request really comes from you. Deleting an account removes your profile, sign-in links, sessions, shared isles, reports and feedback. For feedback sent without signing in, tell us the reply email you used. You can also",
+   "where": [
+    "client/index.html:120"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "open an issue on GitHub",
+   "where": [
+    "client/index.html:124"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-extra.js",
+   "n": 1
+  },
+  {
+   "s": "Isle builder",
+   "where": [
+    "client/index.html:128"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  },
+  {
+   "s": "paint tiles · test · share",
+   "where": [
+    "client/index.html:128"
+   ],
+   "kinds": [
+    "htmltext"
+   ],
+   "inDict": true,
+   "dictFile": "dict-builder.js",
+   "n": 1
+  }
+ ]
+}
