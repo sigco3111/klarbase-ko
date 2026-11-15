@@ -16,7 +16,7 @@
 
 ## 실행 화면
 
-배포본(<https://sigco3111.github.io/klarbase-ko/>)에서 캡처한 실제 실행 화면입니다.
+[배포본](https://sigco3111.github.io/klarbase-ko/)에서 캡처한 실제 실행 화면입니다.
 
 | 퍼즐 플레이 | 섬 만들기 (레벨 빌더) |
 |:-:|:-:|
