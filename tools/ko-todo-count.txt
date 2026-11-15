@@ -1,3 +1,0 @@
-candidates 501
-in_dict 195
-untranslated 306
