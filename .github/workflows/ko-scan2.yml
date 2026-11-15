@@ -14,6 +14,6 @@ jobs:
         run: |
           git config user.name sigco3111
           git config user.email sigco3111k@gmail.com
-          git add tools/ko-todo.txt tools/ko-todo-count.txt
+          git add tools/ko-todo.txt tools/ko-todo-count.txt tools/ko-todo-*.txt
           git commit -m "chore: 영문 문자열 2차 스캔 결과" || echo none
           git push origin HEAD:main
