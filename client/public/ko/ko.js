@@ -8,6 +8,7 @@ import dGuide from './dict-guide.js';
 import dExtra from './dict-extra.js';
 import dScan from './dict-scan.js';
 import dTut from './dict-tutorial.js';
+import dGuide2 from './dict-guide2.js';
 
 // 1) 하위 경로 보정. 앱은 '/play' 같은 절대 경로로 주소를 바꾸므로 BASE 를 앞에 붙이고, 읽을 때는 BASE 를 뺀다.
 const BASE = '/klarbase-ko';
@@ -29,7 +30,7 @@ const canon = s => s
  .replace(/\s+/g, ' ')
  .trim();
 const MAP = new Map();
-for (const p of [dUi, dIsles, dBuilder, dGuide, dExtra, dScan, dTut]) for (const k of Object.keys(p)) MAP.set(canon(k), p[k]);
+for (const p of [dUi, dIsles, dBuilder, dGuide, dGuide2, dExtra, dScan, dTut]) for (const k of Object.keys(p)) MAP.set(canon(k), p[k]);
 const T = s => (MAP.get(s) != null ? MAP.get(s) : s);
 const lockKo = s => {
  const m = /^ 🔒 Light (.+) (\d+)\/(\d+) · (.+) (\d+)\/(\d+)$/.exec(s);
@@ -159,12 +160,76 @@ function accept(n){
  return !!p && !SKIP_TAGS.has(p.tagName) && !p.closest('[data-ko-skip]');
 }
 const ATTR_SEL = ATTRS.map(a => '[' + a + ']').join(',');
+
+// 3-b) 인라인 자식(<b>, <code>, <kbd>, .ico 등)을 합쳐 문장 단위로 사전을 찾는다.
+// <kbd>·<b> 때문에 텍스트 노드가 조각나도, 요소 전체를 한 문장으로 보고 번역한다.
+const INLINE_TAGS = new Set(['B','STRONG','EM','I','KBD','CODE','SPAN','SMALL','SUP','SUB','U','MARK','S']);
+const RICH_SKIP = new Set(['BUTTON','A','LABEL','SUMMARY','TEXTAREA','INPUT','SELECT','OPTION','CANVAS']);
+const escHtml = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+function richFlat(el){
+ let s = '', inline = 0;
+ for (const c of el.childNodes){
+  if (c.nodeType === 3){ s += c.nodeValue; continue; }
+  if (c.nodeType !== 1) continue;
+  if (!INLINE_TAGS.has(c.tagName)) return null;
+  inline++;
+  const t = c.textContent || '';
+  if (c.classList && c.classList.contains('ico')) s += t + ' ';
+  else s += t;
+ }
+ if (!inline) return null;
+ return canon(s);
+}
+function richTranslate(el){
+ if (!el || el.nodeType !== 1 || !el.isConnected) return;
+ if (RICH_SKIP.has(el.tagName) || SKIP_TAGS.has(el.tagName)) return;
+ if (el.closest('[data-ko-skip]')) return;
+ if (el.querySelector && el.querySelector('a,button,textarea,input,select')) return;
+ const rec = recs.get(el);
+ if (rec && rec.richOrig != null){
+  if (mode === 'ko') return;
+  const rr = recs.get(el) || {};
+  el.innerHTML = rec.richOrig;
+  delete rr.richOrig;
+  if (Object.keys(rr).length) recs.set(el, rr); else recs.delete(el);
+  return;
+ }
+ if (mode !== 'ko') return;
+ const key = richFlat(el);
+ if (key == null || key.length < 12 || key.length > 1200 || !/[A-Za-z]/.test(key)) return;
+ let outHtml = null;
+ const direct = MAP.get(key);
+ if (direct != null){
+  const ico = el.firstElementChild && el.firstElementChild.classList && el.firstElementChild.classList.contains('ico');
+  outHtml = (ico ? '<span class="ico">' + escHtml(el.firstElementChild.textContent) + '</span> ' : '') + escHtml(direct);
+ } else {
+  const first = el.firstElementChild;
+  if (first && first !== el.lastElementChild){
+   const lv = MAP.get(canon(first.textContent || ''));
+   if (lv != null && first.tagName !== 'A'){
+    let rest = '';
+    for (let n = first.nextSibling; n; n = n.nextSibling) rest += (n.textContent || '');
+    const rv = MAP.get(canon(rest));
+    if (rv != null) outHtml = '<b>' + escHtml(lv) + '</b> ' + escHtml(rv);
+   }
+  }
+ }
+ if (outHtml == null) return;
+ const rr = recs.get(el) || {};
+ rr.richOrig = el.innerHTML;
+ recs.set(el, rr);
+ el.innerHTML = outHtml;
+}
+
 function walk(root){
  if (!root) return;
  if (root.nodeType === 3){ if (accept(root)) applyText(root); return; }
  if (root.nodeType !== 1 && root.nodeType !== 9) return;
  const el = root.nodeType === 1 ? root : document.body;
  if (!el) return;
+ // 부모 요소를 먼저 문장 단위로 번역해야 자식 낱말 치환이 문장 키를 깨지 않는다.
+ if (el.nodeType === 1) richTranslate(el);
+ if (el.querySelectorAll) for (const x of el.querySelectorAll('*')) richTranslate(x);
  const w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
  let n; while ((n = w.nextNode())) if (accept(n)) applyText(n);
  if (el.querySelectorAll) el.querySelectorAll(ATTR_SEL).forEach(applyAttrs);
