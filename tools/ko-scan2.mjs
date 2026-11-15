@@ -96,5 +96,10 @@ const all = [...seen.values()];
 const todo = all.filter(e => !dict.has(e.s)).sort((a, b) => b.n - a.n || a.s.localeCompare(b.s));
 const lines = todo.map(e => e.s + '\t' + e.n + '\t' + e.first + '\t' + [...e.kinds].join(','));
 fs.writeFileSync(path.join(ROOT, 'tools/ko-todo.txt'), lines.join('\n') + '\n');
+const CH = 25;
+for (let k = 0; k * CH < lines.length; k++) {
+  const nn = String(k + 1).padStart(2, '0');
+  fs.writeFileSync(path.join(ROOT, 'tools/ko-todo-' + nn + '.txt'), lines.slice(k * CH, (k + 1) * CH).join('\n') + '\n');
+}
 fs.writeFileSync(path.join(ROOT, 'tools/ko-todo-count.txt'), 'candidates ' + all.length + '\nin_dict ' + (all.length - todo.length) + '\nuntranslated ' + todo.length + '\n');
 console.log('candidates', all.length, 'in_dict', all.length - todo.length, 'untranslated', todo.length);
