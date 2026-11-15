@@ -1,0 +1,19 @@
+name: ko-cleanup
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: remove temp scan files
+        run: |
+          git config user.name sigco3111
+          git config user.email sigco3111k@gmail.com
+          git rm -f tools/ko-scan.mjs tools/ko-scan2.mjs tools/ko-report.json tools/ko-untranslated.txt || true
+          git rm -f tools/ko-todo*.txt || true
+          git rm -f .github/workflows/ko-scan.yml .github/workflows/ko-scan2.yml .github/workflows/ko-cleanup.yml || true
+          git commit -m "chore: 임시 스캔 러너와 결과 파일 정리" || echo none
+          git push origin HEAD:main
