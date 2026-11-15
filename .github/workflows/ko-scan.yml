@@ -1,0 +1,19 @@
+name: ko-scan
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: scan strings
+        run: node tools/ko-scan.mjs
+      - name: commit report
+        run: |
+          git config user.name sigco3111
+          git config user.email sigco3111k@gmail.com
+          git add tools/ko-report.json tools/ko-untranslated.txt
+          git commit -m "chore: 영문 문자열 전수 스캔 결과" || echo none
+          git push origin HEAD:main
